@@ -1,0 +1,33 @@
+::: {.card-lite}
+::: {.eyebrow}
+Featured finding · [The Private Provision of Public Services (AER, 2026)](https://www.aeaweb.org/articles?id=10.1257/aer.20230541)
+:::
+
+### Managed care cut Medicaid costs [5.6%]{.accent} — but medical quality fell.
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+library(plotly)
+d <- read.csv("data/hero_aer2026.csv", stringsAsFactors = FALSE)
+d$category <- factor(d$category, levels = d$category)
+d$fill <- ifelse(d$category == "Total", "#b04a3f", "#00356B")
+plot_ly(
+  d, x = ~category, y = ~pct_change, type = "bar",
+  marker = list(color = ~fill),
+  hovertemplate = ~paste0(category, ": ", pct_change, "%<extra></extra>")
+) |>
+  layout(
+    yaxis = list(title = "Cost change (%)", zeroline = TRUE, automargin = TRUE),
+    xaxis = list(title = ""),
+    margin = list(t = 10, l = 55),
+    showlegend = FALSE
+  ) |>
+  config(displayModeBar = FALSE)
+```
+
+The savings came almost entirely from **pharmacy** management. Non-drug (medical) spending
+changed little — outpatient costs fell modestly and inpatient was essentially flat — and
+privatizing medical benefits was associated with **lower quality and satisfaction**.
+:::

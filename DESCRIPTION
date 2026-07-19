@@ -1,0 +1,16 @@
+Package: jacobwswallace.site
+Title: Personal academic website build dependencies
+Version: 0.0.1
+Description: Package manifest used only to install R dependencies for the Quarto site build.
+Encoding: UTF-8
+Imports:
+    ggplot2,
+    plotly,
+    dplyr,
+    xml2,
+    yaml,
+    htmlwidgets,
+    knitr,
+    rmarkdown
+Suggests:
+    testthat (>= 3.0.0)

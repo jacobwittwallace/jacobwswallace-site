@@ -1,0 +1,79 @@
+/*-- scss:defaults --*/
+$yale-blue:  #00356B;
+$yale-light: #286dc0;
+$clay:       #b04a3f;
+$ink:        #3a4453;
+$hairline:   #ecebe7;
+$bg:         #ffffff;
+
+$primary:      $yale-blue;
+$body-color:   $ink;
+$body-bg:      $bg;
+$link-color:   $yale-blue;
+$navbar-bg:    $bg;
+$navbar-fg:    $yale-blue;
+
+// Editorial pairing: serif headings, sans body/nav/fine-print.
+$font-family-serif: Georgia, "Times New Roman", Cambria, serif;
+$font-family-sans-serif: "Helvetica Neue", Arial, system-ui, sans-serif;
+$headings-font-family: #{$font-family-serif};
+$font-family-base: #{$font-family-sans-serif};
+$font-size-base: 1.125rem;   // ~18px body
+$headings-font-weight: 600;
+$line-height-base: 1.65;
+
+/*-- scss:rules --*/
+body { color: $ink; }
+
+h1, h2, h3, h4 { color: $yale-blue; line-height: 1.2; }
+h1 { font-size: 2.6rem; margin-bottom: 1rem; }
+h2 { font-size: 1.9rem; margin-top: 2.5rem; }
+
+.navbar { border-bottom: 1px solid $hairline; }
+.navbar .navbar-title { font-family: $font-family-serif; font-weight: 600; }
+.navbar .nav-link { font-family: $font-family-sans-serif; letter-spacing: .3px; }
+
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+// Small uppercase eyebrow label used above headings.
+.eyebrow {
+  font-family: $font-family-sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  font-size: .8rem;
+  color: $yale-light;
+  margin-bottom: .75rem;
+}
+
+// Bordered card used for hero, featured finding, research-at-a-glance.
+.card-lite {
+  border: 1px solid $hairline;
+  border-radius: 8px;
+  padding: 1.75rem;
+  margin: 1.5rem 0;
+}
+
+// Accent, used sparingly for emphasis.
+.accent { color: $clay; }
+
+// Substack "Subscribe" button.
+.btn-substack {
+  display: inline-block;
+  background: $yale-blue;
+  color: #fff !important;
+  font-family: $font-family-sans-serif;
+  font-size: .95rem;
+  padding: .5rem .9rem;
+  border-radius: 5px;
+  margin-right: .35rem;
+}
+.btn-substack:hover { text-decoration: none; background: darken($yale-blue, 6%); }
+
+// Post list (Writing page + Home teaser).
+.post { padding: 1rem 0; border-bottom: 1px solid #f1f0ec; }
+.post .meta { font-family: $font-family-sans-serif; font-size: .8rem; letter-spacing: .5px; color: #93745a; text-transform: uppercase; }
+.post .headline { font-size: 1.15rem; font-weight: 600; margin: .25rem 0; }
+.post .excerpt { font-family: $font-family-sans-serif; font-size: .95rem; color: #5b6472; }
+
+.hero-figure { margin: 1rem 0 .5rem; }

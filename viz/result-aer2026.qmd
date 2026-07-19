@@ -1,0 +1,39 @@
+::: {.card-lite}
+::: {.eyebrow}
+Interactive result
+:::
+
+### The Private Provision of Public Services (AER, 2026)
+
+Nearly 100,000 Medicaid enrollees were **randomly assigned** between a publicly operated
+fee-for-service system and private managed care. Points show the effect of managed care on
+annual spending by category; hover for the 95% confidence interval.
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+library(plotly)
+d <- read.csv("data/result_aer2026.csv", stringsAsFactors = FALSE)
+d$outcome <- factor(d$outcome, levels = rev(d$outcome))
+plot_ly(d, y = ~outcome, x = ~estimate, type = "scatter", mode = "markers",
+        marker = list(color = "#00356B", size = 9),
+        error_x = list(type = "data", symmetric = FALSE,
+                       array = ~(ci_high - estimate),
+                       arrayminus = ~(estimate - ci_low),
+                       color = "#00356B"),
+        hovertemplate = ~paste0(outcome, ": ", estimate,
+                                "% [", ci_low, ", ", ci_high, "]<extra></extra>")) |>
+  layout(xaxis = list(title = "Effect of managed care on spending (%)", zeroline = TRUE),
+         yaxis = list(title = ""), margin = list(l = 10)) |>
+  config(displayModeBar = FALSE)
+```
+
+**Takeaway:** managed care lowered total spending (−5.6%), driven almost entirely by
+**pharmacy** management (−18%). Outpatient spending fell modestly and inpatient was
+essentially unchanged. Yet privatizing medical benefits was associated with **lower measured
+quality and consumer satisfaction** — the savings did not come free.
+[Read the paper →](https://www.aeaweb.org/articles?id=10.1257/aer.20230541)
+
+*95% confidence intervals are derived from the standard errors reported in NBER WP30390 and are pending final verification against the published tables.*
+:::

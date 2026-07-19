@@ -1,0 +1,21 @@
+---
+title: "Writing"
+---
+
+[Subscribe on Substack](https://REPLACE-personal.substack.com){.btn-substack}
+
+```{r}
+#| echo: false
+#| output: asis
+source("R/substack.R")
+posts <- yaml::read_yaml("data/substack_posts.yml")
+if (length(posts) == 0) {
+  cat("*Posts will appear here once the Substack feeds are configured.*\n")
+} else {
+  for (p in posts) {
+    cat(sprintf(
+      '<div class="post"><div class="meta">%s · %s</div><div class="headline"><a href="%s">%s</a></div><div class="excerpt">%s</div></div>\n',
+      html_escape(p$date), toupper(p$source), html_escape(p$url), html_escape(p$title), html_escape(p$excerpt)))
+  }
+}
+```

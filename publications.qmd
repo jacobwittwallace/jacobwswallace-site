@@ -1,0 +1,17 @@
+---
+title: "Publications"
+---
+
+```{r}
+#| echo: false
+#| output: asis
+pubs <- yaml::read_yaml("data/publications.yml")
+# newest first
+pubs <- pubs[order(-sapply(pubs, function(p) p$year))]
+for (p in pubs) {
+  link <- if (nzchar(p$url)) sprintf(" [[journal](%s)]", p$url) else ""
+  pdf  <- if (nzchar(p$pdf)) sprintf(" [[pdf](%s)]", p$pdf) else ""
+  cat(sprintf("**%s** (%d). *%s.* %s.%s%s\n\n",
+              p$title, p$year, p$venue, p$authors, link, pdf))
+}
+```

@@ -1,0 +1,26 @@
+---
+title: "Research"
+---
+
+I study the economics of health insurance markets, with a focus on managed care in public
+insurance programs. Below is an interactive look at a flagship result; a full list is on the
+[Publications](publications.qmd) page.
+
+{{< include viz/result-aer2026.qmd >}}
+
+## Research at a glance
+
+```{r}
+#| echo: false
+#| output: asis
+pubs <- yaml::read_yaml("data/publications.yml")
+pubs <- pubs[order(-sapply(pubs, function(p) p$year))]
+cat('<div>\n')
+for (p in pubs) {
+  href <- if (nzchar(p$url)) p$url else "publications.qmd"
+  cat(sprintf(
+    '<div class="card-lite"><div class="eyebrow">%s · %d</div><div class="headline"><a href="%s">%s</a></div><div class="excerpt">%s</div></div>\n',
+    p$theme, p$year, href, p$title, p$venue))
+}
+cat('</div>\n')
+```

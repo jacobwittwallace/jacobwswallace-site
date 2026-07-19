@@ -1,0 +1,67 @@
+name: Publish site
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 9 * * *"   # daily 09:00 UTC: refresh Substack, rotate hero, redeploy
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          extra-packages: any::yaml
+
+      - name: Refresh Substack posts (scheduled/manual only)
+        if: github.event_name != 'push'
+        run: Rscript R/fetch_substack.R
+
+      - name: Commit refreshed posts if changed
+        if: github.event_name != 'push'
+        run: |
+          if ! git diff --quiet data/substack_posts.yml; then
+            git config user.name "github-actions"
+            git config user.email "actions@github.com"
+            git add data/substack_posts.yml
+            git commit -m "chore: refresh substack posts [skip ci]"
+            git push
+          fi
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render site
+        run: quarto render
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build-deploy
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

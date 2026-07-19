@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>SCALE</title>
+    <item>
+      <title>Random assignment and Medicaid plans</title>
+      <link>https://scale.substack.com/p/random-assignment</link>
+      <pubDate>Fri, 10 Jul 2026 12:00:00 GMT</pubDate>
+      <dc:creator>Jacob Wallace</dc:creator>
+      <description>A short take on the new AER paper.</description>
+    </item>
+    <item>
+      <title>Someone else's post</title>
+      <link>https://scale.substack.com/p/other</link>
+      <pubDate>Thu, 09 Jul 2026 12:00:00 GMT</pubDate>
+      <dc:creator>Another Author</dc:creator>
+      <description>Not by Jacob.</description>
+    </item>
+  </channel>
+</rss>

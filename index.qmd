@@ -1,0 +1,49 @@
+---
+title: ""
+pagetitle: "Jacob Wallace"
+---
+
+::: {.eyebrow}
+Health Economist · Yale School of Public Health
+:::
+
+# Rigorous evidence on how health insurance markets shape care for vulnerable populations.
+
+Associate Professor of Public Health (Health Policy) at the Yale School of Public Health
+and a Faculty Research Fellow at the National Bureau of Economic Research. My research studies
+the economics of health insurance markets, with a focus on managed care in public insurance
+programs such as Medicaid.
+
+Before academia I served as a Medicaid policy expert for New York State, worked as a data
+scientist in Silicon Valley, and co-founded the advocacy organization Young Invincibles.
+I hold degrees from Swarthmore College and Harvard University.
+
+[Yale profile](https://ysph.yale.edu/profile/jacob-wallace/){.btn-substack} &nbsp; [CV (PDF)](cv.qmd) &nbsp;·&nbsp; [Google Scholar](https://scholar.google.com/citations?user=fEv_2Z0AAAAJ)
+
+```{r}
+#| echo: false
+#| output: asis
+source("R/heroes.R")
+heroes <- yaml::read_yaml("data/heroes.yml")
+ids <- vapply(heroes, function(h) h$id, character(1))
+stopifnot(!anyDuplicated(ids))
+chosen <- select_hero(ids, current_iso_week())
+child <- heroes[[match(chosen, ids)]]$child
+cat(knitr::knit_child(child, quiet = TRUE))
+```
+
+```{r}
+#| echo: false
+#| output: asis
+source("R/substack.R")
+posts <- yaml::read_yaml("data/substack_posts.yml")
+if (length(posts) > 0) {
+  cat("## Latest writing\n\n")
+  for (p in head(posts, 3)) {
+    cat(sprintf(
+      '<div class="post"><div class="meta">%s · %s</div><div class="headline"><a href="%s">%s</a></div></div>\n',
+      html_escape(p$date), toupper(p$source), html_escape(p$url), html_escape(p$title)))
+  }
+  cat('\n[All writing →](writing.qmd)\n')
+}
+```

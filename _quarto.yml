@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: _site
+  execute-dir: project
+  render:
+    - "*.qmd"
+
+website:
+  title: "Jacob Wallace"
+  description: "Health economist studying health insurance markets and managed care in public programs."
+  site-url: "https://www.jacobwswallace.com"
+  navbar:
+    logo: ""
+    title: "Jacob Wallace"
+    left:
+      - text: "Research"
+        href: research.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Writing"
+        href: writing.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "Contact"
+        href: contact.qmd
+  page-footer:
+    left: "© 2026 Jacob Wallace"
+    right:
+      - text: "Subscribe on Substack"
+        href: "https://example.substack.com"
+      - text: "Google Scholar"
+        href: "https://scholar.google.com/citations?user=fEv_2Z0AAAAJ"
+      - text: "Yale profile"
+        href: "https://ysph.yale.edu/profile/jacob-wallace/"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - assets/css/theme.scss
+    toc: false
+    page-layout: full
+    grid:
+      body-width: 900px
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+
+execute:
+  freeze: false
