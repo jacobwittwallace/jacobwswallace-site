@@ -4,6 +4,16 @@ suppressPackageStartupMessages({
   library(xml2)
 })
 
+# Minimal HTML escaping for RSS-derived text injected into pages as raw HTML.
+# Escape & first so we don't double-escape the entities we introduce.
+html_escape <- function(x) {
+  x <- gsub("&", "&amp;", x, fixed = TRUE)
+  x <- gsub("<", "&lt;",  x, fixed = TRUE)
+  x <- gsub(">", "&gt;",  x, fixed = TRUE)
+  x <- gsub('"', "&quot;", x, fixed = TRUE)
+  x
+}
+
 # Parse one RSS file into a normalized data.frame.
 # author: if non-NULL, keep only items whose <dc:creator> matches (case-insensitive).
 parse_feed <- function(path, source, author = NULL) {
@@ -47,7 +57,8 @@ merge_posts <- function(feed_list) {
 write_posts_yaml <- function(posts, path) {
   out <- lapply(seq_len(nrow(posts)), function(i) {
     list(title = posts$title[i], url = posts$url[i],
-         date = as.character(posts$date[i]), excerpt = posts$excerpt[i],
+         date = if (is.na(posts$date[i])) "" else as.character(posts$date[i]),
+         excerpt = posts$excerpt[i],
          source = posts$source[i])
   })
   yaml::write_yaml(out, path)

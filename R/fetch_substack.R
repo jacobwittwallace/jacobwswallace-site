@@ -2,6 +2,7 @@
 # Network entrypoint: download both feeds, parse/filter/merge, write data/substack_posts.yml.
 # Safe to run locally or in CI. Fails soft: if a feed is unreachable it is skipped.
 source("R/substack.R")
+options(timeout = 20)  # don't hang on a stalled feed connection
 
 cfg <- yaml::read_yaml("data/substack_config.yml")
 tmp <- tempfile(fileext = ".xml")

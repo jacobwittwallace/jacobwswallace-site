@@ -29,8 +29,21 @@ test_that("no author filter keeps all posts", {
   expect_equal(nrow(posts), 2)
 })
 
-test_that("merge_posts sorts newest first", {
+test_that("merge_posts sorts newest first even when input is out of order", {
+  older <- data.frame(title="old", url="u1", date=as.Date("2020-01-01"),
+                      excerpt="", author="", source="personal", stringsAsFactors=FALSE)
+  newer <- data.frame(title="new", url="u2", date=as.Date("2026-01-01"),
+                      excerpt="", author="", source="personal", stringsAsFactors=FALSE)
+  merged <- merge_posts(list(older, newer))  # deliberately oldest-first input
+  expect_equal(merged$title, c("new", "old"))
+})
+
+test_that("merge_posts dedupes by url", {
   a <- parse_feed(fx, source = "scale")
-  merged <- merge_posts(list(a))
-  expect_true(merged$date[1] >= merged$date[2])
+  merged <- merge_posts(list(a, a))
+  expect_equal(nrow(merged), 2)
+})
+
+test_that("html_escape neutralizes angle brackets and ampersands", {
+  expect_equal(html_escape("a < b & c > d"), "a &lt; b &amp; c &gt; d")
 })

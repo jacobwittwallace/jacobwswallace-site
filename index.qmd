@@ -37,13 +37,14 @@ cat(knitr::knit_child(child, quiet = TRUE))
 ```{r}
 #| echo: false
 #| output: asis
+source("R/substack.R")
 posts <- yaml::read_yaml("data/substack_posts.yml")
 if (length(posts) > 0) {
   cat("## Latest writing\n\n")
   for (p in head(posts, 3)) {
     cat(sprintf(
       '<div class="post"><div class="meta">%s · %s</div><div class="headline"><a href="%s">%s</a></div></div>\n',
-      p$date, toupper(p$source), p$url, p$title))
+      html_escape(p$date), toupper(p$source), html_escape(p$url), html_escape(p$title)))
   }
   cat('\n[All writing →](writing.qmd)\n')
 }
