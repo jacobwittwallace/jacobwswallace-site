@@ -1,0 +1,7 @@
+---
+title: "CV"
+---
+
+My full curriculum vitae is available as a PDF.
+
+[Download CV (PDF)](assets/cv.pdf){.btn-substack}
