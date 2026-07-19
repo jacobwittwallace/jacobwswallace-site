@@ -18,9 +18,7 @@ Before academia I served as a Medicaid policy expert for New York State, worked 
 scientist in Silicon Valley, and co-founded the advocacy organization Young Invincibles.
 I hold degrees from Swarthmore College and Harvard University.
 
-[Yale profile](https://ysph.yale.edu/profile/jacob-wallace/){.btn-substack}
-[CV (PDF)](cv.qmd)
-[Google Scholar](https://scholar.google.com/citations?user=fEv_2Z0AAAAJ)
+[Yale profile](https://ysph.yale.edu/profile/jacob-wallace/){.btn-substack} &nbsp; [CV (PDF)](cv.qmd) &nbsp;·&nbsp; [Google Scholar](https://scholar.google.com/citations?user=fEv_2Z0AAAAJ)
 
 ```{r}
 #| echo: false
