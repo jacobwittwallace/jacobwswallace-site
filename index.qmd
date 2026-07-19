@@ -22,6 +22,15 @@ I hold degrees from Swarthmore College and Harvard University.
 [CV (PDF)](cv.qmd)
 [Google Scholar](https://scholar.google.com/citations?user=fEv_2Z0AAAAJ)
 
-<!-- HERO PLACEHOLDER: replaced in Task 9 -->
+```{r}
+#| echo: false
+#| output: asis
+source("R/heroes.R")
+heroes <- yaml::read_yaml("data/heroes.yml")
+ids <- vapply(heroes, function(h) h$id, character(1))
+chosen <- select_hero(ids, current_iso_week())
+child <- heroes[[which(ids == chosen)]]$child
+cat(knitr::knit_child(child, quiet = TRUE))
+```
 
 <!-- LATEST WRITING PLACEHOLDER: replaced in Task 13 -->
