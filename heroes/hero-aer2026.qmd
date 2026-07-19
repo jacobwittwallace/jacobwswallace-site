@@ -27,6 +27,7 @@ plot_ly(
   config(displayModeBar = FALSE)
 ```
 
-Savings came mostly from **pharmacy** management; privatizing **medical** benefits produced
-only modest savings and was associated with **lower quality and satisfaction**.
+The savings came almost entirely from **pharmacy** management. Non-drug (medical) spending
+changed little — outpatient costs fell modestly and inpatient was essentially flat — and
+privatizing medical benefits was associated with **lower quality and satisfaction**.
 :::

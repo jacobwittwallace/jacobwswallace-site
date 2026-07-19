@@ -9,5 +9,6 @@ select_hero <- function(ids, week) {
 
 # Current ISO week number as an integer (used at build time).
 current_iso_week <- function(today = Sys.Date()) {
+  # Note: ISO week resets each January, so the rotation restarts at year boundaries (fine for a small set).
   as.integer(format(today, "%V"))
 }

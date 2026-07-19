@@ -28,8 +28,9 @@ I hold degrees from Swarthmore College and Harvard University.
 source("R/heroes.R")
 heroes <- yaml::read_yaml("data/heroes.yml")
 ids <- vapply(heroes, function(h) h$id, character(1))
+stopifnot(!anyDuplicated(ids))
 chosen <- select_hero(ids, current_iso_week())
-child <- heroes[[which(ids == chosen)]]$child
+child <- heroes[[match(chosen, ids)]]$child
 cat(knitr::knit_child(child, quiet = TRUE))
 ```
 
