@@ -1,0 +1,27 @@
+---
+title: ""
+pagetitle: "Jacob Wallace"
+---
+
+::: {.eyebrow}
+Health Economist · Yale School of Public Health
+:::
+
+# Rigorous evidence on how health insurance markets shape care for vulnerable populations.
+
+Associate Professor of Public Health (Health Policy) at the Yale School of Public Health
+and a Faculty Research Fellow at the National Bureau of Economic Research. My research studies
+the economics of health insurance markets, with a focus on managed care in public insurance
+programs such as Medicaid.
+
+Before academia I served as a Medicaid policy expert for New York State, worked as a data
+scientist in Silicon Valley, and co-founded the advocacy organization Young Invincibles.
+I hold degrees from Swarthmore College and Harvard University.
+
+[Yale profile](https://ysph.yale.edu/profile/jacob-wallace/){.btn-substack}
+[CV (PDF)](cv.qmd)
+[Google Scholar](https://scholar.google.com/citations?user=fEv_2Z0AAAAJ)
+
+<!-- HERO PLACEHOLDER: replaced in Task 9 -->
+
+<!-- LATEST WRITING PLACEHOLDER: replaced in Task 13 -->
