@@ -34,4 +34,17 @@ child <- heroes[[match(chosen, ids)]]$child
 cat(knitr::knit_child(child, quiet = TRUE))
 ```
 
-<!-- LATEST WRITING PLACEHOLDER: replaced in Task 13 -->
+```{r}
+#| echo: false
+#| output: asis
+posts <- yaml::read_yaml("data/substack_posts.yml")
+if (length(posts) > 0) {
+  cat("## Latest writing\n\n")
+  for (p in head(posts, 3)) {
+    cat(sprintf(
+      '<div class="post"><div class="meta">%s · %s</div><div class="headline"><a href="%s">%s</a></div></div>\n',
+      p$date, toupper(p$source), p$url, p$title))
+  }
+  cat('\n[All writing →](writing.qmd)\n')
+}
+```
