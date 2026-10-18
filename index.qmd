@@ -14,7 +14,7 @@ pagetitle: "Jacob Wallace"
 
 ::: {.landing-bio}
 Jacob Wallace is an Associate Professor of Public Health (Health Policy) at the Yale School of
-Public Health and a Faculty Research Fellow at the National Bureau of Economic Research.
+Public Health, a Faculty Research Fellow at the National Bureau of Economic Research, and an Affiliated Professor and Scientific Advisor at the Abdul Latif Jameel Poverty Action Lab.
 
 Wallace studies the economics of health insurance markets, with a focus on managed care in
 public programs such as Medicaid. His research uses random assignment of people to health plans
