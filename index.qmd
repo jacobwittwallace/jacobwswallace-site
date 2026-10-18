@@ -6,6 +6,10 @@ pagetitle: "Jacob Wallace"
 ::: {.landing}
 ::: {.landing-photo}
 ![](assets/img/jacob-cutout.webp){fig-alt="Jacob Wallace"}
+
+::: {.landing-links}
+[CV](cv.qmd) | [Google Scholar](https://scholar.google.com/citations?user=fEv_2Z0AAAAJ) | [Yale](https://ysph.yale.edu/profile/jacob-wallace/)
+:::
 :::
 
 ::: {.landing-bio}
@@ -25,7 +29,6 @@ Before academia, Wallace served as a Medicaid policy expert for New York State, 
 data scientist in Silicon Valley, and co-founded the advocacy organization Young Invincibles.
 He holds degrees from Swarthmore College and Harvard University.
 
-[CV](cv.qmd) | [Google Scholar](https://scholar.google.com/citations?user=fEv_2Z0AAAAJ) | [Yale](https://ysph.yale.edu/profile/jacob-wallace/)
 :::
 :::
 
