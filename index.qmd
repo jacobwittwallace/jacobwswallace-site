@@ -3,34 +3,31 @@ title: ""
 pagetitle: "Jacob Wallace"
 ---
 
-::: {.eyebrow}
-Health Economist · Yale School of Public Health
+::: {.landing}
+::: {.landing-photo}
+![](assets/img/jacob-cutout.webp){fig-alt="Jacob Wallace"}
 :::
 
-# Rigorous evidence on how health insurance markets shape care for vulnerable populations.
+::: {.landing-bio}
+Jacob Wallace is an Associate Professor of Public Health (Health Policy) at the Yale School of
+Public Health and a Faculty Research Fellow at the National Bureau of Economic Research.
 
-Associate Professor of Public Health (Health Policy) at the Yale School of Public Health
-and a Faculty Research Fellow at the National Bureau of Economic Research. My research studies
-the economics of health insurance markets, with a focus on managed care in public insurance
-programs such as Medicaid.
+Wallace studies the economics of health insurance markets, with a focus on managed care in
+public programs such as Medicaid. His research uses random assignment of people to health plans
+to show what plans and their provider networks do for cost, access, and quality, and how states
+can buy and pay for managed care more effectively.
 
-Before academia I served as a Medicaid policy expert for New York State, worked as a data
-scientist in Silicon Valley, and co-founded the advocacy organization Young Invincibles.
-I hold degrees from Swarthmore College and Harvard University.
+His research has been published in the *American Economic Review*, the *Journal of Economic
+Perspectives*, the *American Economic Journal: Applied Economics* and *Economic Policy*, and
+leading medical journals, including *JAMA*, *BMJ*, and the *New England Journal of Medicine*.
 
-[Yale profile](https://ysph.yale.edu/profile/jacob-wallace/){.btn-substack} &nbsp; [CV (PDF)](cv.qmd) &nbsp;·&nbsp; [Google Scholar](https://scholar.google.com/citations?user=fEv_2Z0AAAAJ)
+Before academia, Wallace served as a Medicaid policy expert for New York State, worked as a
+data scientist in Silicon Valley, and co-founded the advocacy organization Young Invincibles.
+He holds degrees from Swarthmore College and Harvard University.
 
-```{r}
-#| echo: false
-#| output: asis
-source("R/heroes.R")
-heroes <- yaml::read_yaml("data/heroes.yml")
-ids <- vapply(heroes, function(h) h$id, character(1))
-stopifnot(!anyDuplicated(ids))
-chosen <- select_hero(ids, current_iso_week())
-child <- heroes[[match(chosen, ids)]]$child
-cat(knitr::knit_child(child, quiet = TRUE))
-```
+[CV](cv.qmd) | [Google Scholar](https://scholar.google.com/citations?user=fEv_2Z0AAAAJ) | [Yale](https://ysph.yale.edu/profile/jacob-wallace/)
+:::
+:::
 
 ```{r}
 #| echo: false

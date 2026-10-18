@@ -9,10 +9,11 @@ website:
   title: "Jacob Wallace"
   description: "Health economist studying health insurance markets and managed care in public programs."
   site-url: "https://www.jacobwswallace.com"
+  search: false
   navbar:
     logo: ""
     title: "Jacob Wallace"
-    left:
+    right:
       - text: "Research"
         href: research.qmd
       - text: "Publications"
@@ -41,10 +42,12 @@ format:
     toc: false
     page-layout: full
     grid:
-      body-width: 900px
+      body-width: 1080px
     include-in-header:
       - text: |
           <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
 
 execute:
   freeze: false
