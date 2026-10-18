@@ -14,13 +14,14 @@ insurance programs. Below is an interactive look at a flagship result; a full li
 #| echo: false
 #| output: asis
 pubs <- yaml::read_yaml("data/publications.yml")
+pubs <- Filter(function(p) p$section %in% c("forthcoming", "econ"), pubs)
 pubs <- pubs[order(-sapply(pubs, function(p) p$year))]
 cat('<div>\n')
 for (p in pubs) {
-  href <- if (nzchar(p$url)) p$url else "publications.qmd"
+  href <- if (nzchar(p$doi)) paste0("https://doi.org/", p$doi) else if (nzchar(p$nber)) p$nber else "publications.qmd"
   cat(sprintf(
     '<div class="card-lite"><div class="eyebrow">%s · %d</div><div class="headline"><a href="%s">%s</a></div><div class="excerpt">%s</div></div>\n',
-    p$theme, p$year, href, p$title, p$venue))
+    p$theme, p$year, href, p$title, if (p$section == "forthcoming") paste0(p$venue, " (conditionally accepted)") else p$venue))
 }
 cat('</div>\n')
 ```
