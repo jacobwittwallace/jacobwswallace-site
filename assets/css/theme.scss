@@ -1,44 +1,47 @@
 /*-- scss:defaults --*/
-// Minimal, neutral look (modeled on a clean academic landing page).
-$ink:        #222222;   // names, headings, bold links
-$body-gray:  #7a7a7a;   // body text
-$nav-gray:   #9a9a9a;   // nav links, subtitle
-$hairline:   #eeeeee;
+// "Yale serif": Source Serif for name/headings/lead, Source Sans for body; Yale blue accents.
+$yale-blue:  #00356B;
+$yale-light: #286dc0;
+$ink:        #1f2a37;   // lead text, strong
+$body-gray:  #3d4450;   // body text
+$nav-gray:   #4a5563;   // nav links
+$sub-gray:   #6b7480;   // subtitle, labels
+$hairline:   #e9ecf0;
 $bg:         #ffffff;
-$accent:     #00356B;   // Yale blue, used only for in-text links
 
-$primary:      $ink;
+$primary:      $yale-blue;
 $body-color:   $body-gray;
 $body-bg:      $bg;
-$link-color:   $accent;
+$link-color:   $yale-blue;
 $navbar-bg:    $bg;
 $navbar-fg:    $nav-gray;
 
-$font-family-sans-serif: "Chivo", "Helvetica Neue", Arial, system-ui, sans-serif;
-$font-family-base: #{$font-family-sans-serif};
-$headings-font-family: #{$font-family-sans-serif};
-$font-size-base: 1.125rem;
-$headings-font-weight: 500;
-$line-height-base: 1.75;
+$font-family-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+$font-family-sans-serif: "Source Sans 3", "Helvetica Neue", Arial, system-ui, sans-serif;
+$font-family-base: $font-family-sans-serif;
+$headings-font-family: $font-family-serif;
+$font-size-base: 1.15rem;
+$headings-font-weight: 600;
+$line-height-base: 1.7;
 
 /*-- scss:rules --*/
-body { color: $body-gray; font-weight: 500; letter-spacing: .1px; }
+body { color: $body-gray; font-weight: 400; }
 strong, b { color: $ink; }
 
-h1, h2, h3, h4 { color: $ink; line-height: 1.25; font-weight: 500; }
+h1, h2, h3, h4 { color: $yale-blue; line-height: 1.25; font-weight: 600; }
 h1 { font-size: 2.2rem; margin-bottom: 1rem; }
 h2 { font-size: 1.6rem; margin-top: 2.5rem; }
 h3 { font-size: 1.25rem; }
 
 // Header: name + gray title on the left, quiet gray links on the right.
 .navbar { border-bottom: none; padding-top: 1.6rem; padding-bottom: 1rem; }
-.navbar .navbar-title { color: $ink !important; font-size: 1.55rem; font-weight: 400; letter-spacing: .2px; }
+.navbar .navbar-title { color: $yale-blue !important; font-family: $font-family-serif; font-size: 1.7rem; font-weight: 600; }
 .navbar .navbar-title::after {
   content: "Associate Professor";
-  font-size: .82rem; color: $nav-gray; margin-left: 1.1rem; letter-spacing: .4px; vertical-align: middle;
+  font-family: $font-family-sans-serif; font-weight: 600; font-size: .82rem; color: $sub-gray; margin-left: 1.1rem; letter-spacing: .4px; vertical-align: middle;
 }
 .navbar .nav-link { color: $nav-gray !important; font-size: .95rem; letter-spacing: .3px; }
-.navbar .nav-link.active, .navbar .nav-link:hover { color: $ink !important; }
+.navbar .nav-link.active, .navbar .nav-link:hover { color: $yale-blue !important; }
 
 a { text-decoration: none; }
 a:hover { text-decoration: underline; }
@@ -60,9 +63,10 @@ a:hover { text-decoration: underline; }
 }
 .landing-photo p { margin: 0; }
 .landing-bio p { margin-bottom: 1.4rem; }
-.landing-links { text-align: center; margin-top: 1.6rem; color: $ink; font-weight: 700; }
+.landing-bio p:first-child { font-family: $font-family-serif; font-size: 1.35rem; line-height: 1.55; color: $ink; }
+.landing-links { text-align: center; margin-top: 1.6rem; color: $sub-gray; font-weight: 700; }
 .landing-links p { margin: 0; }
-.landing-links a { color: $ink; font-weight: 700; }
+.landing-links a { color: $yale-blue; font-weight: 700; }
 @media (max-width: 760px) {
   .landing { grid-template-columns: 1fr; gap: 1.5rem; margin-top: 1.5rem; }
   .landing-photo img { max-width: 320px; }
@@ -70,21 +74,21 @@ a:hover { text-decoration: underline; }
 }
 
 // Small uppercase label used above headings.
-.eyebrow { text-transform: uppercase; letter-spacing: 1.6px; font-size: .78rem; color: $nav-gray; margin-bottom: .75rem; }
+.eyebrow { text-transform: uppercase; letter-spacing: 1.6px; font-size: .78rem; color: $yale-light; margin-bottom: .75rem; }
 
 // Bordered card used for featured findings and research-at-a-glance.
 .card-lite { border: 1px solid $hairline; border-radius: 6px; padding: 1.6rem; margin: 1.25rem 0; }
-.card-lite .headline a { color: $ink; font-weight: 500; }
+.card-lite .headline a { color: $yale-blue; font-family: $font-family-serif; font-weight: 600; }
 
 // Substack button.
-.btn-substack { display: inline-block; background: $ink; color: #fff !important; font-size: .95rem; padding: .5rem .9rem; border-radius: 5px; margin-right: .35rem; }
-.btn-substack:hover { text-decoration: none; background: #000; }
+.btn-substack { display: inline-block; background: $yale-blue; color: #fff !important; font-size: .95rem; padding: .5rem .9rem; border-radius: 5px; margin-right: .35rem; }
+.btn-substack:hover { text-decoration: none; background: darken($yale-blue, 6%); }
 
 // Post list (Writing page + Home teaser).
 .post { padding: 1rem 0; border-bottom: 1px solid #f1f1f1; }
 .post .meta { font-size: .78rem; letter-spacing: .5px; color: $nav-gray; text-transform: uppercase; }
 .post .headline { font-size: 1.1rem; font-weight: 500; margin: .25rem 0; }
-.post .headline a { color: $ink; }
+.post .headline a { color: $yale-blue; font-family: $font-family-serif; }
 .post .excerpt { font-size: .95rem; color: $body-gray; }
 
 .hero-figure { margin: 1rem 0 .5rem; }
