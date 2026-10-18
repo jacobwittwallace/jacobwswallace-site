@@ -63,7 +63,7 @@ a:hover { text-decoration: underline; }
 }
 .landing-photo p { margin: 0; }
 .landing-bio p { margin-bottom: 1.4rem; }
-.landing-bio p:first-child { font-family: $font-family-serif; font-size: 1.35rem; line-height: 1.55; color: $ink; }
+.landing-bio p:first-child { font-family: $font-family-serif; font-size: 1.35rem; line-height: 1.5; font-weight: 600; color: $ink; }
 .landing-links { text-align: center; margin-top: 1.6rem; color: $sub-gray; font-weight: 700; }
 .landing-links p { margin: 0; }
 .landing-links a { color: $yale-blue; font-weight: 700; }
