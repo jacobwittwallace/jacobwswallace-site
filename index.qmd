@@ -5,7 +5,7 @@ pagetitle: "Jacob Wallace"
 
 ::: {.landing}
 ::: {.landing-photo}
-![](assets/img/jacob-cutout.webp){fig-alt="Jacob Wallace"}
+![](assets/img/jacob-portrait-ink.webp){fig-alt="Jacob Wallace"}
 
 ::: {.landing-links}
 [CV](cv.qmd) | [Google Scholar](https://scholar.google.com/citations?user=fEv_2Z0AAAAJ) | [Yale](https://ysph.yale.edu/profile/jacob-wallace/)
