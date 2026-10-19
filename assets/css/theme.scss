@@ -99,6 +99,7 @@ a:hover { text-decoration: underline; }
 .paper-title a { color: $ink; }
 .paper-title a:hover { color: $yale-blue; text-decoration: none; }
 .paper-meta { font-size: .98rem; color: $sub-gray; margin-top: .15rem; }
+.paper-meta em { font-weight: 600; color: $yale-blue; }
 .paper-links { font-size: .9rem; margin-top: .25rem; }
 .paper-links .links a { font-weight: 600; }
 .paper-links .sep { color: $sub-gray; margin: 0 .15rem; }

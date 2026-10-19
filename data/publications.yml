@@ -1,6 +1,6 @@
 # Papers shown on the Research page. Edit freely; the site rebuilds on commit.
 # section: forthcoming (working papers) | econ | policy.  abstract: shown behind an 'Abstract' toggle (leave "" to hide).
-# press: list of {outlet, url}. Coauthor links live in data/coauthors.yml.
+# press: list of {outlet, url}. url: article link for pieces without a DOI. Coauthor links live in data/coauthors.yml.
 - title: "Understanding Medicaid Managed Care: The Procured Competition Model"
   coauthors: Mark Shepard
   year: 2026
@@ -23,6 +23,7 @@
     open research questions, arguing that the enormous variation in how states design these programs—combined
     with limited evidence on what works—represents a promising area for high-impact scholarship.
   press: []
+  url: ""
 - title: "Private Provision of Public Services: Evidence from Random Assignment in Medicaid"
   coauthors: Dan Macambira, Michael Geruso, Anthony Lollo, and Chima D. Ndumele
   year: 2026
@@ -43,6 +44,7 @@
     savings and was associated with decreased health care quality and consumer satisfaction. (JEL G22,
     H41, I13, I18, I38)
   press: []
+  url: ""
 - title: "Spending to Save: The Subscription Model for Eradicating Hepatitis C in Louisiana"
   coauthors: Kevin Callison, Rena M. Conti, and Jonathan Gruber
   year: 2026
@@ -63,6 +65,7 @@
     five-year savings. Innovative financing models can generate health benefits and near-term savings
     for payers.
   press: []
+  url: ""
 - title: "The Great Equalizer: Medicare and the Geography of Consumer Financial Strain"
   coauthors: Paul Goldsmith-Pinkham and Maxim Pinkovskiy
   year: 2026
@@ -82,6 +85,7 @@
     65 were concentrated in the Southern United States, and had higher shares of black residents, people
     with disabilities, and for-profit hospitals.
   press: []
+  url: ""
 - title: "Adverse Selection and Network Design Under Regulated Plan Prices: Evidence from Medicaid"
   coauthors: Amanda Kreider, Timothy J. Layton, and Mark Shepard
   year: 2024
@@ -89,7 +93,7 @@
   venue: Journal of Health Economics
   cite: "97: 102901"
   doi: 10.1016/j.jhealeco.2024.102901
-  nber: ""
+  nber: "https://www.nber.org/papers/w30719"
   pdf: ""
   theme: Plan & network design
   abstract: >-
@@ -101,6 +105,7 @@
     either infeasibly high payment rates or near-perfect risk adjustment. By contrast, a small explicit
     bonus for covering the hospital is sufficient to make coverage profitable.
   press: []
+  url: ""
 - title: What Does a Provider Network Do? Evidence from Random Assignment in Medicaid Managed Care
   coauthors: ""
   year: 2023
@@ -121,6 +126,7 @@
     satisfaction by matching consumers with narrower networks that include their providers. (JEL H51,
     H75, I13, I18, I38)
   press: []
+  url: ""
 - title: What Difference Does a Health Plan Make? Evidence from Random Plan Assignment in Medicaid
   coauthors: Timothy J. Layton and Michael Geruso
   year: 2023
@@ -128,7 +134,7 @@
   venue: "American Economic Journal: Applied Economics"
   cite: "15(3): 341–79"
   doi: 10.1257/app.20210843
-  nber: ""
+  nber: "https://www.nber.org/papers/w27762"
   pdf: ""
   theme: Health plan effects
   abstract: >-
@@ -141,6 +147,7 @@
     spending is associated with a 40 percent increase in market share. These facts have implications for
     the government's contracting problem and program cost growth.
   press: []
+  url: ""
 - title: "Measuring Changes in Disparity Gaps: An Application to Health Insurance"
   coauthors: Paul Goldsmith-Pinkham, Karen Jiang, and Zirui Song
   year: 2022
@@ -159,6 +166,7 @@
     in other observables versus differences in composition across other observables (e.g. the “endowment”).
     Finally, we apply this approach to study the impact of Medicare on American's access to health insurance.
   press: []
+  url: ""
 - title: Randomized Communication Nudges to Increase Primary Care Engagement Among Medicaid Enrollees
     in Maine
   coauthors: Sarah Gordon, Kevin Nguyen, Breanne Biondi-Bonetti, Benjamin D. Sommers, and Anna Goldman
@@ -185,6 +193,7 @@
     suggest that barriers targeted by the mailers were not primary drivers of primary care engagement,
     and other strategies are needed to help connect new Medicaid enrollees with primary care.
   press: []
+  url: ""
 - title: Dental Coverage Through Medicaid Managed Care vs Fee-for-Service
   coauthors: Hawazin Elani, Ningsheng Zhao, and Benjamin D. Sommers
   year: 2026
@@ -220,6 +229,7 @@
     legislation cuts federal funding to states, understanding how dental benefits are designed and delivered
     is critical to inform future coverage decisions and ensure equitable access.
   press: []
+  url: ""
 - title: The Impact of Introducing Managed Care Intermediaries for Long-Term Services and Supports
   coauthors: Deepon Bhaumik, David Grabowski, and Mark Schlesinger
   year: 2025
@@ -248,6 +258,7 @@
     home and community-based services (HCBS) users but restricted the amount of HCBS used per beneficiary,
     with ambiguity around whether this occurred at the expense of beneficiaries.
   press: []
+  url: ""
 - title: Hospitalization and Credit Scores Among Medicaid Beneficiaries in Louisiana
   coauthors: Brigham Walker, Gael Compta, Alexander Siebert, Andrew Anderson, Kevin Callison, and Chima
     Ndumele
@@ -263,6 +274,7 @@
     This case-control study evaluates the impact of a hospitalization on credit scores for Medicaid beneficiaries
     in Louisiana stratified by sex, race, and ethnicity.
   press: []
+  url: ""
 - title: Attributing Racial Differences in Care to Health Plan Performance or Selection
   coauthors: >-
     Chima Ndumele, Anthony Lollo, Danil Agafiev Macambira, Matthew Lavallee, Beniamino Green, Kate A.
@@ -308,6 +320,7 @@
     It is critical to address disparities in Medicaid, but adjusting plan payments based on disparity
     measures may have unintended consequences.
   press: []
+  url: ""
 - title: Supplemental Nutrition Assistance Program Work Requirements and Safety-Net Program Participation
   coauthors: Chima Ndumele, Hannah Factor, Matthew Lavallee, and Anthony Lollo
   year: 2025
@@ -352,6 +365,7 @@
   - outlet: NPR (Planet Money)
     url: >-
       https://www.npr.org/sections/planet-money/2025/06/26/g-s1-74544/the-paperwork-trap-a-sneaky-way-to-cut-medicaid-in-the-one-big-beautiful-bill
+  url: ""
 - title: Availability Of Adult Dental Plans In The Affordable Care Act Marketplaces, 2016–23
   coauthors: Hawazin Elani, Md Shahinoor Rahman, Meredith Rosenthal, and Benjamin D Sommers
   year: 2024
@@ -377,6 +391,7 @@
     findings can inform future policies to improve the dental insurance Marketplace and access to affordable
     dental care.
   press: []
+  url: ""
 - title: Medicare eligibility and changes in coverage, access to care, and health by sexual orientation
     and gender identity
   coauthors: Kyle Gavulic
@@ -423,6 +438,7 @@
     health status, and among states with the highest disparities, it may improve health insurance coverage,
     access to care, and self-reported health status.
   press: []
+  url: ""
 - title: Financial Health Among Louisiana Medicaid Enrollees
   coauthors: Chris Frenier, Beniamino Green, Alexander Siebert, Andrew Anderson, Kevin Callison, and Brigham
     Walker
@@ -438,6 +454,7 @@
     This cross-sectional study compares average credit scores and unpaid medical and nonmedical debts
     in collections among Black, Hispanic, and White adults with Medicaid coverage.
   press: []
+  url: ""
 - title: Alternative Payment Models and Performance in Federally Qualified Health Centers
   coauthors: Justin Markowski, Mark Schlesinger, and Chima D. Ndumele
   year: 2024
@@ -480,6 +497,7 @@
     quality. This finding suggests that APMs can be both a financially viable and a health-promoting model
     for reimbursement in the health care safety net.
   press: []
+  url: ""
 - title: After 50 Years, Health Professional Shortage Areas Had No Significant Impact On Mortality Or
     Physician Density
   coauthors: Justin Markowski and Chima D. Ndumele
@@ -507,6 +525,7 @@
     url: "https://www.washingtonpost.com/health/2023/11/12/doctor-shortages-patient-mortality/"
   - outlet: KFF Health News
     url: "https://kffhealthnews.org/news/article/primary-care-health-professional-shortage-areas/"
+  url: ""
 - title: >-
     Association Between Medicare Eligibility at Age 65 Years and In-Hospital Treatment Patterns and Health
     Outcomes for Patients with Trauma: Regression Discontinuity Approach
@@ -542,6 +561,7 @@
     planning process, with little evidence that health systems modified treatment decisions based on patients'
     coverage.
   press: []
+  url: ""
 - title: Excess Death Rates for Republican and Democratic Registered Voters in Florida and Ohio During
     the COVID-19 Pandemic
   coauthors: Paul Goldsmith-Pinkham and Jason Schwartz
@@ -598,6 +618,7 @@
     url: "https://slate.com/news-and-politics/2022/10/covid-deadlier-republicans-study.html"
   - outlet: The Intercept
     url: "https://theintercept.com/2022/10/10/covid-republican-democrat-deaths/"
+  url: ""
 - title: Conditional cross-design synthesis estimators for generalizability in Medicaid
   coauthors: Irina Degtiar, Tim Layton, and Sherri Rose
   year: 2023
@@ -626,6 +647,7 @@
     where this heterogeneity has previously been hidden. Additionally, we demonstrate that unmeasured
     confounding rather than lack of overlap poses a larger concern in this setting.
   press: []
+  url: ""
 - title: State-level Variation in Supplemental Maternity Kick Payments in Medicaid Managed care
   coauthors: Samantha Auty and Jamie Daw
   year: 2023
@@ -640,6 +662,7 @@
     This cross-sectional study assesses the prevalence and magnitude of state-level delivery event–triggered
     kick payments to Medicaid managed care plans and their association with delivery costs.
   press: []
+  url: ""
 - title: "Risk Adjustment and Promoting Health Equity in Population-Based Payment: Concepts and Evidence"
   coauthors: J. Michael McWilliams, Gabe Weinreb, Lin Ding, Chima D. Ndumele
   year: 2023
@@ -668,6 +691,7 @@
     findings also suggest that adding social risk factors as predictors to spending models used for risk
     adjustment may be counterproductive or accomplish little.
   press: []
+  url: ""
 - title: "Long-Term Stability of Coverage Among Michigan Medicaid Beneficiaries: A Cohort Study"
   coauthors: Chima D. Ndumele, Anthony Lollo, Harlan Krumholz, and Mark Schlesinger
   year: 2023
@@ -696,6 +720,7 @@
     their primary source of coverage for at least a decade. This pattern would justify increasing investments
     in the program to improve long-term health outcomes. Primary Funding Source: Self-funded.
   press: []
+  url: ""
 - title: >-
     Racial/Ethnic Disparities in Substance Use Treatment in Medicaid Managed Care in New York City: The
     Role of Plan and Geography
@@ -724,6 +749,7 @@
     among MMC plans in NYC or evolving trends in group place of residence are unlikely to reduce disparities
     in treatment for SUD. System-wide reforms are needed to mitigate disparities.
   press: []
+  url: ""
 - title: Association Between Medicaid Managed Care Coverage of Substance Use Services and Treatment Utilization
   coauthors: Samantha Auty and Megan Cole
   year: 2022
@@ -762,6 +788,7 @@
     use services and financing them through FFS coverage may be associated with overall increases in treatment
     utilization but with heterogeneous associations across states and treatment types.
   press: []
+  url: ""
 - title: Performance metrics of substance use disorder care among Medicaid enrollees in New York, New
     York
   coauthors: Margarita Alegria, Irene Falgas-Bague, et al
@@ -800,6 +827,7 @@
     overall performance of SUD treatment in Medicaid potentially depends on general program improvements,
     not moving recipients among plans.
   press: []
+  url: ""
 - title: Disparities in Health Care Spending and Utilization Among Black and White Medicaid Enrollees
   coauthors: Anthony Lollo, Kate Duchowny, Matthew Lavallee, and Chima D. Ndumele
   year: 2022
@@ -839,6 +867,7 @@
     Black enrollees had higher rates of HEDIS preventive screenings, ensuring equitable access to all
     services in Medicaid must remain a national priority.
   press: []
+  url: ""
 - title: Supporting Innovation in Medicaid Policy—Interventions to Increase Adoption of RCTs
   coauthors: Julia Smith and Atheendar Venkataramani
   year: 2022
@@ -851,6 +880,7 @@
   theme: ""
   abstract: ""
   press: []
+  url: ""
 - title: In Medicaid Managed Care Networks, Care is Highly Concentrated Among a Small Percentage of Physicians
   coauthors: Avital B. Ludomirsky, William L. Schpero, Anthony Lollo, Susannah Bernheim, Joseph S. Ross,
     and Chima D. Ndumele
@@ -875,6 +905,7 @@
     actual access; new methods are needed that account for beneficiaries' preferences and physicians'
     willingness to serve Medicaid patients.
   press: []
+  url: ""
 - title: "Residual Confounding in Health Plan Performance Assessments: Evidence from Randomization in\
     \ Medicaid"
   coauthors: J. Michael McWilliams, Anthony Lollo, Janet Eaton, and Chima D. Ndumele
@@ -914,6 +945,7 @@
     policymakers against assuming that risk adjustment isolates real differences in plan performance.
     Primary Funding Source: Arnold Ventures.
   press: []
+  url: ""
 - title: Evaluation of the Association Between Medicare Eligibility and Excess Deaths During the COVID-19
     Pandemic in the US
   coauthors: Anthony Lollo and Chima D. Ndumele
@@ -930,6 +962,7 @@
     than 65 years to examine the relationship between access to health insurance coverage and COVID-19
     mortality.
   press: []
+  url: ""
 - title: Changes in racial and ethnic disparities in access to care and health among US adults at age
     65 years
   coauthors: Karen Jiang, Paul Goldsmith-Pinkham, and Zirui Song
@@ -984,6 +1017,7 @@
     url: "https://www.aarp.org/health/medicare-insurance/info-2021/medicare-eligibility-racial-disparities.html"
   - outlet: Healthcare Dive
     url: "https://www.healthcaredive.com/news/medicare-eligibility-erases-many-healthcare-disparities-in-us/603876/"
+  url: ""
 - title: Characterization of US Hospital Advertising and Association With Hospital Performance, 2008-2016
   coauthors: Chima D. Ndumele, Michael Cohen, Muriel Solberg, and Anthony Lollo
   year: 2021
@@ -1027,6 +1061,7 @@
     advertising was not associated with publicly reported measures of hospital quality; instead, hospital
     advertising spending was higher for financially stable hospitals with higher net incomes.
   press: []
+  url: ""
 - title: Out-of-network laboratory test spending, utilization, and prices
   coauthors: Zirui Song and Timothy Lillehaugen
   year: 2021
@@ -1042,6 +1077,7 @@
     testing, this study uses data from the IBM MarketScan Commercial Claims and Encounters Database to
     examine out-of-network laboratory test spending, utilization, and prices in the US in 2008-2016.
   press: []
+  url: ""
 - title: Out-of-network spending on behavioral health, 2008-2016
   coauthors: Zirui Song, Timothy Lillehaugen, Susan Busch, and Nicole Benson
   year: 2021
@@ -1054,18 +1090,20 @@
   theme: ""
   abstract: ""
   press: []
+  url: ""
 - title: Promoting Equitable Access to COVID-19 Vaccines—The Role of Medicaid
   coauthors: Jason Schwartz and Walter Orenstein
   year: 2020
   section: policy
   venue: Health Affairs Forefront
-  cite: September, 2020
+  cite: September 2020
   doi: ""
   nber: ""
   pdf: ""
   theme: ""
   abstract: ""
   press: []
+  url: "https://www.healthaffairs.org/content/forefront/promoting-equitable-access-covid-19-vaccines-role-medicaid"
 - title: Association of Provider Performance with Changes in Insurance Networks
   coauthors: Katie Piwnica-Worms, Anthony Lollo, and Chima D. Ndumele
   year: 2020
@@ -1099,6 +1137,7 @@
     who remain in network. Our study did not show that managed care plans disproportionately drop high-cost
     providers.
   press: []
+  url: ""
 - title: "Out-of-network spending: why growing attention is focused on a small share of medical spending"
   coauthors: William Johnson, Kevin Kennedy, Jean Biniek, and Zirui Song
   year: 2020
@@ -1111,6 +1150,8 @@
   theme: ""
   abstract: ""
   press: []
+  url: >-
+    https://www.healthaffairs.org/content/forefront/out-of-network-spending-why-growing-attention-focused-small-share-medical-spending
 - title: Out-Of-Network Spending Mostly Declined In Privately Insured Populations With A Few Notable Exceptions
     From 2008 To 2016
   coauthors: Zirui Song, William Johnson, Kevin Kennedy, and Jean Biniek
@@ -1139,6 +1180,7 @@
     consumers from balance billing or potential surprise billing in clinical scenarios where patients
     often have little choice over their provider.
   press: []
+  url: ""
 - title: >-
     Comparison of office-based physician participation in Medicaid managed care and health insurance exchange
     plans in the same US geographic markets
@@ -1181,6 +1223,7 @@
     networks of health insurance exchange plans operating in the same geographic markets. This suggests
     that Medicaid remains a viable option for expanding coverage in the United States.
   press: []
+  url: ""
 - title: "Traditional Medicare Versus Private Insurance: How Spending, Volume, and Price Change at Age\
     \ Sixty-Five"
   coauthors: Zirui Song
@@ -1208,6 +1251,7 @@
     age may raise national health care spending by replacing Medicare coverage with private insurance,
     which pays higher provider prices than Medicare does.
   press: []
+  url: ""
 - title: "Health Insurance Effects on Preventive Care and Health: A Methodologic Review"
   coauthors: Ben Sommers
   year: 2016
@@ -1230,6 +1274,7 @@
     concludes with a discussion of how experimental and quasi-experimental methods can be used to study
     the impact of the Affordable Care Act on preventive care and health outcomes.
   press: []
+  url: ""
 - title: Medicare Fee Cuts and Cardiologist-Hospital Integration
   coauthors: Zirui Song, Hannah Neprash, Rick McKellar, Michael Chernew, and J. Michael McWilliams
   year: 2015
@@ -1242,6 +1287,7 @@
   theme: ""
   abstract: ""
   press: []
+  url: ""
 - title: Measuring Prices in Health Care Markets Using Commercial Claims Data
   coauthors: Hannah Neprash, Michael Chernew, and J. Michael McWilliams
   year: 2015
@@ -1265,6 +1311,7 @@
     similarly. Price indices relying on individual sentinel services may be more appropriate for examining
     specialty- or service-specific drivers of prices.
   press: []
+  url: ""
 - title: Effect of dependent coverage expansion of the Affordable Care Act on health and access to care
     for young adults
   coauthors: Ben Sommers
@@ -1278,6 +1325,7 @@
   theme: ""
   abstract: ""
   press: []
+  url: ""
 - title: Unintended consequences of eliminating Medicare payments for consultations
   coauthors: Zirui Song, John Ayanian, Yulei He, Teresa Gibson, and Michael Chernew
   year: 2013
@@ -1308,3 +1356,4 @@
     prices, partially owing to the subjectivity of codes in the physician fee schedule, explained the
     spending increase, rather than higher volumes.
   press: []
+  url: ""
