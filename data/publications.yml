@@ -1,6 +1,6 @@
 # Papers shown on the Research page. Edit freely; the site rebuilds on commit.
 # section: forthcoming (working papers) | econ | policy.  abstract: shown behind an 'Abstract' toggle (leave "" to hide).
-# press: list of {outlet, url}. url: article link for pieces without a DOI. Coauthor links live in data/coauthors.yml. replication: data/code package link.
+# press: list of {outlet, url}. url: article link for pieces without a DOI. Coauthor links live in data/coauthors.yml. replication: data/code package link. code: code-only link (repo or supplement).
 - title: "Understanding Medicaid Managed Care: The Procured Competition Model"
   coauthors: Mark Shepard
   year: 2026
@@ -290,6 +290,7 @@
   doi: 10.1001/jamainternmed.2024.5451
   nber: ""
   pdf: ""
+  replication: "https://github.com/Yale-Medicaid/medicaid_jama_im_PlanDisparity"
   theme: ""
   abstract: >-
     Importance: There is increased interest in public reporting of, and linking financial incentives to,
@@ -705,6 +706,7 @@
   doi: 10.7326/m22-1313
   nber: ""
   pdf: ""
+  code: "https://www.acpjournals.org/doi/suppl/10.7326/M22-1313/suppl_file/m22-1313_supplement.pdf"
   theme: ""
   abstract: >-
     Background: Medicaid, the primary source of insurance coverage for disadvantaged Americans, was originally
@@ -841,6 +843,7 @@
   doi: 10.1001/jamahealthforum.2022.1398
   nber: ""
   pdf: ""
+  code: "https://github.com/Yale-Medicaid/medicaid-jama-hf-220075"
   theme: ""
   abstract: >-
     Importance: Administrative records indicate that more than half of the 80 million Medicaid enrollees
@@ -920,6 +923,7 @@
   doi: 10.7326/m21-0881
   nber: ""
   pdf: ""
+  code: "https://www.acpjournals.org/doi/suppl/10.7326/M21-0881/suppl_file/m21-0881_supplement.pdf"
   theme: ""
   abstract: >-
     Background: Risk adjustment is used widely in payment systems and performance assessments, but the
@@ -960,6 +964,7 @@
   doi: 10.1001/jamahealthforum.2021.2861
   nber: ""
   pdf: ""
+  replication: "https://github.com/Yale-Medicaid/covid-rd"
   theme: ""
   abstract: >-
     This cross-sectional regression discontinuity analysis compares deaths slightly younger and older
