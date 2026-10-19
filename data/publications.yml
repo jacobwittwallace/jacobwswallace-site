@@ -348,7 +348,10 @@
     substantial reductions in SNAP coverage, especially for the most clinically and socioeconomically
     vulnerable. Work requirements had little effect on Medicaid coverage, suggesting they did not lead
     to sufficient increases in employment to transition beneficiaries off the broader safety net.
-  press: []
+  press:
+  - outlet: NPR (Planet Money)
+    url: >-
+      https://www.npr.org/sections/planet-money/2025/06/26/g-s1-74544/the-paperwork-trap-a-sneaky-way-to-cut-medicaid-in-the-one-big-beautiful-bill
 - title: Availability Of Adult Dental Plans In The Affordable Care Act Marketplaces, 2016–23
   coauthors: Hawazin Elani, Md Shahinoor Rahman, Meredith Rosenthal, and Benjamin D Sommers
   year: 2024
@@ -499,7 +502,11 @@
     remained physician shortage areas for at least ten years after their inclusion in the program. Fundamental
     improvements to the program's design and incentive structure may be necessary for it to achieve its
     intended results.
-  press: []
+  press:
+  - outlet: Washington Post
+    url: "https://www.washingtonpost.com/health/2023/11/12/doctor-shortages-patient-mortality/"
+  - outlet: KFF Health News
+    url: "https://kffhealthnews.org/news/article/primary-care-health-professional-shortage-areas/"
 - title: >-
     Association Between Medicare Eligibility at Age 65 Years and In-Hospital Treatment Patterns and Health
     Outcomes for Patients with Trauma: Regression Discontinuity Approach
@@ -970,7 +977,13 @@
     regression discontinuity design, eligibility for Medicare at age 65 years was associated with marked
     reductions in racial and ethnic disparities in insurance coverage, access to care, and self-reported
     health.
-  press: []
+  press:
+  - outlet: Axios
+    url: "https://www.axios.com/expand-medicare-eligibility-reduce-health-disparities-cd3f9ce7-0c65-4daf-8680-57ce196883ef.html"
+  - outlet: AARP
+    url: "https://www.aarp.org/health/medicare-insurance/info-2021/medicare-eligibility-racial-disparities.html"
+  - outlet: Healthcare Dive
+    url: "https://www.healthcaredive.com/news/medicare-eligibility-erases-many-healthcare-disparities-in-us/603876/"
 - title: Characterization of US Hospital Advertising and Association With Hospital Performance, 2008-2016
   coauthors: Chima D. Ndumele, Michael Cohen, Muriel Solberg, and Anthony Lollo
   year: 2021
