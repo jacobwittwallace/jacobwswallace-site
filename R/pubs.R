@@ -33,7 +33,7 @@ press_html <- function(press) {
 }
 
 paper_html <- function(p) {
-  doi <- or_empty(p$doi); nber <- or_empty(p$nber); pdf <- or_empty(p$pdf); ab <- or_empty(p$abstract); url <- or_empty(p$url)
+  doi <- or_empty(p$doi); nber <- or_empty(p$nber); pdf <- or_empty(p$pdf); ab <- or_empty(p$abstract); url <- or_empty(p$url); rep <- or_empty(p$replication)
   press <- if (is.null(p$press)) list() else p$press
   main <- if (nzchar(doi)) paste0("https://doi.org/", doi) else if (nzchar(url)) url else if (nzchar(nber)) nber else ""
   title <- if (nzchar(main)) sprintf('<a href="%s">%s</a>', main, esc(p$title)) else esc(p$title)
@@ -52,6 +52,7 @@ paper_html <- function(p) {
     if (nzchar(doi)) sprintf('<a href="https://doi.org/%s">Journal</a>', doi),
     if (!nzchar(doi) && nzchar(url)) sprintf('<a href="%s">Article</a>', url),
     if (nzchar(nber)) sprintf('<a href="%s">NBER</a>', nber),
+    if (nzchar(rep)) sprintf('<a href="%s">Replication</a>', rep),
     if (nzchar(pdf)) sprintf('<a href="%s">PDF</a>', pdf))
   row <- paste(c(btns, links), collapse = ' <span class="sep">&middot;</span> ')
   absdiv <- if (nzchar(ab)) sprintf('<div class="abs-text panel" hidden><p>%s</p></div>', esc(ab)) else ""

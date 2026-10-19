@@ -1,6 +1,6 @@
 # Papers shown on the Research page. Edit freely; the site rebuilds on commit.
 # section: forthcoming (working papers) | econ | policy.  abstract: shown behind an 'Abstract' toggle (leave "" to hide).
-# press: list of {outlet, url}. url: article link for pieces without a DOI. Coauthor links live in data/coauthors.yml.
+# press: list of {outlet, url}. url: article link for pieces without a DOI. Coauthor links live in data/coauthors.yml. replication: data/code package link.
 - title: "Understanding Medicaid Managed Care: The Procured Competition Model"
   coauthors: Mark Shepard
   year: 2026
@@ -33,6 +33,7 @@
   doi: 10.1257/aer.20230541
   nber: "https://www.nber.org/papers/w30390"
   pdf: ""
+  replication: "https://doi.org/10.3886/E231164"
   theme: Managed care & privatization
   abstract: >-
     This paper examines the effects of privatizing social health insurance. We exploit a natural experiment
@@ -95,6 +96,7 @@
   doi: 10.1016/j.jhealeco.2024.102901
   nber: "https://www.nber.org/papers/w30719"
   pdf: ""
+  replication: "https://doi.org/10.3886/E225887"
   theme: Plan & network design
   abstract: >-
     Health plans for the poor increasingly limit access to specialty hospitals. We investigate the role
@@ -115,6 +117,7 @@
   doi: 10.1257/pol.20210162
   nber: ""
   pdf: "https://drive.google.com/file/d/1yUZYegjb66ZUZPU19uujho4b27hFRDcU/view?usp=sharing"
+  replication: "https://doi.org/10.3886/E157441"
   theme: Plan & network design
   abstract: >-
     Leveraging the random assignment of over 50,000 Medicaid enrollees in New York, I present causal evidence
@@ -136,6 +139,7 @@
   doi: 10.1257/app.20210843
   nber: "https://www.nber.org/papers/w27762"
   pdf: ""
+  replication: "https://doi.org/10.3886/E175881"
   theme: Health plan effects
   abstract: >-
     Exploiting the random assignment of Medicaid beneficiaries to managed care plans, we find substantial
