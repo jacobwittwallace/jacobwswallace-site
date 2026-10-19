@@ -32,6 +32,21 @@ He holds degrees from Swarthmore College and Harvard University.
 :::
 :::
 
+
+## Recent research
+
+```{r}
+#| echo: false
+#| output: asis
+feat <- yaml::read_yaml("data/featured.yml")
+esc <- function(x) gsub("<", "&lt;", gsub("&", "&amp;", x, fixed = TRUE), fixed = TRUE)
+cat('<div class="featured">\n')
+for (f in feat) cat(sprintf(
+  '<div class="feature"><img src="%s" alt="Figure from %s" loading="lazy"><div class="feature-body"><div class="feature-label">%s</div><div class="feature-title"><a href="%s">%s</a></div><div class="feature-finding">%s</div></div></div>\n',
+  f$image, esc(f$title), esc(f$label), f$url, esc(f$title), esc(f$finding)))
+cat('</div>\n\n<p class="feature-more"><a href="research.qmd">All research &rarr;</a></p>\n')
+```
+
 ```{r}
 #| echo: false
 #| output: asis

@@ -1,0 +1,17 @@
+# Featured research cards on the homepage (shown in this order; 3 fit one row on desktop).
+# image: a file in assets/img/featured/. finding: one plain-language sentence. url: where the card links.
+- label: "Working paper · NBER 2026"
+  title: "Spending to Save: The Subscription Model for Eradicating Hepatitis C in Louisiana"
+  finding: "Louisiana's flat-fee deal for hepatitis C drugs tripled treatment, cut new diagnoses 23%, and saved $266 million on $37 million of added drug spending."
+  image: "assets/img/featured/hcv-diagnoses.webp"
+  url: "https://www.nber.org/papers/w35583"
+- label: "REStat, conditionally accepted"
+  title: "The Great Equalizer: Medicare and the Geography of Consumer Financial Strain"
+  finding: "Medicare at 65 cuts medical debt in collections by 30% and shrinks its geographic variation by two-thirds."
+  image: "assets/img/featured/great-equalizer-map.webp"
+  url: "https://www.nber.org/papers/w31223"
+- label: "Journal of Economic Perspectives · 2026"
+  title: "Understanding Medicaid Managed Care: The Procured Competition Model"
+  finding: "Most Medicaid enrollees now get care through private insurers; we call this hybrid 'procured competition' and map the levers states control."
+  image: "assets/img/featured/jep-medicaid-growth.webp"
+  url: "https://doi.org/10.1257/jep.20251475"

@@ -6,8 +6,8 @@ include-after-body:
   - text: |
       <script>
       document.addEventListener("click", function (e) {
-        var b = e.target.closest(".abs-toggle"); if (!b) return;
-        var t = b.closest(".paper").querySelector(".abs-text");
+        var b = e.target.closest(".toggle"); if (!b) return;
+        var t = b.closest(".paper").querySelector("." + b.dataset.panel);
         var open = t.hasAttribute("hidden");
         if (open) t.removeAttribute("hidden"); else t.setAttribute("hidden", "");
         b.setAttribute("aria-expanded", open ? "true" : "false");
