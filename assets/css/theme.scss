@@ -25,7 +25,7 @@ $headings-font-weight: 600;
 $line-height-base: 1.7;
 
 /*-- scss:rules --*/
-body { color: $body-gray; font-weight: 400; }
+body { color: $body-gray; font-weight: 450; }
 strong, b { color: $ink; }
 
 h1, h2, h3, h4 { color: $yale-blue; line-height: 1.25; font-weight: 600; }
@@ -63,7 +63,7 @@ a:hover { text-decoration: underline; }
 }
 .landing-photo p { margin: 0; }
 .landing-bio p { margin-bottom: 1.4rem; }
-.landing-bio p:first-child { font-family: $font-family-serif; font-size: 1.35rem; line-height: 1.5; font-weight: 600; color: $ink; }
+.landing-bio p:first-child { font-family: $font-family-serif; font-size: 1.35rem; line-height: 1.5; font-weight: 500; color: $ink; }
 .landing-links { text-align: center; margin-top: 1.6rem; color: $sub-gray; font-weight: 700; }
 .landing-links p { margin: 0; }
 .landing-links a { color: $yale-blue; font-weight: 700; }
