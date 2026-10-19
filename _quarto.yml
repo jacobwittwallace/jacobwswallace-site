@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - assets/Jacob_Wallace_CV.pdf
   output-dir: _site
   execute-dir: project
   render:
@@ -19,7 +21,8 @@ website:
       - text: "Writing"
         href: writing.qmd
       - text: "CV"
-        href: cv.qmd
+        href: assets/Jacob_Wallace_CV.pdf
+        target: _blank
       - text: "Contact"
         href: contact.qmd
   page-footer:
