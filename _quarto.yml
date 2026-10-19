@@ -16,8 +16,6 @@ website:
     right:
       - text: "Research"
         href: research.qmd
-      - text: "Publications"
-        href: publications.qmd
       - text: "Writing"
         href: writing.qmd
       - text: "CV"

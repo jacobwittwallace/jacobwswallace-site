@@ -1,472 +1,1212 @@
-# Source: CV (Overleaf, Sep 30 2026); citations and DOIs verified against Crossref on 2026-10-18.
-# section: forthcoming | econ | policy
+# Papers shown on the Research page. Edit freely; the site rebuilds on commit.
+# section: forthcoming (working papers) | econ | policy.  abstract: shown behind an 'Abstract' toggle (leave "" to hide).
+# Citations and DOIs verified against Crossref (2026-10-18); abstracts from PubMed, Crossref and NBER (2026-10-19).
 - title: "Understanding Medicaid Managed Care: The Procured Competition Model"
-  coauthors: "Mark Shepard"
+  coauthors: Mark Shepard
   year: 2026
-  section: "econ"
-  venue: "Journal of Economic Perspectives"
+  section: econ
+  venue: Journal of Economic Perspectives
   cite: "40(2): 171–94"
-  doi: "10.1257/jep.20251475"
+  doi: 10.1257/jep.20251475
   nber: "https://www.nber.org/papers/w35146"
   pdf: ""
-  theme: "Procurement & market design"
+  theme: Procurement & market design
+  abstract: >-
+    Medicaid is one of the largest public programs in the United States—providing health insurance to
+    over 75 million low-income Americans—and over three quarters of its enrollees receive care via private
+    “managed care” insurers. In this article, we make three central points about the economics of contracting
+    out Medicaid to private insurers. First, the empirical evidence on Medicaid privatization is mixed:
+    contracting out has not meaningfully reduced public costs or improved quality of care. Second, we
+    propose a framework, which we call “procured competition,” to describe the unique structure of Medicaid
+    managed care as a hybrid of public procurement and regulated competition. Third, we discuss the key
+    policy levers across procurement, competition, and consumer choice in this model. Throughout, we highlight
+    open research questions, arguing that the enormous variation in how states design these programs—combined
+    with limited evidence on what works—represents a promising area for high-impact scholarship.
 - title: "Private Provision of Public Services: Evidence from Random Assignment in Medicaid"
-  coauthors: "Dan Macambira, Michael Geruso, Anthony Lollo, and Chima D. Ndumele"
+  coauthors: Dan Macambira, Michael Geruso, Anthony Lollo, and Chima D. Ndumele
   year: 2026
-  section: "econ"
-  venue: "American Economic Review"
+  section: econ
+  venue: American Economic Review
   cite: "116(6): 2038–84"
-  doi: "10.1257/aer.20230541"
+  doi: 10.1257/aer.20230541
   nber: "https://www.nber.org/papers/w30390"
   pdf: ""
-  theme: "Managed care & privatization"
+  theme: Managed care & privatization
+  abstract: >-
+    This paper examines the effects of privatizing social health insurance. We exploit a natural experiment
+    in Medicaid, wherein nearly 100,000 enrollees were randomly assigned between a publicly operated fee-for-service
+    system and private managed care. Managed care reduced costs by 5.6 percent via cost-effective substitutions
+    among prescription drugs and via lower prices for outpatient services. We present evidence that pharmacy
+    utilization management was the key mechanism reducing overuse and encouraging substitution to lower-cost
+    drugs without decreasing observed quality. In contrast, privatizing medical benefits led to only modest
+    savings and was associated with decreased health care quality and consumer satisfaction. (JEL G22,
+    H41, I13, I18, I38)
 - title: "The Great Equalizer: Medicare and the Geography of Consumer Financial Strain"
-  coauthors: "Paul Goldsmith-Pinkham and Maxim Pinkovskiy"
+  coauthors: Paul Goldsmith-Pinkham and Maxim Pinkovskiy
   year: 2026
-  section: "forthcoming"
-  venue: "Review of Economics and Statistics"
-  cite: "Conditionally accepted"
+  section: forthcoming
+  venue: Review of Economics and Statistics
+  cite: Conditionally accepted
   doi: ""
   nber: "https://www.nber.org/papers/w31223"
   pdf: ""
-  theme: "Medicare & financial health"
+  theme: Medicare & financial health
+  abstract: >-
+    We use a five percent sample of Americans’ credit bureau data, combined with a regression discontinuity
+    approach, to estimate the effect of universal health insurance at age 65—when most Americans become
+    eligible for Medicare—at the national, state, and local level. We find a 30 percent reduction in debt
+    collections—and a two-thirds reduction in the geographic variation in collections—with limited effects
+    on other financial outcomes. The areas that experienced larger reductions in collections debt at age
+    65 were concentrated in the Southern United States, and had higher shares of black residents, people
+    with disabilities, and for-profit hospitals.
 - title: "Adverse Selection and Network Design Under Regulated Plan Prices: Evidence from Medicaid"
-  coauthors: "Amanda Kreider, Timothy J. Layton, and Mark Shepard"
+  coauthors: Amanda Kreider, Timothy J. Layton, and Mark Shepard
   year: 2024
-  section: "econ"
-  venue: "Journal of Health Economics"
+  section: econ
+  venue: Journal of Health Economics
   cite: "97: 102901"
-  doi: "10.1016/j.jhealeco.2024.102901"
+  doi: 10.1016/j.jhealeco.2024.102901
   nber: ""
   pdf: ""
-  theme: "Plan & network design"
-- title: "What Does a Provider Network Do? Evidence from Random Assignment in Medicaid Managed Care"
+  theme: Plan & network design
+  abstract: >-
+    Health plans for the poor increasingly limit access to specialty hospitals. We investigate the role
+    of adverse selection in generating this equilibrium among private plans in Medicaid. Studying a network
+    change, we find that covering a top cancer hospital causes severe adverse selection, increasing demand
+    for a plan by 50% among enrollees with cancer versus no impact for others. Medicaid's fixed insurer
+    payments make offsetting this selection, and the contract distortions it induces, challenging, requiring
+    either infeasibly high payment rates or near-perfect risk adjustment. By contrast, a small explicit
+    bonus for covering the hospital is sufficient to make coverage profitable.
+- title: What Does a Provider Network Do? Evidence from Random Assignment in Medicaid Managed Care
   coauthors: ""
   year: 2023
-  section: "econ"
+  section: econ
   venue: "American Economic Journal: Economic Policy"
   cite: "15(1): 473–509"
-  doi: "10.1257/pol.20210162"
+  doi: 10.1257/pol.20210162
   nber: ""
   pdf: "https://drive.google.com/file/d/1yUZYegjb66ZUZPU19uujho4b27hFRDcU/view?usp=sharing"
-  theme: "Plan & network design"
-- title: "What Difference Does a Health Plan Make? Evidence from Random Plan Assignment in Medicaid"
-  coauthors: "Timothy J. Layton and Michael Geruso"
+  theme: Plan & network design
+  abstract: >-
+    Leveraging the random assignment of over 50,000 Medicaid enrollees in New York, I present causal evidence
+    that narrower networks are a blunt instrument for reducing health care spending. While narrower networks
+    constrain spending, they do so by generating hassle costs that reduce quantity, with modest effects
+    on prices paid to providers. Enrollees assigned to narrower networks use fewer of both needed and
+    unneeded services and are less satisfied with their plans. Using my causal estimates to construct
+    counterfactuals, I identify an alternative assignment policy that reduces spending without harming
+    satisfaction by matching consumers with narrower networks that include their providers. (JEL H51,
+    H75, I13, I18, I38)
+- title: What Difference Does a Health Plan Make? Evidence from Random Plan Assignment in Medicaid
+  coauthors: Timothy J. Layton and Michael Geruso
   year: 2023
-  section: "econ"
+  section: econ
   venue: "American Economic Journal: Applied Economics"
   cite: "15(3): 341–79"
-  doi: "10.1257/app.20210843"
+  doi: 10.1257/app.20210843
   nber: ""
   pdf: ""
-  theme: "Health plan effects"
+  theme: Health plan effects
+  abstract: >-
+    Exploiting the random assignment of Medicaid beneficiaries to managed care plans, we find substantial
+    plan-specific spending effects despite plans having identical cost sharing. Enrollment in the lowest-spending
+    plan reduces spending by at least 25%-primarily through quantity reductions-relative to enrollment
+    in the highest-spending plan. Rather than reducing "wasteful" spending, lower-spending plans broadly
+    reduce medical service provision-including the provision of low-cost, high-value care-and worsen beneficiary
+    satisfaction and health. Consumer demand follows spending: a 10 percent increase in plan-specific
+    spending is associated with a 40 percent increase in market share. These facts have implications for
+    the government's contracting problem and program cost growth.
 - title: "Measuring Changes in Disparity Gaps: An Application to Health Insurance"
-  coauthors: "Paul Goldsmith-Pinkham, Karen Jiang, and Zirui Song"
+  coauthors: Paul Goldsmith-Pinkham, Karen Jiang, and Zirui Song
   year: 2022
-  section: "econ"
-  venue: "AEA Papers and Proceedings"
+  section: econ
+  venue: AEA Papers and Proceedings
   cite: "112: 356–60"
-  doi: "10.1257/pandp.20221111"
+  doi: 10.1257/pandp.20221111
   nber: ""
   pdf: "https://drive.google.com/file/d/1eFO1b1xe6r1gxKymGYfoer5CLiCUs4F3/view?usp=sharing"
-  theme: "Measurement & equity"
-- title: "Randomized Communication Nudges to Increase Primary Care Engagement Among Medicaid Enrollees in Maine"
-  coauthors: "Sarah Gordon, Kevin Nguyen, Breanne Biondi-Bonetti, Benjamin D. Sommers, and Anna Goldman"
+  theme: Measurement & equity
+  abstract: >-
+    We propose a method for reporting how program evaluations reduce gaps between groups, such as the
+    gender or Black-White gap. We first show that the reduction in disparities between groups can be written
+    as the difference in conditional average treatment effects (CATE) for each group. Then, using a Kitagawa-Oaxaca-Blinder-style
+    decomposition, we highlight how these CATE can be decomposed into unexplained differences in CATE
+    in other observables versus differences in composition across other observables (e.g. the “endowment”).
+    Finally, we apply this approach to study the impact of Medicare on American's access to health insurance.
+- title: Randomized Communication Nudges to Increase Primary Care Engagement Among Medicaid Enrollees
+    in Maine
+  coauthors: Sarah Gordon, Kevin Nguyen, Breanne Biondi-Bonetti, Benjamin D. Sommers, and Anna Goldman
   year: 2026
-  section: "policy"
-  venue: "Health Affairs Scholar"
+  section: policy
+  venue: Health Affairs Scholar
   cite: "4(6): qxag100"
-  doi: "10.1093/haschl/qxag100"
+  doi: 10.1093/haschl/qxag100
   nber: ""
   pdf: ""
   theme: ""
-- title: "Dental Coverage Through Medicaid Managed Care vs Fee-for-Service"
-  coauthors: "Hawazin Elani, Ningsheng Zhao, and Benjamin D. Sommers"
+  abstract: >-
+    Despite the importance of primary care in disease prevention, few studies have examined behavioral
+    interventions to increase primary care engagement. In partnership with the Maine Department of Health
+    and Human Services, we implemented a randomized mail-based outreach strategy to connect newly enrolled
+    adults in MaineCare Primary Care Case Management with primary care providers. From March 16, 2021,
+    through January 1, 2022, members were randomized to receive either (1) a standard text-heavy outreach
+    packet (control arm) or (2) the standard packet plus 2 visually simplified mailers that emphasized
+    the value and low cost of a primary care check-up and listed a single primary care provider near the
+    enrollee's home (intervention arm). We found that over 12 months of follow-up, the intervention had
+    no significant effects on the rate or number of primary care visits, emergency department visits,
+    or inpatient hospitalizations. We also observed no significant impact on Medicaid enrollment or recommended
+    primary care services, including receipt of flu shots, cholesterol screenings, or mammograms. Results
+    suggest that barriers targeted by the mailers were not primary drivers of primary care engagement,
+    and other strategies are needed to help connect new Medicaid enrollees with primary care.
+- title: Dental Coverage Through Medicaid Managed Care vs Fee-for-Service
+  coauthors: Hawazin Elani, Ningsheng Zhao, and Benjamin D. Sommers
   year: 2026
-  section: "policy"
-  venue: "JAMA Health Forum"
+  section: policy
+  venue: JAMA Health Forum
   cite: "7(2): e256958"
-  doi: "10.1001/jamahealthforum.2025.6958"
+  doi: 10.1001/jamahealthforum.2025.6958
   nber: ""
   pdf: ""
   theme: ""
-- title: "The Impact of Introducing Managed Care Intermediaries for Long-Term Services and Supports"
-  coauthors: "Deepon Bhaumik, David Grabowski, and Mark Schlesinger"
+  abstract: >-
+    Importance Adult dental coverage under Medicaid varies widely across states and delivery systems.
+    Most adult beneficiaries are now enrolled in managed care, yet little is known about how these benefits
+    are structured and implemented within Medicaid managed care organizations (MCOs). Objective To examine
+    trends in the generosity, delivery models, and enrollment patterns of adult dental benefits delivered
+    through Medicaid MCOs and assess coverage alignment with Medicaid fee-for-service (FFS) coverage.
+    Design, Setting, and Participants This cross-sectional analysis included adult Medicaid beneficiaries
+    aged 19 years or older who had state Medicaid MCO or FFS coverage across all 50 states and Washington,
+    DC. This analysis used a novel linked national dataset combining multiple Centers for Medicare &amp;amp;
+    Medicaid Services administrative sources from 2016 to 2022. The analysis was conducted from April
+    8, 2025, to October 8, 2025. Exposures State-level Medicaid MCO or FFS program with adult comprehensive
+    dental coverage, emergency-only dental coverage, or no dental coverage. Main Outcomes and Measures
+    The generosity of dental benefits; the degree of alignment in benefit generosity between Medicaid
+    MCO and Medicaid FFS programs; and enrollment of adults in dental MCO or FFS programs by benefit (coverage)
+    type. Results The number of states offering comprehensive adult dental benefits through Medicaid MCOs
+    increased from 33 (64.7%) in 2016 to 36 (70.6%) in 2022. Carve-out models, typically using stand-alone
+    prepaid health plans for dental coverage, increased from 4 states (7.8%) in 2016 to 8 states (15.7%)
+    in 2022. In 2016, 51.0% of states had mismatched benefit levels between MCO and FFS programs compared
+    with 35.3% in 2022. The number of MCO enrollees with comprehensive dental coverage increased from
+    14.2 million (58.7%) in 2016 to 25.3 million (59.8%) in 2022, reflecting substantial managed care
+    penetration. Conclusions and Relevance This study found that although the generosity and scope of
+    MCO dental benefits expanded over time, alignment with FFS programs remained inconsistent. As new
+    legislation cuts federal funding to states, understanding how dental benefits are designed and delivered
+    is critical to inform future coverage decisions and ensure equitable access.
+- title: The Impact of Introducing Managed Care Intermediaries for Long-Term Services and Supports
+  coauthors: Deepon Bhaumik, David Grabowski, and Mark Schlesinger
   year: 2025
-  section: "policy"
-  venue: "Health Services Research"
+  section: policy
+  venue: Health Services Research
   cite: "60(4): e14462"
-  doi: "10.1111/1475-6773.14462"
+  doi: 10.1111/1475-6773.14462
   nber: ""
   pdf: ""
   theme: ""
-- title: "Hospitalization and Credit Scores Among Medicaid Beneficiaries in Louisiana"
-  coauthors: "Brigham Walker, Gael Compta, Alexander Siebert, Andrew Anderson, Kevin Callison, and Chima Ndumele"
+  abstract: >-
+    Objective: To study the impact of managed long-term services and supports (MLTSS) on the use of long-term
+    care, as well as acute care. Study Setting And Design: We use a staggered difference-in-differences
+    (DiDs) regression design, exploiting the variation in timing of the rollout of MLTSS programs across
+    states between 2004 and 2018. We compared individuals in states that implemented MLTSS with individuals
+    in states that did not implement MLTSS. Our outcomes included formal home care use, nursing home status,
+    informal care use, hospitalizations, overnight nursing home visits, and falls. Data Source And Analytic
+    Sample: This study uses secondary data from the Health and Retirement Study data, linked with state
+    identifiers. The sample includes adults aged 65 and older who report at least one functional limitation.
+    Principal Findings: The shift to MLTSS leads to a 2.5 percentage point (pp) increase (95% CI: 0.8
+    pp, 4.3 pp) in home care users, a 3-percentage point decrease (95% CI: -5.38 pp, -0.25 pp) in informal
+    care users, and no statistically significant change in nursing home occupancy or health outcomes.
+    We also find suggestive evidence of reductions in the number of home care individuals living in MLTSS
+    states receive, with a 7.02-h (95% CI: -12.96, -1.07), or nearly 27% decrease, in monthly formal care
+    received by this population. Conclusion: These findings suggest that MLTSS increased the share of
+    home and community-based services (HCBS) users but restricted the amount of HCBS used per beneficiary,
+    with ambiguity around whether this occurred at the expense of beneficiaries.
+- title: Hospitalization and Credit Scores Among Medicaid Beneficiaries in Louisiana
+  coauthors: Brigham Walker, Gael Compta, Alexander Siebert, Andrew Anderson, Kevin Callison, and Chima
+    Ndumele
   year: 2025
-  section: "policy"
-  venue: "JAMA Health Forum"
+  section: policy
+  venue: JAMA Health Forum
   cite: "6(6): e251570"
-  doi: "10.1001/jamahealthforum.2025.1570"
+  doi: 10.1001/jamahealthforum.2025.1570
   nber: ""
   pdf: ""
   theme: ""
-- title: "Attributing Racial Differences in Care to Health Plan Performance or Selection"
-  coauthors: "Chima Ndumele, Anthony Lollo, Danil Agafiev Macambira, Matthew Lavallee, Beniamino Green, Kate A. Duchowny, and J. Michael McWilliams"
+  abstract: >-
+    This case-control study evaluates the impact of a hospitalization on credit scores for Medicaid beneficiaries
+    in Louisiana stratified by sex, race, and ethnicity.
+- title: Attributing Racial Differences in Care to Health Plan Performance or Selection
+  coauthors: >-
+    Chima Ndumele, Anthony Lollo, Danil Agafiev Macambira, Matthew Lavallee, Beniamino Green, Kate A.
+    Duchowny, and J. Michael McWilliams
   year: 2025
-  section: "policy"
-  venue: "JAMA Internal Medicine"
+  section: policy
+  venue: JAMA Internal Medicine
   cite: "185(1): 61–72"
-  doi: "10.1001/jamainternmed.2024.5451"
+  doi: 10.1001/jamainternmed.2024.5451
   nber: ""
   pdf: ""
   theme: ""
-- title: "Supplemental Nutrition Assistance Program Work Requirements and Safety-Net Program Participation"
-  coauthors: "Chima Ndumele, Hannah Factor, Matthew Lavallee, and Anthony Lollo"
+  abstract: >-
+    Importance: There is increased interest in public reporting of, and linking financial incentives to,
+    the performance of organizations on health equity metrics, but variation across organizations could
+    reflect differences in performance or selection bias. Objective: To assess whether differences across
+    health plans in sex- and age-adjusted racial disparities are associated with performance or selection
+    bias. Design, Setting, And Participants: This cross-sectional study leveraged a natural experiment,
+    wherein a southern US state randomly assigned much of its Medicaid population to 1 of 5 plans after
+    shifting to managed care in 2012. Enrollee-level administrative claims and enrollment data from 2011
+    to 2015 were obtained for self-identified Black and White enrollees. The analyses were limited to
+    Black and White Medicaid enrollees because they accounted for the largest percentages of the population
+    and could be compared with greater statistical power than other groups. Data were analyzed from June
+    2021 to September 2024. Exposures: Plan enrollment via self-selection (observational population) vs
+    random assignment (randomized population). Main Outcomes And Measures: Annual counts of primary care
+    visits, low-acuity emergency department visits, prescription drug fills, and total spending. For observational
+    and randomized populations, models of each outcome were fit as a function of plan indicators, indicators
+    for race, interactions between plan indicators and race, and age and sex. Models estimated the magnitude
+    of racial differences within each plan and tested whether this magnitude varied across plans. Results:
+    Of 118 101 enrollees (mean [SD] age, 9.3 [7.5] years; 53.0% female; 61.4% non-Hispanic Black; and
+    38.6% non-Hispanic White), 70.2% were included in the randomized population, and 29.8% were included
+    in the observational population. Within-plan differences in primary care visits, low-acuity emergency
+    department visits, prescription drug use, and total spending between Black and White enrollees were
+    large but did not vary substantially and were not statistically significantly different across plans
+    in the randomized population, suggesting minimal effects of plans on racial differences in these measures.
+    In contrast, in the observational population, racial differences varied substantially across plans
+    (standard deviations 2-3 times greater than in the randomized population); this variation was statistically
+    significant after adjustment for multiple testing, except for emergency department visits. Greater
+    between-plan variation in racial differences in the observational population was only partially explained
+    by sampling error. Stratifying by race did not bring observational estimates of plan effects meaningfully
+    closer to randomized estimates. Conclusions And Relevance: This cross-sectional study showed that
+    selection bias may mischaracterize plans' relative performance on measures of health care disparities.
+    It is critical to address disparities in Medicaid, but adjusting plan payments based on disparity
+    measures may have unintended consequences.
+- title: Supplemental Nutrition Assistance Program Work Requirements and Safety-Net Program Participation
+  coauthors: Chima Ndumele, Hannah Factor, Matthew Lavallee, and Anthony Lollo
   year: 2025
-  section: "policy"
-  venue: "JAMA Internal Medicine"
+  section: policy
+  venue: JAMA Internal Medicine
   cite: "185(1): 92–100"
-  doi: "10.1001/jamainternmed.2024.5932"
+  doi: 10.1001/jamainternmed.2024.5932
   nber: ""
   pdf: ""
   theme: ""
-- title: "Availability Of Adult Dental Plans In The Affordable Care Act Marketplaces, 2016–23"
-  coauthors: "Hawazin Elani, Md Shahinoor Rahman, Meredith Rosenthal, and Benjamin D Sommers"
+  abstract: >-
+    Importance Work requirements are a controversial feature of US safety-net programs, with some policymakers
+    seeking to expand their use. Little is known about the demographic, clinical, and socioeconomic characteristics
+    of individuals most likely to be negatively impacted by work requirements. Objective To examine the
+    association between work requirements and safety-net program enrollment. Design, Setting, and Participants
+    This cohort study included Medicaid and Supplemental Nutrition Assistance Program (SNAP) enrollees
+    in Connecticut. The impact of SNAP work requirements for able-bodied adults without dependents—the
+    target population—was estimated using a triple-differences research design comparing outcomes before
+    and after the policy (first difference) in affected and exempted towns (second difference) between
+    the targeted population and untargeted parents and caregivers (third difference). SNAP and Medicaid
+    enrollment trends were assessed for a 24-month period, and the characteristics of individuals most
+    likely to lose coverage were examined. Data were collected from August 2015 to April 2018, and data
+    were analyzed from August 2022 to September 2024. Exposures The reintroduction of SNAP work requirements
+    in 2016. Main Outcomes and Measures Proportion of enrollees disenrolled from SNAP and Medicaid. Results
+    Of 81 888 Medicaid enrollees in Connecticut, 46 872 (57.2%) were female, and the mean (SD) age was
+    36.6 (7.0) years. Of these, 38 344 were able-bodied adults without dependents, of which 19 172 were
+    exposed to SNAP work requirements, and 43 544 were parents or caregivers exempted from SNAP work requirements.
+    SNAP coverage declined 5.9 percentage points (95% CI, 5.1-6.7), or 25%, following work requirements.
+    There were no statistically significant changes in Medicaid coverage (0.2 percentage points; 95% CI,
+    −1.4 to 1.0). Work requirements disproportionately affected individuals with more chronic illnesses,
+    targeted beneficiaries who were older, and beneficiaries with lower incomes. Individuals with diabetes
+    were 5 percentage points (95% CI, 0.8-9.3), or 91%, likelier to lose SNAP coverage than those with
+    no chronic conditions; older SNAP beneficiaries (aged 40 to 49 years) with multiple comorbidities
+    were 7.3 percentage points (95% CI, 4.3-11.3), or 553%, likelier to disenroll than younger beneficiaries
+    (aged 25 to 29 years) without chronic conditions; and households with the lowest incomes were 18.6
+    percentage points (95% CI, 11.8-25.4), or 204%, likelier to lose coverage than the highest income
+    SNAP beneficiaries. Conclusions and Relevance In this cohort study, SNAP work requirements led to
+    substantial reductions in SNAP coverage, especially for the most clinically and socioeconomically
+    vulnerable. Work requirements had little effect on Medicaid coverage, suggesting they did not lead
+    to sufficient increases in employment to transition beneficiaries off the broader safety net.
+- title: Availability Of Adult Dental Plans In The Affordable Care Act Marketplaces, 2016–23
+  coauthors: Hawazin Elani, Md Shahinoor Rahman, Meredith Rosenthal, and Benjamin D Sommers
   year: 2024
-  section: "policy"
-  venue: "Health Affairs"
+  section: policy
+  venue: Health Affairs
   cite: "43(11): 1587–96"
-  doi: "10.1377/hlthaff.2024.00307"
+  doi: 10.1377/hlthaff.2024.00307
   nber: ""
   pdf: ""
   theme: ""
-- title: "Medicare eligibility and changes in coverage, access to care, and health by sexual orientation and gender identity"
-  coauthors: "Kyle Gavulic"
+  abstract: >-
+    The Affordable Care Act Marketplaces may improve access to dental insurance, but little is known about
+    the availability of such coverage. We used data from state and federal Marketplace sources to describe
+    the availability of adult dental plans, including Stand-alone Dental Plans and those embedded in medical
+    plans. We also examined the characteristics of counties with limited dental insurer participation
+    and those that experienced a net loss of Stand-alone Dental Plan insurers between 2016 and 2023. We
+    found that in 2023, at least one Stand-alone Dental Plan was offered in every state, and thirty-six
+    states offered embedded dental plans. Most counties (63.6 percent) had access to more than five insurers
+    offering adult dental plans, whereas approximately 4 percent had only one insurer offering adult dental
+    plans. Counties in state-based Marketplaces, rural areas, and dentist shortage areas were more likely
+    to be counties with limited dental insurer participation. The net loss of Stand-alone Dental Plans
+    between 2016 and 2023 was more common in state-based Marketplaces and disadvantaged counties. Our
+    findings can inform future policies to improve the dental insurance Marketplace and access to affordable
+    dental care.
+- title: Medicare eligibility and changes in coverage, access to care, and health by sexual orientation
+    and gender identity
+  coauthors: Kyle Gavulic
   year: 2024
-  section: "policy"
-  venue: "JAMA Health Forum"
+  section: policy
+  venue: JAMA Health Forum
   cite: "5(7): e241756"
-  doi: "10.1001/jamahealthforum.2024.1756"
+  doi: 10.1001/jamahealthforum.2024.1756
   nber: ""
   pdf: ""
   theme: ""
-- title: "Financial Health Among Louisiana Medicaid Enrollees"
-  coauthors: "Chris Frenier, Beniamino Green, Alexander Siebert, Andrew Anderson, Kevin Callison, and Brigham Walker"
+  abstract: >-
+    Importance: Medicare provides nearly universal insurance coverage at age 65 years. However, how Medicare
+    eligibility affects disparities in health insurance coverage, access to care, and health status among
+    individuals by sexual orientation and gender identity is poorly understood. Objective: To assess the
+    association of Medicare eligibility with disparities in health insurance coverage, access to care,
+    and self-reported health status among individuals by sexual orientation and by gender identity. Design,
+    Setting, And Participants: This cross-sectional study used the age discontinuity for Medicare eligibility
+    at age 65 years to isolate the association of Medicare with health insurance coverage, access to care,
+    and self-reported health status, by their sexual orientation and by their gender identity. Data were
+    collected from the Behavioral Risk Factor Surveillance System for respondents from 51 to 79 years
+    old from 2014 to 2021. Data analysis was performed from September 2022 to April 2023. Exposures: Medicare
+    eligibility at age 65 years. Main Outcomes And Measures: Proportions of respondents with health insurance
+    coverage, usual source of care, cost barriers to care, influenza vaccination, and self-reported health
+    status. Results: The study population included 927 952 individuals (mean [SD] age, 64.4 [7.7] years;
+    524 972 [56.6%] females and 402 670 [43.4%] males), of whom 28 077 (3.03%) identified as a sexual
+    minority-lesbian, gay, bisexual, or another sexual minority identity (LGB+) and 3286 (0.35%) as transgender
+    or gender diverse. Respondents who identified as heterosexual had greater improvements at age 65 years
+    in insurance coverage (4.2 percentage points [pp]; 95% CI, 4.0-4.4 pp) than those who identified as
+    LGB+ (3.6 pp; 95% CI, 2.3-4.8 pp), except when the analysis was limited to a subsample of married
+    respondents. For access to care, improvements in usual source of care, cost barriers to care, and
+    influenza vaccination were larger at age 65 years for heterosexual respondents compared with LGB+
+    respondents, although confidence intervals were overlapping and less precise for LGB+ individuals.
+    For self-reported health status, the analyses found larger improvements at age 65 years for LGB+ respondents
+    compared with heterosexual respondents. There was considerable heterogeneity by state in disparities
+    by sexual orientation among individuals who were nearly eligible for Medicare (close to 65 years old),
+    with the US South and Central states demonstrating the highest disparities. Among the top-10 highest-disparities
+    states, Medicare eligibility was associated with greater increases in coverage (6.7 pp vs 5.0 pp)
+    and access to a usual source of care (1.4 pp vs 0.6 pp) for LGB+ respondents compared with heterosexual
+    respondents. Conclusions And Relevance: The findings of this cross-sectional study indicate that Medicare
+    eligibility was not associated with consistently greater improvements in health insurance coverage
+    and access to care among LGBTQI+ individuals compared with heterosexual and/or cisgender individuals.
+    However, among sexual minority individuals, Medicare may be associated with closing gaps in self-reported
+    health status, and among states with the highest disparities, it may improve health insurance coverage,
+    access to care, and self-reported health status.
+- title: Financial Health Among Louisiana Medicaid Enrollees
+  coauthors: Chris Frenier, Beniamino Green, Alexander Siebert, Andrew Anderson, Kevin Callison, and Brigham
+    Walker
   year: 2024
-  section: "policy"
-  venue: "JAMA Health Forum"
+  section: policy
+  venue: JAMA Health Forum
   cite: "5(10): e243028"
-  doi: "10.1001/jamahealthforum.2024.3028"
+  doi: 10.1001/jamahealthforum.2024.3028
   nber: ""
   pdf: ""
   theme: ""
-- title: "Alternative Payment Models and Performance in Federally Qualified Health Centers"
-  coauthors: "Justin Markowski, Mark Schlesinger, and Chima D. Ndumele"
+  abstract: >-
+    This cross-sectional study compares average credit scores and unpaid medical and nonmedical debts
+    in collections among Black, Hispanic, and White adults with Medicaid coverage.
+- title: Alternative Payment Models and Performance in Federally Qualified Health Centers
+  coauthors: Justin Markowski, Mark Schlesinger, and Chima D. Ndumele
   year: 2024
-  section: "policy"
-  venue: "JAMA Internal Medicine"
+  section: policy
+  venue: JAMA Internal Medicine
   cite: "184(9): 1065–1073"
-  doi: "10.1001/jamainternmed.2024.2754"
+  doi: 10.1001/jamainternmed.2024.2754
   nber: ""
   pdf: ""
   theme: ""
-- title: "After 50 Years, Health Professional Shortage Areas Had No Significant Impact On Mortality Or Physician Density"
-  coauthors: "Justin Markowski and Chima D. Ndumele"
+  abstract: >-
+    Importance: Several state Medicaid agencies have transitioned from traditional fee-for-service to
+    a value-centric alternative payment model (APM) to reimburse federally qualified health centers (FQHCs).
+    Little is known about the effects of this shift on FQHC performance. Objective: To assess the association
+    between APMs and the clinical performance, payer mix, risk profile, and financial sustainability of
+    FQHCs. Design, Setting, And Participants: This retrospective cohort study was performed in 684 FQHCs
+    (representing 37 states plus the District of Columbia) that continuously operated between January
+    2009 and December 2021. Data on payer mix (eg, type of insurance) and risk profile (eg, proportion
+    of patients with chronic conditions) of FQHC patients were obtained from the Uniform Data System,
+    and clinic-level financial data (eg, revenue) were obtained from Internal Revenue Service form 990
+    tax documents. Data were analyzed between November 2022 and October 2023. Exposure: Initial rollout
+    of a value-based payment model (ie, an APM) for FQHCs, as offered by state Medicaid program, between
+    January 2013 and December 2021. Main Outcomes And Measures: The main outcomes were 4 audited process
+    measures of health care quality (cervical and colorectal cancer screening and body mass index [BMI]
+    assessment for adults and children) and 2 intermediate health outcome measures (hypertension control
+    and diabetes control). A difference-in-differences design was used with staggered implementation comparing
+    FQHCs before and after the initial APM rollout vs contemporaneous changes in FQHCs in states without
+    APMs. Results: A total of 684 FQHCs (8892 FQHC-years) that served 17 823 959 patients in 2021 (57.3%
+    female) were included in the study. Among FQHCs in states implementing APMs, significant differential
+    increases in 3 of the 4 process quality measures were observed compared with FQHCs in states that
+    did not implement an APM: colorectal cancer screening (3.24 percentage points [pp]; 95% CI, 1.40-5.08
+    pp), adult BMI (3.19 pp; 95% CI, 0.70-5.68 pp), and child BMI (4.50 pp; 95% CI, 1.83-7.17 pp). There
+    were also modest differential improvements in blood pressure control for individuals with hypertension
+    (1.02 pp; 95% CI, 0.04-2.00 pp) and blood glucose control for individuals with type 2 diabetes (1.02
+    pp; 95% CI, 0.02-2.02 pp) compared with FQHCs in states without an APM. There was no evidence that
+    the APM rollout was associated with clinics selecting healthier patients (-0.01 pp; 95% CI, -0.21
+    to 0.19 pp) or stinting on care (-0.02 visits; 95% CI, -0.08 to 0.04 visits). Conclusions And Relevance:
+    In this cohort study, introduction of Medicaid APM options for FQHCs was associated with modest, statistically
+    significant increases in quality concentrated among FQHCs with APM models that explicitly incentivized
+    quality. This finding suggests that APMs can be both a financially viable and a health-promoting model
+    for reimbursement in the health care safety net.
+- title: After 50 Years, Health Professional Shortage Areas Had No Significant Impact On Mortality Or
+    Physician Density
+  coauthors: Justin Markowski and Chima D. Ndumele
   year: 2023
-  section: "policy"
-  venue: "Health Affairs"
+  section: policy
+  venue: Health Affairs
   cite: "42(11): 1507–1516"
-  doi: "10.1377/hlthaff.2023.00478"
+  doi: 10.1377/hlthaff.2023.00478
   nber: ""
   pdf: ""
   theme: ""
-- title: "Association Between Medicare Eligibility at Age 65 Years and In-Hospital Treatment Patterns and Health Outcomes for Patients with Trauma: Regression Discontinuity Approach"
-  coauthors: "Deepon Bhaumik, John Scott, and Chima D. Ndumele"
+  abstract: >-
+    Since 1965, the US federal government has incentivized physicians to practice in high-need areas of
+    the country through the designation of Health Professional Shortage Areas (HPSAs). Despite its being
+    in place for more than half a century and directing more than a billion dollars annually, there is
+    limited evidence of the HPSA program's effectiveness at reducing geographic disparities in access
+    to care and health outcomes. Using a generalized difference-in-differences design with matching, we
+    found no statistically significant changes in mortality or physician density from 1970 to 2018 after
+    a county-level HPSA designation. As a result, we found that 73 percent of counties designated as HPSAs
+    remained physician shortage areas for at least ten years after their inclusion in the program. Fundamental
+    improvements to the program's design and incentive structure may be necessary for it to achieve its
+    intended results.
+- title: >-
+    Association Between Medicare Eligibility at Age 65 Years and In-Hospital Treatment Patterns and Health
+    Outcomes for Patients with Trauma: Regression Discontinuity Approach
+  coauthors: Deepon Bhaumik, John Scott, and Chima D. Ndumele
   year: 2023
-  section: "policy"
-  venue: "BMJ"
+  section: policy
+  venue: BMJ
   cite: "382: e074289"
-  doi: "10.1136/bmj-2022-074289"
+  doi: 10.1136/bmj-2022-074289
   nber: ""
   pdf: ""
   theme: ""
-- title: "Excess Death Rates for Republican and Democratic Registered Voters in Florida and Ohio During the COVID-19 Pandemic"
-  coauthors: "Paul Goldsmith-Pinkham and Jason Schwartz"
+  abstract: >-
+    Objective: To determine whether health systems in the United States modify treatment or discharge
+    decisions for otherwise similar patients based on health insurance coverage. Design: Regression discontinuity
+    approach. Setting: American College of Surgeons' National Trauma Data Bank, 2007-17. Participants:
+    Adults aged between 50 and 79 years with a total of 1 586 577 trauma encounters at level I and level
+    II trauma centers in the US. Interventions: Eligibility for Medicare at age 65 years. Main Outcome
+    Measures: The main outcome measure was change in health insurance coverage, complications, in-hospital
+    mortality, processes of care in the trauma bay, treatment patterns during hospital admission, and
+    discharge locations at age 65 years. Results: 1 586 577 trauma encounters were included. At age 65,
+    a discontinuous increase of 9.6 percentage points (95% confidence interval 9.1 to 10.1) was observed
+    in the share of patients with health insurance coverage through Medicare at age 65 years. Entry to
+    Medicare at age 65 was also associated with a decrease in length of hospital stay for each encounter,
+    of 0.33 days (95% confidence interval -0.42 to -0.24 days), or nearly 5%), which coincided with an
+    increase in discharges to nursing homes (1.56 percentage points, 95% confidence interval 0.94 to 2.16
+    percentage points) and transfers to other inpatient facilities (0.57 percentage points, 0.33 to 0.80
+    percentage points), and a large decrease in discharges to home (1.99 percentage points, -2.73 to -1.27
+    percentage points). Relatively small (or no) changes were observed in treatment patterns during the
+    patients' hospital admission, including no changes in potentially life saving treatments (eg, blood
+    transfusions) or mortality. Conclusions: The findings suggest that differences in treatment for otherwise
+    similar patients with trauma with different forms of insurance coverage arose during the discharge
+    planning process, with little evidence that health systems modified treatment decisions based on patients'
+    coverage.
+- title: Excess Death Rates for Republican and Democratic Registered Voters in Florida and Ohio During
+    the COVID-19 Pandemic
+  coauthors: Paul Goldsmith-Pinkham and Jason Schwartz
   year: 2023
-  section: "policy"
-  venue: "JAMA Internal Medicine"
+  section: policy
+  venue: JAMA Internal Medicine
   cite: "183(9): 916–923"
-  doi: "10.1001/jamainternmed.2023.1154"
+  doi: 10.1001/jamainternmed.2023.1154
   nber: ""
   pdf: ""
   theme: ""
-- title: "Conditional cross-design synthesis estimators for generalizability in Medicaid"
-  coauthors: "Irina Degtiar, Tim Layton, and Sherri Rose"
+  abstract: >-
+    Importance: There is evidence that Republican-leaning counties have had higher COVID-19 death rates
+    than Democratic-leaning counties and similar evidence of an association between political party affiliation
+    and attitudes regarding COVID-19 vaccination; further data on these rates may be useful. Objective:
+    To assess political party affiliation and mortality rates for individuals during the initial 22 months
+    of the COVID-19 pandemic. Design, Setting, And Participants: A cross-sectional comparison of excess
+    mortality between registered Republican and Democratic voters between March 2020 and December 2021
+    adjusted for age and state of voter registration was conducted. Voter and mortality data from Florida
+    and Ohio in 2017 linked to mortality records for January 1, 2018, to December 31, 2021, were used
+    in data analysis. Exposures: Political party affiliation. Main Outcomes And Measures: Excess weekly
+    deaths during the COVID-19 pandemic adjusted for age, county, party affiliation, and seasonality.
+    Results: Between January 1, 2018, and December 31, 2021, there were 538 159 individuals in Ohio and
+    Florida who died at age 25 years or older in the study sample. The median age at death was 78 years
+    (IQR, 71-89 years). Overall, the excess death rate for Republican voters was 2.8 percentage points,
+    or 15%, higher than the excess death rate for Democratic voters (95% prediction interval [PI], 1.6-3.7
+    percentage points). After May 1, 2021, when vaccines were available to all adults, the excess death
+    rate gap between Republican and Democratic voters widened from -0.9 percentage point (95% PI, -2.5
+    to 0.3 percentage points) to 7.7 percentage points (95% PI, 6.0-9.3 percentage points) in the adjusted
+    analysis; the excess death rate among Republican voters was 43% higher than the excess death rate
+    among Democratic voters. The gap in excess death rates between Republican and Democratic voters was
+    larger in counties with lower vaccination rates and was primarily noted in voters residing in Ohio.
+    Conclusions And Relevance: In this cross-sectional study, an association was observed between political
+    party affiliation and excess deaths in Ohio and Florida after COVID-19 vaccines were available to
+    all adults. These findings suggest that differences in vaccination attitudes and reported uptake between
+    Republican and Democratic voters may have been factors in the severity and trajectory of the pandemic
+    in the US.
+- title: Conditional cross-design synthesis estimators for generalizability in Medicaid
+  coauthors: Irina Degtiar, Tim Layton, and Sherri Rose
   year: 2023
-  section: "policy"
-  venue: "Biometrics"
+  section: policy
+  venue: Biometrics
   cite: "79(4): 3859–3872"
-  doi: "10.1111/biom.13863"
+  doi: 10.1111/biom.13863
   nber: ""
   pdf: ""
   theme: ""
-- title: "State-level Variation in Supplemental Maternity Kick Payments in Medicaid Managed care"
-  coauthors: "Samantha Auty and Jamie Daw"
+  abstract: >-
+    While much of the causal inference literature has focused on addressing internal validity biases,
+    both internal and external validity are necessary for unbiased estimates in a target population of
+    interest. However, few generalizability approaches exist for estimating causal quantities in a target
+    population that is not well-represented by a randomized study but is reflected when additionally incorporating
+    observational data. To generalize to a target population represented by a union of these data, we
+    propose a novel class of conditional cross-design synthesis estimators that combine randomized and
+    observational data, while addressing their estimates' respective biases-lack of overlap and unmeasured
+    confounding. These methods enable estimating the causal effect of managed care plans on health care
+    spending among Medicaid beneficiaries in New York City, which requires obtaining estimates for the
+    7% of beneficiaries randomized to a plan and 93% who choose a plan, who do not resemble randomized
+    beneficiaries. Our new estimators include outcome regression, propensity weighting, and double robust
+    approaches. All use the covariate overlap between the randomized and observational data to remove
+    potential unmeasured confounding bias. Applying these methods, we find substantial heterogeneity in
+    spending effects across managed care plans. This has major implications for our understanding of Medicaid,
+    where this heterogeneity has previously been hidden. Additionally, we demonstrate that unmeasured
+    confounding rather than lack of overlap poses a larger concern in this setting.
+- title: State-level Variation in Supplemental Maternity Kick Payments in Medicaid Managed care
+  coauthors: Samantha Auty and Jamie Daw
   year: 2023
-  section: "policy"
-  venue: "JAMA Internal Medicine"
+  section: policy
+  venue: JAMA Internal Medicine
   cite: "183(1): 80–82"
-  doi: "10.1001/jamainternmed.2022.5146"
+  doi: 10.1001/jamainternmed.2022.5146
   nber: ""
   pdf: ""
   theme: ""
+  abstract: >-
+    This cross-sectional study assesses the prevalence and magnitude of state-level delivery event–triggered
+    kick payments to Medicaid managed care plans and their association with delivery costs.
 - title: "Risk Adjustment and Promoting Health Equity in Population-Based Payment: Concepts and Evidence"
-  coauthors: "J. Michael McWilliams, Gabe Weinreb, Lin Ding, Chima D. Ndumele"
+  coauthors: J. Michael McWilliams, Gabe Weinreb, Lin Ding, Chima D. Ndumele
   year: 2023
-  section: "policy"
-  venue: "Health Affairs"
+  section: policy
+  venue: Health Affairs
   cite: "42(1): 105–114"
-  doi: "10.1377/hlthaff.2022.00916"
+  doi: 10.1377/hlthaff.2022.00916
   nber: ""
   pdf: ""
   theme: ""
+  abstract: >-
+    The objective of risk adjustment is not to predict spending accurately but to support the social goals
+    of a payment system, which include equity. Setting population-based payments at accurate predictions
+    risks entrenching spending levels that are insufficient to mitigate the impact of social determinants
+    on health care use and effectiveness. Instead, to advance equity, payments must be set above current
+    levels of spending for historically disadvantaged groups. In analyses intended to guide such reallocations,
+    we found that current risk adjustment for the community-dwelling Medicare population overpredicts
+    annual spending for Black and Hispanic beneficiaries by $376-$1,264. The risk-adjusted spending for
+    these populations is lower than spending for White beneficiaries despite the former populations' worse
+    risk-adjusted health and functional status. Thus, continued movement from fee-for-service to population-based
+    payment models that omit race and ethnicity from risk adjustment (as current models do) should result
+    in sizable resource reallocations and incentives that support efforts to address racial and ethnic
+    disparities in care. We found smaller overpredictions for less-educated beneficiaries and communities
+    with higher proportions of residents who are Black, Hispanic, or less educated, suggesting that additional
+    payment adjustments that depart from predictive accuracy are needed to support health equity. These
+    findings also suggest that adding social risk factors as predictors to spending models used for risk
+    adjustment may be counterproductive or accomplish little.
 - title: "Long-Term Stability of Coverage Among Michigan Medicaid Beneficiaries: A Cohort Study"
-  coauthors: "Chima D. Ndumele, Anthony Lollo, Harlan Krumholz, and Mark Schlesinger"
+  coauthors: Chima D. Ndumele, Anthony Lollo, Harlan Krumholz, and Mark Schlesinger
   year: 2023
-  section: "policy"
-  venue: "Annals of Internal Medicine"
+  section: policy
+  venue: Annals of Internal Medicine
   cite: "176(1): 22–28"
-  doi: "10.7326/m22-1313"
+  doi: 10.7326/m22-1313
   nber: ""
   pdf: ""
   theme: ""
-- title: "Racial/Ethnic Disparities in Substance Use Treatment in Medicaid Managed Care in New York City: The Role of Plan and Geography"
-  coauthors: "Margarita Alegria, Irene Falgas-Bague, et al"
+  abstract: >-
+    Background: Medicaid, the primary source of insurance coverage for disadvantaged Americans, was originally
+    designed as a temporary safety-net program. No studies have used long-run data to assess the recent
+    use of the program by beneficiaries. Objective: To assess patterns of short- and long-term enrollment
+    among beneficiaries, using a 10-year longitudinal panel of Michigan Medicaid eligibility data. Design:
+    Primary analyses assessing trends in Medicaid enrollment among cohorts of existing and new beneficiaries.
+    Setting: Administrative records from Michigan Medicaid for the period 2011 to 2020. Participants:
+    3.97 million Medicaid beneficiaries. Measurements: Short- and long-term enrollment in the program.
+    Results: The sample includes 3.97 million unique beneficiaries enrolled at some point between 2011
+    and 2020. Among a cohort of 1.23 million beneficiaries enrolled in 2011, over half (53%) were also
+    enrolled in Medicaid in June 2020, spending, on average, two-thirds of that period (67%) on Medicaid.
+    These beneficiaries, however, experienced substantial lapses in coverage, as only 25% were continuously
+    enrolled throughout the period. Enrollment was less stable when assessed from the perspective of newly
+    enrolled beneficiaries, of whom only 37% remained enrolled at the end of the study period. Limitation:
+    Primary estimates from a single state. Conclusion: For many beneficiaries, Medicaid has served as
+    their primary source of coverage for at least a decade. This pattern would justify increasing investments
+    in the program to improve long-term health outcomes. Primary Funding Source: Self-funded.
+- title: >-
+    Racial/Ethnic Disparities in Substance Use Treatment in Medicaid Managed Care in New York City: The
+    Role of Plan and Geography
+  coauthors: Margarita Alegria, Irene Falgas-Bague, et al
   year: 2022
-  section: "policy"
-  venue: "Medical Care"
+  section: policy
+  venue: Medical Care
   cite: "60(11): 806–812"
-  doi: "10.1097/mlr.0000000000001768"
+  doi: 10.1097/mlr.0000000000001768
   nber: ""
   pdf: ""
   theme: ""
-- title: "Association Between Medicaid Managed Care Coverage of Substance Use Services and Treatment Utilization"
-  coauthors: "Samantha Auty and Megan Cole"
+  abstract: >-
+    Objective: The aim was to assess the magnitude of health care disparities in treatment for substance
+    use disorder (SUD) and the role of health plan membership and place of residence in observed disparities
+    in Medicaid Managed Care (MMC) plans in New York City (NYC). Data Source: Medicaid claims and managed
+    care plan enrollment files for 2015-2017 in NYC. Research Design: We studied Medicaid enrollees with
+    a SUD diagnosis during their first 6 months of enrollment in a managed care plan in 2015-2017. A series
+    of linear regression models quantified service disparities across race/ethnicity for 5 outcome indicators:
+    treatment engagement, receipt of psychosocial treatment, follow-up after withdrawal, rapid readmission,
+    and treatment continuation. We assessed the degree to which plan membership and place of residence
+    contributed to observed disparities. Results: We found disparities in access to treatment but the
+    magnitude of the disparities in most cases was small. Plan membership and geography of residence explained
+    little of the observed disparities. One exception is geography of residence among Asian Americans,
+    which appears to mediate disparities for 2 of our 5 outcome measures. Conclusions: Reallocating enrollees
+    among MMC plans in NYC or evolving trends in group place of residence are unlikely to reduce disparities
+    in treatment for SUD. System-wide reforms are needed to mitigate disparities.
+- title: Association Between Medicaid Managed Care Coverage of Substance Use Services and Treatment Utilization
+  coauthors: Samantha Auty and Megan Cole
   year: 2022
-  section: "policy"
-  venue: "JAMA Health Forum"
+  section: policy
+  venue: JAMA Health Forum
   cite: "3(8): e222812"
-  doi: "10.1001/jamahealthforum.2022.2812"
+  doi: 10.1001/jamahealthforum.2022.2812
   nber: ""
   pdf: ""
   theme: ""
-- title: "Performance metrics of substance use disorder care among Medicaid enrollees in New York, New York"
-  coauthors: "Margarita Alegria, Irene Falgas-Bague, et al"
+  abstract: >-
+    Importance Medicaid insures a disproportionate share of adults with substance use disorder (SUD) and
+    is thus uniquely positioned to facilitate access to care. Many enrollees receive coverage through
+    Medicaid managed care (MMC) plans, which receive capitated payments in exchange for coverage of a
+    defined set of benefits. Historically, coverage of substance use services has been carved out of MMC
+    plans and financed fee-for-service (FFS) by state Medicaid programs, but in recent years, many states
+    have opted to carve in this benefit. Little is known about whether MMC coverage of substance use services,
+    relative to FFS coverage, is associated with changes in utilization. Objective To examine the association
+    between changes in MMC coverage of substance use services and admissions for substance use treatment.
+    Design, Setting, and Participants This cross-sectional study examined changes in admissions for substance
+    use treatment in 2 states after coverage of substance use services was either carved into (Nebraska)
+    or carved out of (Maryland) comprehensive MMC coverage. Synthetic control methods were used to compare
+    changes in admissions between states that did and did not alter MMC coverage of substance use services.
+    Data on substance use treatment admissions were obtained from the Treatment Episode Data Set—Admissions
+    from 2010 to 2019. Exposures Carve-outs or carve-ins of coverage for both inpatient and outpatient
+    substance use services from comprehensive MMC coverage. Main Outcomes and Measures Reported substance
+    use treatment admissions per 100 000 residents and admissions by treatment type (ie, rehabilitation
+    or residential, outpatient, and detoxification) per 100 000 residents. Results Maryland’s carve-out
+    was associated with an additional mean 787.1 (95% CI, 624.6-1141.7) substance use admissions per 100
+    000 residents during 2015 and 2016, a relative increase of 104.4% (95% CI, 64.4%-154.1%) compared
+    with its synthetic control. This increase was concentrated among changes in outpatient services utilization.
+    In Nebraska, the carve-in was associated with a mean decrease of 97.2 (95% CI, −23.4 to 213.6) admissions
+    per 100 000 residents, a relative decrease of 33.2% (95% CI, −54.1% to 29.6%) compared with its synthetic
+    control and was concentrated primarily among admissions for detoxification services. Conclusions and
+    Relevance The results of this cross-sectional study suggest that carving out coverage of substance
+    use services and financing them through FFS coverage may be associated with overall increases in treatment
+    utilization but with heterogeneous associations across states and treatment types.
+- title: Performance metrics of substance use disorder care among Medicaid enrollees in New York, New
+    York
+  coauthors: Margarita Alegria, Irene Falgas-Bague, et al
   year: 2022
-  section: "policy"
-  venue: "JAMA Health Forum"
+  section: policy
+  venue: JAMA Health Forum
   cite: "3(7): e221771"
-  doi: "10.1001/jamahealthforum.2022.1771"
+  doi: 10.1001/jamahealthforum.2022.1771
   nber: ""
   pdf: ""
   theme: ""
-- title: "Disparities in Health Care Spending and Utilization Among Black and White Medicaid Enrollees"
-  coauthors: "Anthony Lollo, Kate Duchowny, Matthew Lavallee, and Chima D. Ndumele"
+  abstract: >-
+    Importance: There is limited evaluation of the performance of Medicaid managed care (MMC) private
+    plans in covering substance use disorder (SUD) treatment. Objective: To compare the performance of
+    MMC plans across 19 indicators of access, quality, and outcomes of SUD treatment. Design Setting And
+    Participants: This cross-sectional study used administrative claims and mandatory assignment to plans
+    of up to 159 016 adult Medicaid recipients residing in 1 of the 5 counties (boroughs) of New York,
+    New York, from January 2009 to December 2017 to identify differences in SUD treatment access, patterns,
+    and outcomes among different types of MMC plans. Data from the latest years were received from the
+    New York State Department of Health in October 2019, and analysis began soon thereafter. Approximately
+    17% did not make an active choice of plan, and a subset of these (approximately 4%) can be regarded
+    as randomly assigned. Exposures: Plan assignment. Main Outcomes And Measures: Percentage of the enrollees
+    achieving performance measures across 19 indicators of access, process, and outcomes of SUD treatment.
+    Results: Medicaid claims data from 159 016 adults (mean [SD] age, 35.9 [12.7] years; 74 261 women
+    [46.7%]; 8746 [5.5%] Asian, 73 783 [46.4%] Black, and 40 549 [25.5%] White individuals) who were auto
+    assigned to an MMC plan were analyzed. Consistent with national patterns, all plans achieved less
+    than 50% (range, 0%-62.1%) on most performance measures. Across all plans, there were low levels of
+    treatment engagement for alcohol (range, 0%-0.4%) and tobacco treatment (range, 0.8%-7.2%), except
+    for engagement for opioid disorder treatment (range, 41.5%-61.4%). For access measures, 4 of the 9
+    plans performed significantly higher than the mean on recognition of an SUD diagnosis, any service
+    use for the first time, and tobacco use screening. Of the process measures, total monthly expenditures
+    on SUD treatment was the only measure for which plans differed significantly from the mean. Outcome
+    measures differed little across plans. Conclusions And Relevance: The results of this cross-sectional
+    study suggest the need for progress in engaging patients in SUD treatment and improvement in the low
+    performance of SUD care and limited variation in MMC plans in New York, New York. Improvement in the
+    overall performance of SUD treatment in Medicaid potentially depends on general program improvements,
+    not moving recipients among plans.
+- title: Disparities in Health Care Spending and Utilization Among Black and White Medicaid Enrollees
+  coauthors: Anthony Lollo, Kate Duchowny, Matthew Lavallee, and Chima D. Ndumele
   year: 2022
-  section: "policy"
-  venue: "JAMA Health Forum"
+  section: policy
+  venue: JAMA Health Forum
   cite: "3(6): e221398"
-  doi: "10.1001/jamahealthforum.2022.1398"
+  doi: 10.1001/jamahealthforum.2022.1398
   nber: ""
   pdf: ""
   theme: ""
-- title: "Supporting Innovation in Medicaid Policy—Interventions to Increase Adoption of RCTs"
-  coauthors: "Julia Smith and Atheendar Venkataramani"
+  abstract: >-
+    Importance: Administrative records indicate that more than half of the 80 million Medicaid enrollees
+    identify as belonging to a racial and ethnic minority group. Despite this, disparities within the
+    Medicaid program remain understudied. For example, we know of no studies examining racial differences
+    in Medicaid spending, a potential measure of how equitably state resources are allocated. Objectives:
+    To examine whether and to what extent there are differences in health care spending and utilization
+    between Black and White enrollees in Medicaid. Design Setting And Participants: This cross-sectional
+    study used calendar year 2016 administrative data from 3 state Medicaid programs and included 1 966
+    689 Black and White Medicaid enrollees. Analyses were performed between January 28, 2021, and October
+    18, 2021. Exposures: Self-reported race. Main Outcomes And Measures: Rates and racial differences
+    in health care spending and utilization (including Healthcare Effectiveness Data and Information Set
+    [HEDIS] access measures). Results: Of 1 966 689 Medicaid adults and children (mean [SD] age, 20.3
+    [17.1] years; 1 119 136 [56.9%] female), 867 183 (44.1%) self-identified as non-Hispanic Black and
+    1 099 506 (55.9%) self-identified as non-Hispanic White. Results were adjusted for age, sex, Medicaid
+    eligibility category, zip code, health status, and usual source of care. On average, annual spending
+    on Black adult (19 years or older) Medicaid enrollees was $317 (95% CI, $259-$375) lower than White
+    enrollees, a 6% difference. Among children (18 years or younger), annual spending on Black enrollees
+    was $256 (14%) lower (95% CI, $222-$290). Adult Black enrollees also had 19.3 (95% CI, 16.78-21.84),
+    or 4%, fewer primary care encounters per 100 enrollees per year compared with White enrollees. Among
+    children, the differences in primary care utilization were larger: Black enrollees had 90.1 (95% CI,
+    88.2-91.8) fewer primary care encounters per 100 enrollees per year compared with White enrollees,
+    a 23% difference. Black enrollees had lower utilization of most other services, including high-value
+    prescription drugs, but higher emergency department use and rates of HEDIS preventive screenings.
+    Conclusions And Relevance: In this cross-sectional study of US Medicaid enrollees in 3 states, Black
+    enrollees generated lower spending and used fewer services, including primary care and recommended
+    care for acute and chronic conditions, but had substantially higher emergency department use. While
+    Black enrollees had higher rates of HEDIS preventive screenings, ensuring equitable access to all
+    services in Medicaid must remain a national priority.
+- title: Supporting Innovation in Medicaid Policy—Interventions to Increase Adoption of RCTs
+  coauthors: Julia Smith and Atheendar Venkataramani
   year: 2022
-  section: "policy"
-  venue: "New England Journal of Medicine"
+  section: policy
+  venue: New England Journal of Medicine
   cite: "386(19): 1775–1777"
-  doi: "10.1056/nejmp2119726"
+  doi: 10.1056/nejmp2119726
   nber: ""
   pdf: ""
   theme: ""
-- title: "In Medicaid Managed Care Networks, Care is Highly Concentrated Among a Small Percentage of Physicians"
-  coauthors: "Avital B. Ludomirsky, William L. Schpero, Anthony Lollo, Susannah Bernheim, Joseph S. Ross, and Chima D. Ndumele"
+  abstract: ""
+- title: In Medicaid Managed Care Networks, Care is Highly Concentrated Among a Small Percentage of Physicians
+  coauthors: Avital B. Ludomirsky, William L. Schpero, Anthony Lollo, Susannah Bernheim, Joseph S. Ross,
+    and Chima D. Ndumele
   year: 2022
-  section: "policy"
-  venue: "Health Affairs"
+  section: policy
+  venue: Health Affairs
   cite: "41(5): 760–768"
-  doi: "10.1377/hlthaff.2021.01747"
+  doi: 10.1377/hlthaff.2021.01747
   nber: ""
   pdf: ""
   theme: ""
-- title: "Residual Confounding in Health Plan Performance Assessments: Evidence from Randomization in Medicaid"
-  coauthors: "J. Michael McWilliams, Anthony Lollo, Janet Eaton, and Chima D. Ndumele"
+  abstract: >-
+    States have increasingly outsourced the provision of Medicaid services to private managed care plans.
+    To ensure that plans maintain access to care, many states set network adequacy standards that require
+    plans to contract with a minimum number of physicians. In this study we used data from the period
+    2015-17 for four states to assess the level of Medicaid participation among physicians listed in the
+    provider network directories of each managed care plan. We found that about one-third of outpatient
+    primary care and specialist physicians contracted with Medicaid managed care plans in our sample saw
+    fewer than ten Medicaid beneficiaries in a year. Care was highly concentrated: 25 percent of primary
+    care physicians provided 86 percent of the care, and 25 percent of specialists, on average, provided
+    75 percent of the care. Our findings suggest that current network adequacy standards might not reflect
+    actual access; new methods are needed that account for beneficiaries' preferences and physicians'
+    willingness to serve Medicaid patients.
+- title: "Residual Confounding in Health Plan Performance Assessments: Evidence from Randomization in\
+    \ Medicaid"
+  coauthors: J. Michael McWilliams, Anthony Lollo, Janet Eaton, and Chima D. Ndumele
   year: 2022
-  section: "policy"
-  venue: "Annals of Internal Medicine"
+  section: policy
+  venue: Annals of Internal Medicine
   cite: "175(3): 314–324"
-  doi: "10.7326/m21-0881"
+  doi: 10.7326/m21-0881
   nber: ""
   pdf: ""
   theme: ""
-- title: "Evaluation of the Association Between Medicare Eligibility and Excess Deaths During the COVID-19 Pandemic in the US"
-  coauthors: "Anthony Lollo and Chima D. Ndumele"
+  abstract: >-
+    Background: Risk adjustment is used widely in payment systems and performance assessments, but the
+    extent to which it distinguishes plan or provider effects from confounding due to patient differences
+    is typically unknown. Objective: To assess the degree to which risk-adjusted measures of health plan
+    performance adequately adjust for the variation across plans that arises because of differences in
+    patient characteristics (residual confounding). Design: Comparison between plan performance estimates
+    based on enrollees who made plan choices (observational population) and estimates based on enrollees
+    assigned to plans (randomized population). Setting: Natural experiment in which more than two thirds
+    of a state's Medicaid population in 1 region was randomly assigned to 1 of 5 plans. Participants:
+    137 933 enrollees in 2013 to 2014, of whom 31.1% selected a plan and 68.9% were randomly assigned
+    to 1 of the same 5 plans. Measurements: Annual total spending (that is, payments to providers), primary
+    care use, dental care use, and avoidable emergency department visits, all scored as plan-specific
+    deviations from the "average" plan performance within each population. Results: Enrollee characteristics
+    were appreciably imbalanced across plans in the observational population, as expected, but were not
+    in the randomized population. Annual total spending varied across plans more in the observational
+    population (SD, $147 per enrollee) than in the randomized population (SD, $70 per enrollee) after
+    accounting for baseline differences in the observational and randomized populations and for differences
+    across plans. On average, a plan's spending score (its deviation from the "average" performance) in
+    the observational population differed from its score in the randomized population by $67 per enrollee
+    in absolute value (95% CI, $38 to $123), or 4.2% of mean spending per enrollee ( P = 0.009, rejecting
+    the null hypothesis that this difference would be expected from sampling error). The difference was
+    reduced modestly by risk adjustment to $62 per enrollee ( P = 0.012). Residual confounding was similarly
+    substantial for most other performance measures. Further adjustment for social factors did not materially
+    change estimates. Limitation: Potential heterogeneity in plan effects between the 2 populations. Conclusion:
+    Residual confounding in risk-adjusted performance assessments can be substantial and should caution
+    policymakers against assuming that risk adjustment isolates real differences in plan performance.
+    Primary Funding Source: Arnold Ventures.
+- title: Evaluation of the Association Between Medicare Eligibility and Excess Deaths During the COVID-19
+    Pandemic in the US
+  coauthors: Anthony Lollo and Chima D. Ndumele
   year: 2021
-  section: "policy"
-  venue: "JAMA Health Forum"
+  section: policy
+  venue: JAMA Health Forum
   cite: "2(9): e212861"
-  doi: "10.1001/jamahealthforum.2021.2861"
+  doi: 10.1001/jamahealthforum.2021.2861
   nber: ""
   pdf: ""
   theme: ""
-- title: "Changes in racial and ethnic disparities in access to care and health among US adults at age 65 years"
-  coauthors: "Karen Jiang, Paul Goldsmith-Pinkham, and Zirui Song"
+  abstract: >-
+    This cross-sectional regression discontinuity analysis compares deaths slightly younger and older
+    than 65 years to examine the relationship between access to health insurance coverage and COVID-19
+    mortality.
+- title: Changes in racial and ethnic disparities in access to care and health among US adults at age
+    65 years
+  coauthors: Karen Jiang, Paul Goldsmith-Pinkham, and Zirui Song
   year: 2021
-  section: "policy"
-  venue: "JAMA Internal Medicine"
+  section: policy
+  venue: JAMA Internal Medicine
   cite: "181(9): 1207–1215"
-  doi: "10.1001/jamainternmed.2021.3922"
+  doi: 10.1001/jamainternmed.2021.3922
   nber: ""
   pdf: ""
   theme: ""
-- title: "Characterization of US Hospital Advertising and Association With Hospital Performance, 2008-2016"
-  coauthors: "Chima D. Ndumele, Michael Cohen, Muriel Solberg, and Anthony Lollo"
+  abstract: >-
+    Importance: Medicare provides nearly universal health insurance to individuals at age 65 years. How
+    eligibility for Medicare affects racial and ethnic disparities in access to care and health is poorly
+    understood. Objective: To assess the association of Medicare with racial and ethnic disparities in
+    access to care and health. Design, Setting, And Participants: This cross-sectional study uses regression
+    discontinuity to compare racial and ethnic disparities before and after age 65 years, the age at which
+    US adults are eligible for Medicare. There are a total of 2 434 320 respondents in the Behavioral
+    Risk Factor Surveillance System and 44 587 state-age-year observations in the US Centers for Disease
+    Control and Prevention Wide-Ranging Online Data for Epidemiologic Research Data (eg, the mortality
+    rate for individuals age 63 years in New York in 2017) from January 2008 to December 2018. The data
+    were analyzed between February and May 2021. Exposures: Eligibility for Medicare at age 65 years.
+    Main Outcomes And Measures: Proportions of respondents with health insurance, as well as self-reported
+    health and mortality. To examine access, whether respondents had a usual source of care, encountered
+    cost-related barriers to care, or received influenza vaccines was assessed. Results: Of 2 434 320
+    participants, 192 346 were Black individuals, 104 294 were Hispanic individuals, and 892 177 were
+    men. Immediately after age 65 years, insurance coverage increased more for Black respondents (from
+    86.3% to 95.8% or 9.5 percentage points; 95% CI, 7.6-11.4) and Hispanic respondents (from 77.4% to
+    91.3% or 13.9 percentage points; 95% CI, 12.0-15.8) than White respondents (from 92.0% to 98.5% or
+    6.5 percentage points; 95% CI, 6.1-7.0). This was associated with a 53% reduction compared with the
+    size of the disparity between White and Black individuals before age 65 years (5.7% to 2.7% or 3.0
+    percentage points; 95% CI, 0.9-5.1; P = .003) and a 51% reduction compared with the size of the disparity
+    between White and Hispanic individuals before age 65 years (14.6% to 7.2% or 7.4 percentage points;
+    95% CI, 5.3-9.5; P < .001). Medicare eligibility was associated with narrowed disparities between
+    White and Hispanic individuals in access to care, lowering disparities in access to a usual source
+    of care from 10.5% to 7.5% (P = .05), cost-related barriers to care from 11.4% to 6.9% (P < .001),
+    and influenza vaccination rates from 8.1% to 3.3% (P = .01). For disparities between White and Black
+    individuals, access to a usual source of care before and after age 65 years was not significantly
+    different: 1.2% to 0.0% (P = .24), cost-related barriers to care from 5.8% to 4.3% (P = .22), and
+    influenza vaccinations from 11.0% to 10.3% (P = .60). The share of people in poor self-reported health
+    decreased by 3.8 percentage points for Hispanic respondents, 2.6 percentage points for Black respondents,
+    and 0.2 percentage points for White respondents. Mortality-related disparities at age 65 years were
+    unchanged. Medicare's association with reduced disparities largely persisted after the US Affordable
+    Care Act took effect in 2014. Conclusions And Relevance: In this cross-sectional study that uses a
+    regression discontinuity design, eligibility for Medicare at age 65 years was associated with marked
+    reductions in racial and ethnic disparities in insurance coverage, access to care, and self-reported
+    health.
+- title: Characterization of US Hospital Advertising and Association With Hospital Performance, 2008-2016
+  coauthors: Chima D. Ndumele, Michael Cohen, Muriel Solberg, and Anthony Lollo
   year: 2021
-  section: "policy"
-  venue: "JAMA Network Open"
+  section: policy
+  venue: JAMA Network Open
   cite: "4(7): e2115342"
-  doi: "10.1001/jamanetworkopen.2021.15342"
+  doi: 10.1001/jamanetworkopen.2021.15342
   nber: ""
   pdf: ""
   theme: ""
-- title: "Out-of-network laboratory test spending, utilization, and prices"
-  coauthors: "Zirui Song and Timothy Lillehaugen"
+  abstract: >-
+    Importance: Hospital advertising has been touted as a tool to improve consumer decision-making, but
+    little is known about its association with objective measures of hospital quality. Objective: To document
+    recent trends in hospital advertising in the US and examine the association between concurrent measures
+    of hospital advertising and quality. Design, Setting, And Participants: Retrospective cross-sectional
+    study of all general acute care hospitals operating in the US between January 2008 and December 2016.
+    Data were analyzed from December 6, 2019, to July 15, 2020. Exposure: Annualized advertising spending
+    for each hospital as measured by a market research firm. Main Outcomes And Measures: Four composites
+    of hospital performance from the Centers for Medicare & Medicaid Services Hospital Compare database
+    were used: risk-standardized mortality rate, risk-standardized readmission rate, Consumer Assessment
+    of Healthcare Providers & Systems (CAHPS) Overall Patient Experience Rating (scale of 1-5; higher
+    scores indicate a more positive patient experience rating), and overall 5-star rating. Linear models
+    adjusted for hospital bed size, hospital revenue, and geographic census region. Results: The study
+    sample included, on average, 4569 general acute care hospitals per year between 2008 and 2016. During
+    this time, approximately half of acute care hospitals (2239 of 4569 [49%]) advertised their services
+    to consumers and spent a total of $3.39 billion. Relative to hospitals that never advertised, advertising
+    hospitals were more likely to be nonprofit facilities (mean [SD], 66% [47%] vs 51% [50%]; P < .001),
+    had larger bed sizes (mean [SD], 234.3 [210.7] beds vs 84.8 [110.6] beds; P < .001), and had higher
+    net incomes (mean [SD], $17 800 000 [$49 000 000] vs $134 099 [$51 600 000]; P < .001). There was
+    no observed association between hospital advertising and performance. For example, hospitals that
+    advertised had a mean (SD) CAHPS 5-star rating of 3.2 (0.9) stars compared with 3.3 (1.0) stars among
+    hospitals that did not advertise, an insignificant difference (P = .92). We observed no difference
+    in performance between advertising and nonadvertising hospitals in 30-day readmission rates (mean
+    [SD], 15.5% [0.8%] vs 15.6% [1.0%]; P = .25), mortality rates (mean [SD], 12.7% [4.0%] vs 12.0% [4.1%];
+    P = .46), and overall 5-star hospital ratings (mean [SD], 3.1 [0.8] stars vs 3.0 [0.9] stars; P =
+    .50). A significant difference was observed in adjusted mortality rates across terciles of advertising
+    spending, with lower mortality rates for the hospitals with higher ad spending (2016, mean [SD] mortality
+    composite for hospitals in the highest tercile, 11.2% [4.2%] vs hospitals in the middle tercile, 12.0%
+    [3.8%], and for hospitals in the lowest tercile, 12.7% [4.1%]; P = .003). Conclusions And Relevance:
+    The results of this cross-sectional study suggest that the amount hospitals spent on direct-to-consumer
+    advertising was not associated with publicly reported measures of hospital quality; instead, hospital
+    advertising spending was higher for financially stable hospitals with higher net incomes.
+- title: Out-of-network laboratory test spending, utilization, and prices
+  coauthors: Zirui Song and Timothy Lillehaugen
   year: 2021
-  section: "policy"
-  venue: "JAMA"
+  section: policy
+  venue: JAMA
   cite: "325(16): 1674–1676"
-  doi: "10.1001/jama.2021.0720"
+  doi: 10.1001/jama.2021.0720
   nber: ""
   pdf: ""
   theme: ""
-- title: "Out-of-network spending on behavioral health, 2008-2016"
-  coauthors: "Zirui Song, Timothy Lillehaugen, Susan Busch, and Nicole Benson"
+  abstract: >-
+    In the context of concerns about the appropriateness and costs to insurers and patients of laboratory
+    testing, this study uses data from the IBM MarketScan Commercial Claims and Encounters Database to
+    examine out-of-network laboratory test spending, utilization, and prices in the US in 2008-2016.
+- title: Out-of-network spending on behavioral health, 2008-2016
+  coauthors: Zirui Song, Timothy Lillehaugen, Susan Busch, and Nicole Benson
   year: 2021
-  section: "policy"
-  venue: "Journal of General Internal Medicine"
+  section: policy
+  venue: Journal of General Internal Medicine
   cite: "36(1): 232–234"
-  doi: "10.1007/s11606-020-05665-w"
+  doi: 10.1007/s11606-020-05665-w
   nber: ""
   pdf: ""
   theme: ""
-- title: "Promoting Equitable Access to COVID-19 Vaccines—The Role of Medicaid"
-  coauthors: "Jason Schwartz and Walter Orenstein"
+  abstract: ""
+- title: Promoting Equitable Access to COVID-19 Vaccines—The Role of Medicaid
+  coauthors: Jason Schwartz and Walter Orenstein
   year: 2020
-  section: "policy"
-  venue: "Health Affairs Forefront"
-  cite: "September, 2020"
+  section: policy
+  venue: Health Affairs Forefront
+  cite: September, 2020
   doi: ""
   nber: ""
   pdf: ""
   theme: ""
-- title: "Association of Provider Performance with Changes in Insurance Networks"
-  coauthors: "Katie Piwnica-Worms, Anthony Lollo, and Chima D. Ndumele"
+  abstract: ""
+- title: Association of Provider Performance with Changes in Insurance Networks
+  coauthors: Katie Piwnica-Worms, Anthony Lollo, and Chima D. Ndumele
   year: 2020
-  section: "policy"
-  venue: "Journal of General Internal Medicine"
+  section: policy
+  venue: Journal of General Internal Medicine
   cite: "35(7): 1997–2002"
-  doi: "10.1007/s11606-020-05784-4"
+  doi: 10.1007/s11606-020-05784-4
   nber: ""
   pdf: ""
   theme: ""
+  abstract: >-
+    Background: Medicaid managed care plans change provider networks frequently, yet there is no evidence
+    about the performance of exiting providers relative to those that remain. Objectives: To investigate
+    the association between provider cost and quality and network exit. Design: Observational study with
+    provider network directory data linked to administrative claims from managed care plans in Tennessee's
+    Medicaid program during the period 2010-2016. Participants: 1,966,022 recipients assigned to 9593
+    unique providers. Main Measures: Exposures were risk-adjusted total costs of care and nine measures
+    from the Healthcare Effectiveness Data and Information Set (HEDIS) were used to construct a composite
+    annual indicators of provider performance on quality. Outcome was provider exit from a Medicaid managed
+    care plan. Differences in quality and cost between providers that exited and remained in managed care
+    networks were estimated using a propensity score model to match exiting to nonexiting providers. Key
+    Results: Over our study period, we found that 21% of participating providers exited at least one of
+    the Medicaid managed care plans in Tennessee. As compared with providers that remained in networks,
+    those that exited performed 3.8 percentage points [95% CI, 2.3, 5.3] worse on quality as measured
+    by a composite of the nine HEDIS quality metrics. However, 22% of exiting providers performed above
+    average in quality and cost and only 29% of exiting providers had lower than average quality scores
+    and higher than average costs. Overall, exiting providers had lower aggregate costs in terms of the
+    annual unadjusted cost of care per-member-month - $21.57 [95% CI, - $41.02, - $2.13], though difference
+    in annual risk-adjusted cost per-member-month was nonsignificant. Conclusions: Providers exiting Medicaid
+    managed care plans appear to have lower quality scores in the year prior to their exit than the providers
+    who remain in network. Our study did not show that managed care plans disproportionately drop high-cost
+    providers.
 - title: "Out-of-network spending: why growing attention is focused on a small share of medical spending"
-  coauthors: "William Johnson, Kevin Kennedy, Jean Biniek, and Zirui Song"
+  coauthors: William Johnson, Kevin Kennedy, Jean Biniek, and Zirui Song
   year: 2020
-  section: "policy"
-  venue: "Health Affairs Forefront"
-  cite: "Vol. 6, No. 2"
+  section: policy
+  venue: Health Affairs Forefront
+  cite: Vol. 6, No. 2
   doi: ""
   nber: ""
   pdf: ""
   theme: ""
-- title: "Out-Of-Network Spending Mostly Declined In Privately Insured Populations With A Few Notable Exceptions From 2008 To 2016"
-  coauthors: "Zirui Song, William Johnson, Kevin Kennedy, and Jean Biniek"
+  abstract: ""
+- title: Out-Of-Network Spending Mostly Declined In Privately Insured Populations With A Few Notable Exceptions
+    From 2008 To 2016
+  coauthors: Zirui Song, William Johnson, Kevin Kennedy, and Jean Biniek
   year: 2020
-  section: "policy"
-  venue: "Health Affairs"
+  section: policy
+  venue: Health Affairs
   cite: "39(6): 1032–1041"
-  doi: "10.1377/hlthaff.2019.01776"
+  doi: 10.1377/hlthaff.2019.01776
   nber: ""
   pdf: ""
   theme: ""
-- title: "Comparison of office-based physician participation in Medicaid managed care and health insurance exchange plans in the same US geographic markets"
-  coauthors: "Anthony Lollo and Chima D. Ndumele"
+  abstract: >-
+    While out-of-network or potential "surprise" billing has garnered increasing attention, particularly
+    in emergency department and inpatient settings, few national studies have examined out-of-network
+    care overall or in other settings. We examined out-of-network spending and use among two large nationwide
+    populations with employer-sponsored insurance. In a primary sample of 27,883,040 people in data for
+    2008-16 from the Truven MarketScan Commercial Claims and Encounters Database, we found that the unadjusted
+    share of total spending that occurred out of network decreased from 7.0 percent in 2008-10 to 6.1
+    percent in 2014-16, an adjusted average decline of 0.10 percentage points per year. Using a secondary
+    sample of 13,093,209 people in the Health Care Cost Institute database provided qualitatively similar
+    results, including when provider charges (upper bound for balance billing) were used in place of observed
+    out-of-network prices. In subgroup analyses of the primary sample, the share of out-of-network spending
+    was stable or declined among all segments of care except hospitalist services, pathologist services,
+    and laboratory tests across the study period. Out-of-network use demonstrated comparable patterns.
+    Prices were higher out of network than in network. Policy makers should focus their efforts on protecting
+    consumers from balance billing or potential surprise billing in clinical scenarios where patients
+    often have little choice over their provider.
+- title: >-
+    Comparison of office-based physician participation in Medicaid managed care and health insurance exchange
+    plans in the same US geographic markets
+  coauthors: Anthony Lollo and Chima D. Ndumele
   year: 2020
-  section: "policy"
-  venue: "JAMA Network Open"
+  section: policy
+  venue: JAMA Network Open
   cite: "3(4): e202727"
-  doi: "10.1001/jamanetworkopen.2020.2727"
+  doi: 10.1001/jamanetworkopen.2020.2727
   nber: ""
   pdf: ""
   theme: ""
-- title: "Traditional Medicare Versus Private Insurance: How Spending, Volume, and Price Change at Age Sixty-Five"
-  coauthors: "Zirui Song"
+  abstract: >-
+    Importance: Several recent policy proposals have sought to expand the role of Medicaid in providing
+    health insurance for low-income Americans, but there is little recent information on how physician
+    participation in Medicaid compares with alternative forms of coverage for low-income Americans. Objective:
+    To compare the number of office-based physicians included in Medicaid managed care and health insurance
+    exchange plans that operate in the same geographic markets. Design, Setting, And Participants: This
+    cross-sectional study used administrative data from physician network directories and survey data
+    from office-based physicians for Kansas, Nebraska, New York, Tennessee, and Washington. The number
+    of participants totaled 67 057 office-based physicians in the 5 sample states. Data were collected
+    and analyzed from May 2018 to June 2019. Exposures: Physician participation in a Medicaid managed
+    care or health insurance exchange plan network. Main Outcomes And Measures: The percentage of office-based
+    physicians in a county who indicated during a phone survey that they participated in Medicaid; the
+    percentage of office-based physicians in a county who participated in each Medicaid managed care and
+    health insurance exchange plan network; and the percentage of office-based physicians in a county
+    who participated in at least 1 Medicaid managed care plan or, separately, at least 1 health insurance
+    exchange plan. Results: Of the 67 057 office-based physicians in our sample, 49 983 reported in a
+    telephone survey that they accepted Medicaid. This survey-based measure undercounted the percentage
+    of physicians participating in Medicaid by 5.2% (95% CI, 2.3%-8.1%; P < .001) relative to a measure
+    based on physician network directories. Medicaid managed care physician networks covered a median
+    (interquartile range) of 63.4% (48.0%-81.3%) of office-based physicians compared with health insurance
+    exchange physician networks, which covered 51.0% (31.0%-70.5%). In adjusted analyses, Medicaid managed
+    care plans covered 6.2% (95% CI, 3.2%-9.3%, P < .001) more office-based physicians than health insurance
+    exchange plans operating in the same counties. In the states where the same insurers participated
+    in both markets (New York, Tennessee, Washington), the Medicaid managed care physician networks were
+    6.5% (95% CI, 3.2%-9.8%, P < .001) larger than the health insurance exchange networks offered by the
+    same insurer. Conclusions And Relevance: In this cross-sectional study of physician network data,
+    Medicaid managed care physician networks included more office-based physicians than the physician
+    networks of health insurance exchange plans operating in the same geographic markets. This suggests
+    that Medicaid remains a viable option for expanding coverage in the United States.
+- title: "Traditional Medicare Versus Private Insurance: How Spending, Volume, and Price Change at Age\
+    \ Sixty-Five"
+  coauthors: Zirui Song
   year: 2016
-  section: "policy"
-  venue: "Health Affairs"
+  section: policy
+  venue: Health Affairs
   cite: "35(5): 864–872"
-  doi: "10.1377/hlthaff.2015.1195"
+  doi: 10.1377/hlthaff.2015.1195
   nber: ""
   pdf: ""
   theme: ""
+  abstract: >-
+    To slow the growth of Medicare spending, some policy makers have advocated raising the Medicare eligibility
+    age from the current sixty-five years to sixty-seven years. For the majority of affected adults, this
+    would delay entry into Medicare and increase the time they are covered by private insurance. Despite
+    its policy importance, little is known about how such a change would affect national health care spending,
+    which is the sum of health care spending for all consumers and payers-including governments. We examined
+    how spending differed between Medicare and private insurance using longitudinal data on imaging and
+    procedures for a national cohort of individuals who switched from private insurance to Medicare at
+    age sixty-five. Using a regression discontinuity design, we found that spending fell by $38.56 per
+    beneficiary per quarter-or 32.4 percent-upon entry into Medicare at age sixty-five. In contrast, we
+    found no changes in the volume of services at age sixty-five. For the previously insured, entry into
+    Medicare led to a large drop in spending driven by lower provider prices, which may reflect Medicare's
+    purchasing power as a large insurer. These findings imply that increasing the Medicare eligibility
+    age may raise national health care spending by replacing Medicare coverage with private insurance,
+    which pays higher provider prices than Medicare does.
 - title: "Health Insurance Effects on Preventive Care and Health: A Methodologic Review"
-  coauthors: "Ben Sommers"
+  coauthors: Ben Sommers
   year: 2016
-  section: "policy"
-  venue: "American Journal of Preventive Medicine"
+  section: policy
+  venue: American Journal of Preventive Medicine
   cite: "50(5): S27–S33"
-  doi: "10.1016/j.amepre.2016.01.003"
+  doi: 10.1016/j.amepre.2016.01.003
   nber: ""
   pdf: ""
   theme: ""
-- title: "Medicare Fee Cuts and Cardiologist-Hospital Integration"
-  coauthors: "Zirui Song, Hannah Neprash, Rick McKellar, Michael Chernew, and J. Michael McWilliams"
+  abstract: >-
+    The Affordable Care Act has led to significant gains in insurance coverage and reduced the cost of
+    preventive care for millions of Americans. There is considerable interest in understanding how these
+    changes will impact the use of preventive care services and health outcomes. Obtaining unbiased estimates
+    of the impact of insurance on these outcomes is challenging because of inherent differences between
+    insured and uninsured individuals. This article reviews common experimental and quasi-experimental
+    approaches researchers have used in the past to address this problem, including RCTs, differences-in-differences
+    analyses, and regression discontinuity. In each case, the key assumptions underlying the models are
+    discussed alongside some of the main research findings related to prevention and health. The review
+    concludes with a discussion of how experimental and quasi-experimental methods can be used to study
+    the impact of the Affordable Care Act on preventive care and health outcomes.
+- title: Medicare Fee Cuts and Cardiologist-Hospital Integration
+  coauthors: Zirui Song, Hannah Neprash, Rick McKellar, Michael Chernew, and J. Michael McWilliams
   year: 2015
-  section: "policy"
-  venue: "JAMA Internal Medicine"
+  section: policy
+  venue: JAMA Internal Medicine
   cite: "175(7): 1229–1231"
-  doi: "10.1001/jamainternmed.2015.2017"
+  doi: 10.1001/jamainternmed.2015.2017
   nber: ""
   pdf: ""
   theme: ""
-- title: "Measuring Prices in Health Care Markets Using Commercial Claims Data"
-  coauthors: "Hannah Neprash, Michael Chernew, and J. Michael McWilliams"
+  abstract: ""
+- title: Measuring Prices in Health Care Markets Using Commercial Claims Data
+  coauthors: Hannah Neprash, Michael Chernew, and J. Michael McWilliams
   year: 2015
-  section: "policy"
-  venue: "Health Services Research"
+  section: policy
+  venue: Health Services Research
   cite: "50(6): 2037–2047"
-  doi: "10.1111/1475-6773.12304"
+  doi: 10.1111/1475-6773.12304
   nber: ""
   pdf: ""
   theme: ""
-- title: "Effect of dependent coverage expansion of the Affordable Care Act on health and access to care for young adults"
-  coauthors: "Ben Sommers"
+  abstract: >-
+    Objective: To compare methods of price measurement in health care markets. Data Sources: Truven Health
+    Analytics MarketScan commercial claims. Study Design: We constructed medical prices indices using
+    three approaches: (1) a "sentinel" service approach based on a single common service in a specific
+    clinical domain, (2) a market basket approach, and (3) a spending decomposition approach. We constructed
+    indices at the Metropolitan Statistical Area level and estimated correlations between and within them.
+    Principal Findings: Price indices using a spending decomposition approach were strongly and positively
+    correlated with indices constructed from broad market baskets of common services (r > 0.95). Prices
+    of single common services exhibited weak to moderate correlations with each other and other measures.
+    Conclusions: Market-level price measures that reflect broad sets of services are likely to rank markets
+    similarly. Price indices relying on individual sentinel services may be more appropriate for examining
+    specialty- or service-specific drivers of prices.
+- title: Effect of dependent coverage expansion of the Affordable Care Act on health and access to care
+    for young adults
+  coauthors: Ben Sommers
   year: 2015
-  section: "policy"
-  venue: "JAMA Pediatrics"
+  section: policy
+  venue: JAMA Pediatrics
   cite: "169(5): 495–497"
-  doi: "10.1001/jamapediatrics.2014.3574"
+  doi: 10.1001/jamapediatrics.2014.3574
   nber: ""
   pdf: ""
   theme: ""
-- title: "Unintended consequences of eliminating Medicare payments for consultations"
-  coauthors: "Zirui Song, John Ayanian, Yulei He, Teresa Gibson, and Michael Chernew"
+  abstract: ""
+- title: Unintended consequences of eliminating Medicare payments for consultations
+  coauthors: Zirui Song, John Ayanian, Yulei He, Teresa Gibson, and Michael Chernew
   year: 2013
-  section: "policy"
-  venue: "JAMA Internal Medicine"
+  section: policy
+  venue: JAMA Internal Medicine
   cite: "173(1): 15–21"
-  doi: "10.1001/jamainternmed.2013.1125"
+  doi: 10.1001/jamainternmed.2013.1125
   nber: ""
   pdf: ""
   theme: ""
+  abstract: >-
+    Background: Prior to 2010, Medicare payments for consultations (commonly billed by specialists) were
+    substantially higher than for office visits of similar complexity (commonly billed by primary care
+    physicians). In January 2010, Medicare eliminated consultation payments from the Part B Physician
+    Fee Schedule and increased fees for office visits. This change was intended to be budget neutral and
+    to decrease payments to specialists while increasing payments to primary care physicians. We assessed
+    the impact of this policy on spending, volume, and complexity for outpatient office encounters in
+    2010. Methods: We examined outpatient claims from 2007 through 2010 for 2 247 810 Medicare beneficiaries
+    with Medicare Supplemental (Medigap) coverage through large employers in the Thomson Reuters MarketScan
+    Database. We used segmented regression analysis to study changes in spending, volume, and complexity
+    of office encounters adjusted for age, sex, health status, secular trends, seasonality, and hospital
+    referral region. Results: "New" office visits largely replaced consultations in 2010. An average of
+    $10.20 more was spent per beneficiary per quarter on physician encounters after the policy (6.5% increase).
+    The total volume of physician encounters did not change significantly. The increase in spending was
+    largely explained by higher office-visit fees from the policy and a shift toward higher-complexity
+    visits to both specialists and primary care physicians. Conclusions: The elimination of consultations
+    led to a net increase in spending on visits to both primary care physicians and specialists. Higher
+    prices, partially owing to the subjectivity of codes in the physician fee schedule, explained the
+    spending increase, rather than higher volumes.

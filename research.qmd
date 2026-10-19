@@ -1,27 +1,26 @@
 ---
 title: "Research"
+aliases:
+  - publications.html
+include-after-body:
+  - text: |
+      <script>
+      document.addEventListener("click", function (e) {
+        var b = e.target.closest(".abs-toggle"); if (!b) return;
+        var t = b.closest(".paper").querySelector(".abs-text");
+        var open = t.hasAttribute("hidden");
+        if (open) t.removeAttribute("hidden"); else t.setAttribute("hidden", "");
+        b.setAttribute("aria-expanded", open ? "true" : "false");
+      });
+      </script>
 ---
-
-I study the economics of health insurance markets, with a focus on managed care in public
-insurance programs. Below is an interactive look at a flagship result; a full list is on the
-[Publications](publications.qmd) page.
-
-{{< include viz/result-aer2026.qmd >}}
-
-## Research at a glance
 
 ```{r}
 #| echo: false
 #| output: asis
+source("R/pubs.R")
 pubs <- yaml::read_yaml("data/publications.yml")
-pubs <- Filter(function(p) p$section %in% c("forthcoming", "econ"), pubs)
-pubs <- pubs[order(-sapply(pubs, function(p) p$year))]
-cat('<div>\n')
-for (p in pubs) {
-  href <- if (nzchar(p$doi)) paste0("https://doi.org/", p$doi) else if (nzchar(p$nber)) p$nber else "publications.qmd"
-  cat(sprintf(
-    '<div class="card-lite"><div class="eyebrow">%s · %d</div><div class="headline"><a href="%s">%s</a></div><div class="excerpt">%s</div></div>\n',
-    p$theme, p$year, href, p$title, if (p$section == "forthcoming") paste0(p$venue, " (conditionally accepted)") else p$venue))
-}
-cat('</div>\n')
+cat("## Working papers\n\n");  paper_section(pubs, "forthcoming")
+cat("\n## Publications\n\n### Economics {.subsec}\n\n");  paper_section(pubs, "econ")
+cat("\n### Health policy {.subsec}\n\n");  paper_section(pubs, "policy", by_year = TRUE)
 ```

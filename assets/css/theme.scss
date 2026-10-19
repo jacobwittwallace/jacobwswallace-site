@@ -92,3 +92,21 @@ a:hover { text-decoration: underline; }
 .post .excerpt { font-size: .95rem; color: $body-gray; }
 
 .hero-figure { margin: 1rem 0 .5rem; }
+
+// Research page: paper entries.
+.paper { margin: 0 0 1.6rem; }
+.paper-title { font-family: $font-family-serif; font-size: 1.15rem; font-weight: 600; line-height: 1.35; }
+.paper-title a { color: $ink; }
+.paper-title a:hover { color: $yale-blue; text-decoration: none; }
+.paper-meta { font-size: .98rem; color: $sub-gray; margin-top: .15rem; }
+.paper-links { font-size: .9rem; margin-top: .25rem; }
+.paper-links .links a { font-weight: 600; }
+.paper-links .sep { color: $sub-gray; margin: 0 .15rem; }
+.abs-toggle { background: none; border: 0; padding: 0; font: inherit; font-weight: 600; color: $yale-blue; cursor: pointer; }
+.abs-toggle::after { content: " \25BE"; font-size: .8em; }
+.abs-toggle[aria-expanded="true"]::after { content: " \25B4"; }
+.abs-toggle:hover { text-decoration: underline; }
+.abs-text p { margin: .55rem 0 .2rem; padding-left: .9rem; border-left: 3px solid $hairline; font-size: .97rem; line-height: 1.6; }
+h2 { border-bottom: 1px solid $hairline; padding-bottom: .3rem; }
+h3.subsec, .subsec { font-size: 1.3rem; margin-top: 1.8rem; color: $ink; }
+h3.year, .year { font-size: 1.05rem; color: $sub-gray; font-family: $font-family-sans-serif; letter-spacing: .5px; margin: 1.4rem 0 .8rem; }
