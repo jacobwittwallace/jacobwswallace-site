@@ -49,14 +49,14 @@ a:hover { text-decoration: underline; }
 // Landing: cut-out photo left, bio right; stacks on narrow screens.
 .landing {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
   gap: 3.5rem;
   align-items: center;
   margin: 3.5rem 0 4rem;
 }
 .landing-photo img {
   width: 100%;
-  max-width: 470px;
+  max-width: 580px;
   display: block;
   margin: 0 auto;
   filter: drop-shadow(0 0 5px rgba(0,0,0,.32)) drop-shadow(0 1px 2px rgba(0,0,0,.18));
@@ -69,7 +69,7 @@ a:hover { text-decoration: underline; }
 .landing-links a { color: $yale-blue; font-weight: 700; }
 @media (max-width: 760px) {
   .landing { grid-template-columns: 1fr; gap: 1.5rem; margin-top: 1.5rem; }
-  .landing-photo img { max-width: 320px; }
+  .landing-photo img { max-width: 360px; }
   .navbar .navbar-title::after { display: block; margin-left: 0; font-size: .75rem; }
 }
 
