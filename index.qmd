@@ -15,13 +15,12 @@ pagetitle: "Jacob Wallace"
 ::: {.landing-bio}
 Jacob Wallace is an Associate Professor of Public Health (Health Policy) at the Yale School of Public Health and a Faculty Research Fellow at the National Bureau of Economic Research.
 
-Professor Wallace studies the economics of public insurance markets, with a focus on Medicaid: how states design coverage, what that coverage delivers, and how agencies generate and use evidence. He uses randomized and quasi-experimental designs, often in partnership with state governments, to evaluate the key policy levers states control, from managed care procurement and network design to benefits administration. 
+Wallace studies the economics of public insurance markets, with a focus on Medicaid: how states design coverage, what that coverage delivers, and how agencies generate and use evidence. He uses randomized and quasi-experimental designs, often in partnership with state governments, to evaluate the key policy levers states control, from managed care procurement and network design to benefits administration. 
 
-His research has been published in the *American Economic Review*, the *Journal of Economic
-Perspectives*, the *American Economic Journal: Applied Economics* and *Economic Policy*, and
-leading medical journals, including *JAMA*, *BMJ*, and the *New England Journal of Medicine*.
+Wallace's research has been published in leading economics and clinical journals including the *American Economic Review*, the *Journal of Economic
+Perspectives*, *JAMA*, and the *New England Journal of Medicine*. He received the Willard G. Manning Award for the Best Research in Health Econometrics and the Outstanding Statistical Application Award from the American Statistical Association.
 
-His research has received the Willard G. Manning Award for the Best Research in Health Econometrics and the Outstanding Statistical Application Award from the American Statistical Association. His findings have been widely covered by media, including the *New York Times*, *Washington Post*, *NPR*, *The New Republic*, *New York Magazine*, *Financial Times*, *NBC*, *The Nation*, and *Slate*.
+Wallace's research have been widely covered by media, including the *New York Times*, *Washington Post*, *NPR*, *The New Republic*, *New York Magazine*, *Financial Times*, *NBC*, *The Nation*, and *Slate*.
 
 Before academia, Wallace served as a Medicaid policy analyst for New York State, worked as a
 data scientist in Silicon Valley, and co-founded the advocacy organization Young Invincibles.
