@@ -81,6 +81,15 @@ test_that("leak guard: no forbidden terms in committed data (patterns kept outsi
   expect_false(grepl(pat_mll, mll_text, ignore.case = TRUE, perl = TRUE))
 })
 
+test_that("leak guard: committed design docs carry no internal-process details (patterns kept outside the repo)", {
+  fd <- file.path(root, ".superpowers/sources/2026-10-23/forbidden-docs.txt")
+  skip_if_not(file.exists(fd))
+  pat_docs <- paste(readLines(fd), collapse = "|")
+  docs <- list.files(file.path(root, "docs/superpowers"), pattern = "2026-10-2[34].*\\.md$", recursive = TRUE, full.names = TRUE)
+  expect_gt(length(docs), 0)
+  for (f in docs) expect_false(grepl(pat_docs, paste(readLines(f), collapse = "\n"), ignore.case = TRUE, perl = TRUE), info = basename(f))
+})
+
 test_that("advisory roles list New York and the California RSST work group", {
   expect_equal(length(d$advisory), 2L)
   expect_match(d$advisory[[2]]$text, "Academic Work Group member, Risk Stratification, Segmentation, and Tiering (RSST) project", fixed = TRUE)
