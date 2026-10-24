@@ -138,7 +138,7 @@ h3.year, .year { font-size: 1.05rem; color: $sub-gray; font-family: $font-family
 .press-mark { color: $yale-blue; font-weight: 700; margin-left: .15rem; }
 
 // Policy Initiatives page: image-left rows separated by hairlines; stacks on phones.
-.init-intro { max-width: 46rem; }
+.init-intro { max-width: none; }
 .initiative { display: grid; grid-template-columns: 520px minmax(0, 1fr); gap: 2.5rem; border-top: 1px solid $hairline; padding: 2.5rem 0; align-items: start; }
 .initiative h2 { border: 0; margin: 0 0 .2rem; padding: 0; font-size: 1.45rem; }
 .init-image img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border: 1px solid $hairline; display: block; }

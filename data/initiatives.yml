@@ -4,8 +4,7 @@
 #   featured: true = also shown above the dropdown. local = a copy hosted on this site, linked first.
 #   quote = a short excerpt shown before the source link. An item with no url shows its note instead (e.g. coming soon).
 # intro/meta/body accept [text](url) links.
-intro: Much of my work is done alongside or within state agencies. These are the initiatives
-  I currently lead or co-lead.
+intro: Much of my work involves using randomized and quasi-experimental designs, often in partnerships with state governments, to produce evidence that policymakers use to strengthen the safety net. These are the initiatives I currently lead or co-lead.
 initiatives:
   - id: scale-lab
     title: The SCALE Lab
@@ -15,7 +14,7 @@ initiatives:
     alt: Chima Ndumele and Jacob Wallace at the lectern opening the 2024 Northeast
       Medicaid Research Symposium at Yale
     body: The SCALE Lab is a research and policy institute that forms hands-on partnerships
-      with state policymakers to improve the social safety net. Its data scientists
+      with state policymakers to improve the social safety net. Its data scientists and research assistants
       are employed by Yale but hold state credentials and work side by side with agency
       staff, so that new policies can be tested, refined and scaled while decisions
       are still open. The team of about a dozen researchers, data scientists, policy
@@ -54,12 +53,9 @@ initiatives:
     image: assets/img/initiatives/connecticut.png
     fit: contain
     alt: 'A rapid-cycle learning model: plan, do, study, act'
-    body: Since a 2023 collaboration between Governor Lamont's administration and
-      Yale, a SCALE team has worked inside Connecticut's Department of Social Services,
-      which runs HUSKY Health (the state's Medicaid program) and SNAP. With agency
-      staff, we co-design and field randomized evaluations of care management, member
-      outreach and benefit take-up, and provide rapid-cycle analysis on the state's
-      most pressing questions, so that results feed directly into program decisions.
+    body: With generous support from Arnold Ventures and the Connecticut Project, a SCALE team has worked inside Connecticut's Department of Social Services,
+      which runs HUSKY Health (the state's Medicaid program) and SNAP. With agency staff, we co-design and field randomized evaluations of care management, member
+      outreach and benefit take-up, and provide rapid-cycle analysis on the state's most pressing questions, including those related to H.R. 1 implementation, so that results feed directly into program decisions.
     links:
       - group: Trials & registrations
         items:
@@ -71,6 +67,22 @@ initiatives:
           - title: Testing Approaches to Increase SNAP Take-up Among CT Medicaid Beneficiaries
             url: https://www.povertyactionlab.org/initiative-project/testing-approaches-increase-snap-take-among-ct-medicaid-beneficiaries
             source: J-PAL, 2025
+          - title: 'Connecticut Medicaid Vaccination Outreach: Optimizing Targeting for
+              Immunizations for Adolescents (OPTIMA)'
+            url: https://osf.io/epq5v
+            source: OSF Registries, 2025
+          - title: 'Connecticut Medicaid PCP Attribution: Evaluating Community Health
+              Worker Outreach'
+            url: https://osf.io/78znw
+            source: OSF Registries, 2025
+          - title: 'Connecticut Medicaid Readmission Avoidance: Evaluating Care Management
+              Outreach'
+            url: https://osf.io/ypcjg
+            source: OSF Registries, 2025
+          - title: 'Connecticut Medicaid Avoidable ED: Evaluating Targeted Care Management
+              Outreach'
+            url: https://osf.io/dsz6g
+            source: OSF Registries, 2025
       - group: News & features
         items:
           - title: Our impact in Connecticut (Phase One Report)
@@ -176,10 +188,9 @@ initiatives:
     alt: Combining a state model and a federal model of SNAP payment-error risk into
       one risk score
     body: Starting in 2027, states' share of SNAP benefit costs will depend on their
-      payment error rates. With the Better Government Lab, we are working with five
+      payment error rates. In partnership with the Better Government Lab, we are working with five
       states to deploy predictive models that flag the cases most likely to contain
-      errors, so that states can catch mistakes more precisely without adding burden
-      for families. The project was selected in the second round of the Public Benefit
+      errors, so that states can catch mistakes without adding burden for families. The project just received $1.7 million in funding from the Public Benefit
       Innovation Fund. Our team also co-convenes workshops where states share data,
       code and lessons openly.
     links:

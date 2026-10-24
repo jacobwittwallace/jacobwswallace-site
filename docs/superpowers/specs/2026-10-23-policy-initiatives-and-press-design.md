@@ -29,7 +29,6 @@ jacobwswallace.com shows Jacob's papers well but says little about the other hal
 
 - **Looks AI-generated or templated.** No cards, chips or tag pills, shaded boxes, icons, drop shadows, gradients, or alternating left/right image rows. Jacob wants it to feel old-school: a hand-built faculty page.
 - **Leaks non-public information.** The participating Learning Lab states or agencies must never appear, on this page or in linked documents. Also off limits:
-  - the PBIF award amount. Jacob explicitly said not to use it;
   - anything sourced only from internal files: grant amounts, internal trial counts or results, unreleased announcements, internal proposal titles, personnel material.
 - **Press page that reads as one story.** Excess-deaths coverage is about 60% of the list. It should sit inside the long list, not get its own headline section.
 
@@ -89,7 +88,7 @@ jacobwswallace.com shows Jacob's papers well but says little about the other hal
     - Paragraph covers: developed by J-PAL North America with SCALE; builds agencies' test-and-learn capacity; curriculum, peer learning and technical assistance; evaluation awards up to $400,000; launched June 2026, convened at MIT in September 2026.
     - **No states named.**
     - **RCT Palooza.** Mention and link it here, by that name. Jacob decided this. Link the June 1 2023 Yale News story "At Yale, scholars and policymakers unite to improve state Medicaid program". The name is used publicly for the first time on this site.
-  - **SNAP Payment Accuracy.** From 2027 states' cost share depends on payment error rates. With Georgetown's Better Government Lab, working with five states (not named) on predictive models that flag error-prone cases without adding burden for families. Selected in round 2 of the Public Benefit Innovation Fund. **No dollar amount.**
+  - **SNAP Payment Accuracy.** From 2027 states' cost share depends on payment error rates. With Georgetown's Better Government Lab, working with five states (not named) on predictive models that flag error-prone cases without adding burden for families. Selected in round 2 of the Public Benefit Innovation Fund. (Jacob later added the award amount himself; see the Revision section.)
 - **SNAP Payment Accuracy resources.** Jacob wants the team's publicly posted SNAP PER resources made available from the site. The inventory is `.superpowers/sources/2026-10-23/snap-resources/inventory.csv`: 20 items, with files in `.superpowers/sources/2026-10-23/snap-resources/files/`.
   - **Rehost on the site.** This is the builder's call; Jacob can override. Rehost only the items credited to SCALE/Yale, in `assets/docs/snap/`, each with a "Originally posted by…" link next to it:
     - QC Data Workshop Summary (Mar 2 2026)
@@ -178,7 +177,7 @@ Jacob found the link lists too long. The changes below replace the earlier link 
     - Learning Lab: only "Letter from the Scientific Advisor, Jacob Wallace".
     - SNAP: only the Center for Civic Futures announcement.
   - A "+" dropdown (a native `<details>` element) lists every group. Its summary is just the group names, e.g. "+ About · News & features · Website", with no "More".
-- **Intro**, verbatim: "Much of my work is done alongside or within state agencies. These are the initiatives I currently lead or co-lead." 
+- **Intro and body copy:** Jacob now edits these directly in `data/initiatives.yml`. On 2026-10-24 he cleared the PBIF award amount for publication.
 - **Groups per initiative**, in this order:
   - **The SCALE Lab:** About · News & features · Website. Website reads "SCALE Lab website (coming soon)", unlinked. No research papers, because SCALE is the umbrella for most of Jacob's work.
   - **Connecticut Medicaid Partnership:** Trials & registrations · News & features · In the state's words. Each "In the state's words" item shows its most relevant quote, verified word for word against the source, before the link.

@@ -94,14 +94,19 @@ test_that("above the fold: SCALE two links, Connecticut none, Learning Lab only 
   expect_match(featured_titles("SNAP Payment Accuracy"), "Center for Civic Futures", fixed = TRUE)
 })
 
-test_that("the page intro reads as Jacob wrote it", {
-  expect_equal(d$intro, "Much of my work is done alongside or within state agencies. These are the initiatives I currently lead or co-lead.")
+test_that("the page has an intro", {
+  expect_true(is.character(d$intro) && nzchar(trimws(d$intro)))
 })
 
 test_that("every 'In the state's words' item carries its most relevant quote", {
   q <- items_in("Connecticut Medicaid Partnership", "In the state's words")
   expect_gt(length(q), 0)
   expect_true(all(vapply(q, function(x) !is.null(x$quote) && nchar(x$quote) > 40, TRUE)))
+})
+
+test_that("Connecticut lists the four pre-registered trials on OSF", {
+  urls <- vapply(items_in("Connecticut Medicaid Partnership", "Trials & registrations"), `[[`, "", "url")
+  expect_true(all(c("https://osf.io/epq5v", "https://osf.io/78znw", "https://osf.io/ypcjg", "https://osf.io/dsz6g") %in% urls))
 })
 
 test_that("the Learning Lab's About section opens with the Scientific Advisor's letter", {
