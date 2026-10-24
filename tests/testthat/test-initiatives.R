@@ -20,6 +20,14 @@ test_that("link_item_html: external, empty source, hosted copy", {
   expect_equal(link_item_html(li(title = "Deck", url = "https://drive.google.com/x", source = "SCALE Lab, 2026", local = "assets/docs/snap/d.pdf")),
                '<li><a href="assets/docs/snap/d.pdf">Deck</a> (SCALE Lab, 2026; <a href="https://drive.google.com/x">original</a>)</li>')
 })
+test_that("link_item_html: a quote item shows the quote first, then a linked source line", {
+  expect_equal(link_item_html(li(quote = "We want \"actionable\" intelligence & more", title = "Yale News story", url = "https://n.org/a", source = "Bill Halsey, 2024")),
+               '<li class="init-quote-item"><p class="init-quote">\u201cWe want &quot;actionable&quot; intelligence &amp; more\u201d</p><p class="init-attrib">\u2014 <a href="https://n.org/a">Yale News story</a> (Bill Halsey, 2024)</p></li>')
+})
+test_that("link_item_html: an item without a url shows its title and note, unlinked", {
+  expect_equal(link_item_html(li(title = "SCALE Lab website", note = "coming soon")),
+               '<li>SCALE Lab website <span class="init-note">(coming soon)</span></li>')
+})
 test_that("link_groups_html skips empty groups and labels the rest", {
   h <- link_groups_html(list(li(group = "About", items = list(li(title = "T", url = "https://x.org", source = ""))),
                              li(group = "Empty", items = list())))
@@ -34,6 +42,14 @@ test_that("initiative_html renders image-left row with linked meta", {
   h2 <- initiative_html(li(id = "c", title = "T", meta = "", body = "", image = "x.png", alt = "A", fit = "contain", links = list()))
   expect_match(h2, '<div class="init-image fit-contain">', fixed = TRUE)
 })
+test_that("initiative_html shows featured links, then a + dropdown naming every group", {
+  links <- list(li(group = "About", items = list(li(title = "F1", url = "https://a.org", source = "", featured = TRUE), li(title = "A2", url = "https://b.org", source = ""))),
+                li(group = "Website", items = list(li(title = "Site", note = "coming soon", featured = TRUE))))
+  h <- initiative_html(li(id = "s", title = "T", meta = "", body = "", image = "x.jpg", alt = "A", links = links))
+  expect_match(h, '<ul class="init-featured"><li><a href="https://a.org">F1</a></li><li>Site <span class="init-note">(coming soon)</span></li></ul>', fixed = TRUE)
+  expect_match(h, '<details class="init-more"><summary>More: About \u00b7 Website</summary><div class="init-links">', fixed = TRUE)
+  expect_match(h, '</div></details></div></section>', fixed = TRUE)
+})
 
 d <- yaml::read_yaml(file.path(root, "data/initiatives.yml"))
 by_title <- setNames(d$initiatives, vapply(d$initiatives, `[[`, "", "title"))
@@ -45,11 +61,56 @@ test_that("initiatives appear in the approved order", {
   expect_equal(names(by_title), c("The SCALE Lab", "Connecticut Medicaid Partnership", "Medicaid Learning Lab", "SNAP Payment Accuracy"))
 })
 
-test_that("every link has a title and an https url, and each url appears once on the page", {
-  urls <- vapply(all_items, `[[`, "", "url")
+test_that("every link has a title and an https url (or a note), and each url appears once on the page", {
+  linked <- Filter(function(i) !is.null(i$url), all_items)
+  unlinked <- Filter(function(i) is.null(i$url), all_items)
+  urls <- vapply(linked, `[[`, "", "url")
   expect_true(all(vapply(all_items, function(i) nzchar(i$title), TRUE)))
   expect_true(all(grepl("^https://", urls)))
+  expect_true(all(vapply(unlinked, function(i) nzchar(i$note), TRUE)))
   expect_equal(anyDuplicated(urls), 0L)
+})
+
+groups_of <- function(t) vapply(by_title[[t]]$links, `[[`, "", "group")
+items_in <- function(t, g) Filter(function(x) x$group == g, by_title[[t]]$links)[[1]]$items
+
+test_that("each initiative has exactly the groups Jacob asked for, in order", {
+  expect_equal(groups_of("The SCALE Lab"), c("About", "News & features", "Website"))
+  expect_equal(groups_of("Connecticut Medicaid Partnership"), c("Trials & registrations", "News & features", "In the state's words"))
+  expect_equal(groups_of("Medicaid Learning Lab"), c("About", "News & features", "Related research"))
+  expect_equal(groups_of("SNAP Payment Accuracy"), c("News & features", "Resources"))
+})
+
+test_that("each initiative features exactly two links", {
+  for (i in d$initiatives) {
+    n <- sum(vapply(unlist(lapply(i$links, `[[`, "items"), recursive = FALSE), function(x) isTRUE(x$featured), TRUE))
+    expect_equal(n, 2L, info = i$title)
+  }
+})
+
+test_that("every 'In the state's words' item carries its most relevant quote", {
+  q <- items_in("Connecticut Medicaid Partnership", "In the state's words")
+  expect_gt(length(q), 0)
+  expect_true(all(vapply(q, function(x) !is.null(x$quote) && nchar(x$quote) > 40, TRUE)))
+})
+
+test_that("the Learning Lab's About section opens with the Scientific Advisor's letter", {
+  first <- items_in("Medicaid Learning Lab", "About")[[1]]
+  expect_equal(first$title, "Letter from the Scientific Advisor")
+  expect_match(first$url, "Launching%20the%20Medicaid%20Learning%20Lab", fixed = TRUE)
+})
+
+test_that("the SCALE website is listed as coming soon, unlinked", {
+  w <- items_in("The SCALE Lab", "Website")
+  expect_equal(length(w), 1L)
+  expect_null(w[[1]]$url)
+})
+
+test_that("SNAP resources are explicitly SCALE resources, not BGL-only", {
+  r <- items_in("SNAP Payment Accuracy", "Resources")
+  hosts <- vapply(r, function(x) x$url, "")
+  expect_false(any(grepl("bettergovernmentlab|giannella|shinyapps|digitalgovernmenthub", hosts)))
+  expect_true(any(grepl("safetynetresponse.org/blog/attribution/yale-scale-lab", hosts, fixed = TRUE)))
 })
 
 test_that("every hosted copy and every image exists in the repo", {

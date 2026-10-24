@@ -166,3 +166,21 @@ Nothing is pending. Everything the build needs is decided.
 - **SNAP resources:** `.superpowers/sources/2026-10-23/snap-resources/` (`inventory.csv`, `README.md`, `files/`). The 333 MB BGL state workbooks were not kept; they are linked, not rehosted.
 
 Everything under `.superpowers/` is gitignored and lives only in Jacob's Dropbox copy. `materials.md` in particular contains internal and do-not-publish material and must never be committed. Move only public, needed content into `data/` and `assets/` as part of the build.
+
+## Revision, 2026-10-24 (after Jacob reviewed the first build)
+
+Jacob found the link lists too long. The changes below replace the earlier link rules wherever they conflict.
+
+- **Fewer links up front.**
+  - Each initiative shows two featured links under its paragraph.
+  - A "+ More" dropdown (a native `<details>` element) lists every group, and its summary names the groups.
+- **Groups per initiative**, in this order:
+  - **The SCALE Lab:** About · News & features · Website. Website reads "SCALE Lab website (coming soon)", unlinked. No research papers, because SCALE is the umbrella for most of Jacob's work.
+  - **Connecticut Medicaid Partnership:** Trials & registrations · News & features · In the state's words. Each "In the state's words" item shows its most relevant quote, verified word for word against the source, before the link.
+  - **Medicaid Learning Lab:** About · News & features · Related research.
+    - About opens with "Letter from the Scientific Advisor", linked to the June 2026 J-PAL North America newsletter PDF, followed by J-PAL's own mentions of the launch (the program page and the February 2026 newsletter).
+    - News & features holds the affiliate spotlight, RCT Palooza and the MIT convening.
+  - **SNAP Payment Accuracy:** News & features (the Center for Civic Futures announcement) · Resources. Resources holds only items that explicitly credit SCALE: SCALE's Safety Net Response Network page, the three hosted files and "Is This Working?". Better Government Lab-only resources are removed.
+- **Images.**
+  - The image column is 520px, double the earlier width. Images are re-exported at about 1,400px so they stay sharp.
+  - Rows stack below 1,000px, because two 520px-plus columns no longer fit there.

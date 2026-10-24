@@ -1,6 +1,8 @@
 # Policy Initiatives page content. Rendered by R/initiatives.R; edit freely.
 # image: shown left at 3:2. fit: "contain" shows the whole image (diagrams/charts) on white; default crops to fill (photos).
-# links: groups in display order; item = {title, url, source, local?}. local = a copy hosted on this site.
+# links: groups in display order, all shown under a "More" dropdown. item = {title, url, source, local?, featured?, quote?, note?}.
+#   featured: true = also shown above the dropdown (two per initiative). local = a copy hosted on this site, linked first.
+#   quote = a short excerpt shown before the source link. An item with no url shows its note instead (e.g. coming soon).
 # intro/meta/body accept [text](url) links.
 intro: Much of my work is done alongside the state agencies that run Medicaid and
   SNAP, testing changes while decisions are still open. These are the initiatives
@@ -27,44 +29,25 @@ initiatives:
               policy'
             url: https://medicine.yale.edu/public-health-magazine/article/thinking-beyond-the-possible-how-ysph-is-shaping-public-health-policy/
             source: Yale School of Public Health, 2025
-      - group: Papers
-        items:
-          - title: 'The Private Provision of Public Services: Evidence from Random
-              Assignment in Medicaid'
-            url: https://www.aeaweb.org/articles?id=10.1257/aer.20230541
-            source: American Economic Review, 2026
-          - title: Supplemental Nutrition Assistance Program Work Requirements and
-              Safety-Net Program Participation
-            url: https://doi.org/10.1001/jamainternmed.2024.5932
-            source: JAMA Internal Medicine, 2025
-          - title: SNAP Work Requirements Reversal and Program Enrollment
-            url: https://doi.org/10.1001/jamahealthforum.2025.1587
-            source: JAMA Health Forum, 2025
+            featured: yes
       - group: News & features
         items:
-          - title: New Study Finds Medicaid Managed Care Lowers Some Costs, But Tradeoffs
-              Remain
-            url: https://ysph.yale.edu/news-article/new-study-finds-medicaid-managed-care-lowers-some-costs-but-tradeoffs-remain/
-            source: Yale School of Public Health, 2026
+          - title: 'From research to impact: Yale''s Tobin Center drives work that
+              shapes policy and improves lives'
+            url: https://news.yale.edu/2026/09/24/research-impact-yales-tobin-center-drives-work-shapes-policy-and-improves-lives
+            source: Yale News, 2026
           - title: 'The paperwork trap: A sneaky way to cut Medicaid in the ''One
               Big Beautiful Bill''?'
             url: https://www.npr.org/sections/planet-money/2025/06/26/g-s1-74544/the-paperwork-trap-a-sneaky-way-to-cut-medicaid-in-the-one-big-beautiful-bill
             source: NPR Planet Money, 2025
-      - group: Talks & podcasts
-        items:
           - title: 'Chima Ndumele: Reinventing Medicaid (Health & Veritas podcast)'
             url: https://insights.som.yale.edu/podcasts/health-veritas/chima-ndumele-reinventing-medicaid
             source: Yale Insights, 2024
-      - group: Related writing
+      - group: Website
         items:
-          - title: Privatizing Medicaid saved money—almost entirely on prescription
-              drugs, not medical care
-            url: https://tobin.yale.edu/research/privatizing-medicaid-saved-money-almost-entirely-prescription-drugs-not-medical-care
-            source: Tobin Center for Economic Policy, 2026
-          - title: SNAP work requirements have biggest effect on those least able
-              to work
-            url: https://tobin.yale.edu/research/snap-work-requirements-have-biggest-effect-those-least-able-work
-            source: Tobin Center for Economic Policy, 2025
+          - title: SCALE Lab website
+            note: coming soon
+            featured: yes
   - id: connecticut
     title: Connecticut Medicaid Partnership
     meta: With the Connecticut Department of Social Services · Supported by Arnold
@@ -79,45 +62,6 @@ initiatives:
       outreach and benefit take-up, and provide rapid-cycle analysis on the state's
       most pressing questions, so that results feed directly into program decisions.
     links:
-      - group: In the state's words
-        items:
-          - title: DSS presentation on a randomized pilot “in partnership with Yale
-              University's SCALE Lab”
-            url: https://www.cga.ct.gov/ph/med/related/20190106_Council%20Meetings%20%26%20Presentations/20260508/DSS%20May%20Presentation.pdf
-            source: Medical Assistance Program Oversight Council, 2026
-          - title: “We are interested in partnering with researchers that can give
-              us what I call actionable intelligence on how to inform policy in real
-              time, not five or 10 years later.”
-            url: https://news.yale.edu/2024/12/20/yale-unites-scholars-policymakers-improve-medicaid
-            source: Bill Halsey, Connecticut Medicaid Director, in Yale News, 2024
-          - title: DSS and the Tobin Center at Yale model the financial impact of
-              federal Medicaid proposals
-            url: https://www.cga.ct.gov/ph/med/related/20190106_Council%20Meetings%20%26%20Presentations/20250314/Summary%20Federal%20Proposals%20-%20Modeling%20Medicaid%20Financial%20Impact.pdf
-            source: Medical Assistance Program Oversight Council, 2025
-          - title: Commissioner Andrea Barton Reeves's testimony on DSS's Test & Learn
-              initiative
-            url: https://www.cga.ct.gov/2025/hsdata/TMY/2025SB-01122-R000227-Barton%20Reeves,%20Andrea,%20Commissioner-DSS--TMY.PDF#page=10
-            source: Connecticut General Assembly, Human Services Committee, 2025
-      - group: About
-        items:
-          - title: Our impact in Connecticut (Phase One Report)
-            url: https://impact.tobin.yale.edu/our-impact-in-connecticut.html
-            source: Tobin Center for Economic Policy, 2026
-          - title: 'Tobin 2024: Ready for What''s Next'
-            url: https://tobin.yale.edu/about/tobin-2024-ready-whats-next
-            source: Tobin Center for Economic Policy, 2024
-          - title: Tobin Center Annual Report 2024
-            url: https://tobin.yale.edu/sites/default/files/2025-03/Tobin%20Center%20Yale%20Annual%20Report%202024.pdf
-            source: Tobin Center for Economic Policy, 2025
-          - title: 'Tobin 2023: Economics in Service to Society'
-            url: https://tobin.yale.edu/2023-year-in-review
-            source: Tobin Center for Economic Policy, 2023
-      - group: Announcements
-        items:
-          - title: Yale Tobin Center Announces Initiatives and Partnerships Supporting
-              Core Themes of Modern Supply Side Economics
-            url: https://tobin.yale.edu/news/230405/yale-tobin-center-announces-initiatives-and-partnerships-supporting-core-themes-modern-supply-side
-            source: Tobin Center for Economic Policy, 2023
       - group: Trials & registrations
         items:
           - title: 'Increasing SNAP Enrollment Among Eligible Medicaid Beneficiaries:
@@ -125,15 +69,16 @@ initiatives:
               Assistance'
             url: https://www.socialscienceregistry.org/trials/17545
             source: AEA RCT Registry, 2026
+            featured: yes
           - title: Testing Approaches to Increase SNAP Take-up Among CT Medicaid Beneficiaries
             url: https://www.povertyactionlab.org/initiative-project/testing-approaches-increase-snap-take-among-ct-medicaid-beneficiaries
             source: J-PAL, 2025
       - group: News & features
         items:
-          - title: 'From research to impact: Yale''s Tobin Center drives work that
-              shapes policy and improves lives'
-            url: https://news.yale.edu/2026/09/24/research-impact-yales-tobin-center-drives-work-shapes-policy-and-improves-lives
-            source: Yale News, 2026
+          - title: Our impact in Connecticut (Phase One Report)
+            url: https://impact.tobin.yale.edu/our-impact-in-connecticut.html
+            source: Tobin Center for Economic Policy, 2026
+            featured: yes
           - title: Officials say DSS, Medicaid face potentially bleak future
             url: https://ctnewsjunkie.com/2025/03/17/officials-say-dss-medicaid-face-potentially-bleak-future/
             source: CT News Junkie, 2025
@@ -144,11 +89,34 @@ initiatives:
               with state and local governments
             url: https://news.mit.edu/2023/j-pal-north-america-results-america-announce-collaborations-18-state-local-governments-0929
             source: MIT News, 2023
-      - group: Related writing
+      - group: In the state's words
         items:
-          - title: 'Achieving Medicaid Goals Through Test And Learn: The Role Of RCTs'
-            url: https://www.healthaffairs.org/content/forefront/achieving-medicaid-goals-through-test-and-learn-role-rcts
-            source: Health Affairs Forefront, 2024
+          - quote: Currently conducting a four-month pilot program in partnership
+              with Yale University’s SCALE Lab, Connecticut Foodshare, and Frontdoor
+              Benefits with the goal of increasing SNAP enrollment and evaluating
+              varied communication techniques
+            title: DSS presentation to the Medical Assistance Program Oversight Council
+            url: https://www.cga.ct.gov/ph/med/related/20190106_Council%20Meetings%20%26%20Presentations/20260508/DSS%20May%20Presentation.pdf
+            source: Connecticut DSS, May 2026
+          - quote: We are interested in partnering with researchers that can give
+              us what I call actionable intelligence on how to inform policy in real
+              time, not five or 10 years later.
+            title: Yale unites scholars, policymakers to improve Medicaid
+            url: https://news.yale.edu/2024/12/20/yale-unites-scholars-policymakers-improve-medicaid
+            source: Bill Halsey, Connecticut Medicaid Director, in Yale News, 2024
+          - quote: DSS and the Tobin Center for Economic Policy at Yale University
+              are modeling the financial impact should one or several of the discussed
+              proposals pertaining to Medicaid be enacted
+            title: Medicaid federal financial modeling, presented to the Medical Assistance
+              Program Oversight Council
+            url: https://www.cga.ct.gov/ph/med/related/20190106_Council%20Meetings%20%26%20Presentations/20250314/Summary%20Federal%20Proposals%20-%20Modeling%20Medicaid%20Financial%20Impact.pdf
+            source: Connecticut DSS, March 2025
+          - quote: The goal of the Test & Learn is to build rigorous evidence and
+              enable data-driven decision making for the Medicaid program.
+            title: Testimony to the Human Services Committee
+            url: https://www.cga.ct.gov/2025/hsdata/TMY/2025SB-01122-R000227-Barton%20Reeves,%20Andrea,%20Commissioner-DSS--TMY.PDF#page=10
+            source: Commissioner Andrea Barton Reeves, Connecticut General Assembly,
+              2025
   - id: learning-lab
     title: Medicaid Learning Lab
     meta: With J-PAL North America · Scientific Advisor
@@ -165,37 +133,29 @@ initiatives:
     links:
       - group: About
         items:
+          - title: Letter from the Scientific Advisor
+            url: https://www.povertyactionlab.org/sites/default/files/J-PAL%20North%20America%20News_%20Launching%20the%20Medicaid%20Learning%20Lab%20%2B%20more%20on%20the%20Learning%20Lab%20model.pdf
+            source: J-PAL North America newsletter, June 2026
+            featured: yes
           - title: J-PAL North America Medicaid Learning Lab
             url: https://www.povertyactionlab.org/page/j-pal-north-america-medicaid-learning-lab
             source: J-PAL, 2026
-          - title: US Health Care Delivery Initiative
-            url: https://www.povertyactionlab.org/initiative/us-health-care-delivery-initiative-hcdi
-            source: J-PAL, 2026
-          - title: HCDI Request for Proposals
-            url: https://www.povertyactionlab.org/initiative/hcdi-request-proposals
-            source: J-PAL, 2026
-      - group: Announcements
-        items:
-          - title: June 2026 North America Newsletter
-            url: https://www.povertyactionlab.org/updates/june-2026-north-america-newsletter
-            source: J-PAL, 2026
+            featured: yes
           - title: February 2026 North America Newsletter
             url: https://www.povertyactionlab.org/updates/february-2026-north-america-newsletter
             source: J-PAL, 2026
-      - group: Events & presentations
-        items:
-          - title: Medicaid Learning Lab Convening
-            url: https://www.povertyactionlab.org/event/medicaid-learning-lab-convening
-            source: J-PAL, 2026
-          - title: 'RCT Palooza: “At Yale, scholars and policymakers unite to improve
-              state Medicaid program”'
-            url: https://news.yale.edu/2023/06/01/yale-scholars-and-policymakers-unite-improve-state-medicaid-program
-            source: Yale News, 2023
       - group: News & features
         items:
           - title: 'Affiliate Spotlight: Jacob Wallace on strengthening Medicaid through
               evidence use and generation'
             url: https://www.povertyactionlab.org/blog/2-19-26/affiliate-spotlight-jacob-wallace-strengthening-medicaid-through-evidence-use-and
+            source: J-PAL, 2026
+          - title: 'RCT Palooza: “At Yale, scholars and policymakers unite to improve
+              state Medicaid program”'
+            url: https://news.yale.edu/2023/06/01/yale-scholars-and-policymakers-unite-improve-state-medicaid-program
+            source: Yale News, 2023
+          - title: Medicaid Learning Lab Convening
+            url: https://www.povertyactionlab.org/event/medicaid-learning-lab-convening
             source: J-PAL, 2026
       - group: Related research
         items:
@@ -227,25 +187,19 @@ initiatives:
       Innovation Fund. Our team also co-convenes workshops where states share data,
       code and lessons openly.
     links:
-      - group: About
-        items:
-          - title: Public Benefit Innovation Fund
-            url: https://www.publicbenefitinnovationfund.org/
-            source: Public Benefit Innovation Fund, 2026
-          - title: Yale SCALE Lab on the Safety Net Response Network
-            url: https://safetynetresponse.org/blog/attribution/yale-scale-lab/
-            source: Safety Net Response Network, 2026
-      - group: Announcements
+      - group: News & features
         items:
           - title: Center for Civic Futures Awards $11 Million to Tackle the Toughest
               Barriers in Safety Net Delivery with AI
             url: https://www.centerforcivicfutures.org/resources/center-for-civic-futures-awards-11-million-to-tackle-the-toughest-barriers-in-safety-net-delivery-with-ai
             source: Center for Civic Futures, 2026
+            featured: yes
       - group: Resources
         items:
-          - title: SNAP Quality Control Resources for States
-            url: https://www.bettergovernmentlab.org/resources/snap
-            source: Better Government Lab, 2026
+          - title: Yale SCALE Lab on the Safety Net Response Network
+            url: https://safetynetresponse.org/blog/attribution/yale-scale-lab/
+            source: Safety Net Response Network, 2026
+            featured: yes
           - title: 'QC Data Workshop: Predictive Analytics for SNAP Payment Error
               Reduction (workshop summary)'
             url: https://drive.google.com/file/d/1nklEAoV6UoniTCdV15_IiSP_ll6_60n7/view
@@ -266,32 +220,6 @@ initiatives:
               Error Rates
             url: https://safetynetresponse.org/blog/is-this-working-data-driven-strategies-to-reduce-snap-payment-error-rates/
             source: Safety Net Response Network, 2026
-          - title: 'Promising Practices in SNAP PER Reduction: Data-Driven Preauthorization
-              Reviews'
-            url: https://safetynetresponse.org/blog/promising-practices-in-snap-per-reduction-data-driven-preauthorization-reviews/
-            source: Safety Net Response Network, 2026
-          - title: 'Promising Practices in SNAP PER Reduction: A State Case Study'
-            url: https://safetynetresponse.org/blog/promising-practices-in-snap-per-reduction-a-state-case-study/
-            source: Safety Net Response Network, 2026
-          - title: 'PER Data Workshop: Feature Engineering for Prioritizing Case Reviews'
-            url: https://drive.google.com/file/d/1keSJCJnKRLe4YfSdhaauf3RpV4Po0fMX/view
-            source: Better Government Lab, 2026
-          - title: Unlocking the potential of payment error buffers through uncapped
-              benefit analysis
-            url: https://drive.google.com/file/d/14VplWdvlzZrHv5vDYZbyzOYbg0qXVJea/view
-            source: Better Government Lab, 2026
-          - title: State-specific Excel workbooks with error-flagging rules
-            url: https://github.com/giannella/snap_qc/releases/tag/v2.6.0
-            source: Better Government Lab, 2026
-          - title: 'snap_qc: open-source code for modeling SNAP payment errors'
-            url: https://github.com/giannella/snap_qc
-            source: Better Government Lab, 2026
-          - title: SNAP QC Error Viewer
-            url: https://bettergovernmentlab.shinyapps.io/snap-qc-shiny/
-            source: Better Government Lab
-          - title: SNAP PER Cost Share Projection
-            url: https://giannella.github.io/SNAP_estimated_error_rates/
-            source: Better Government Lab
 advisory:
   - text: Health economist, New York State Medicaid Evidence-Based Benefit Review
       Advisory Committee (2024–2027)
