@@ -32,8 +32,6 @@ website:
   page-footer:
     left: "© 2026 Jacob Wallace"
     right:
-      - text: "Subscribe on Substack"
-        href: "https://example.substack.com"
       - text: "Google Scholar"
         href: "https://scholar.google.com/citations?user=fEv_2Z0AAAAJ"
       - text: "Yale profile"
