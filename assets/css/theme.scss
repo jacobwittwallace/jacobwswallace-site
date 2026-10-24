@@ -136,3 +136,19 @@ h3.year, .year { font-size: 1.05rem; color: $sub-gray; font-family: $font-family
 .press-list li { padding: .45rem 0; border-bottom: 1px solid $hairline; line-height: 1.45; }
 .press-list a { text-decoration: underline; text-underline-offset: 2px; }
 .press-mark { color: $yale-blue; font-weight: 700; margin-left: .15rem; }
+
+// Policy Initiatives page: image-left rows separated by hairlines; stacks on phones.
+.init-intro { max-width: 46rem; }
+.initiative { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 2rem; border-top: 1px solid $hairline; padding: 2rem 0; }
+.initiative h2 { border: 0; margin: 0 0 .2rem; padding: 0; font-size: 1.45rem; }
+.init-image img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border: 1px solid $hairline; display: block; }
+.init-image.fit-contain img { object-fit: contain; background: #fff; padding: .4rem; }
+.init-meta { color: $sub-gray; font-size: .95rem; margin: 0 0 .8rem; }
+.init-links { display: grid; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); gap: .2rem 2rem; font-size: .95rem; }
+.init-label { font-family: $font-family-sans-serif; font-size: .74rem; letter-spacing: 1.4px; text-transform: uppercase; color: $sub-gray; margin: .9rem 0 .3rem; border: 0; }
+.init-links ul, .advisory ul { list-style: none; padding: 0; margin: 0; }
+.init-links li { margin: 0 0 .35rem; line-height: 1.45; overflow-wrap: anywhere; }
+.initiative a, .advisory a { text-decoration: underline; text-underline-offset: 2px; }
+.advisory { border-top: 1px solid $hairline; padding-top: 1.5rem; }
+.advisory h2 { border: 0; }
+@media (max-width: 760px) { .initiative { grid-template-columns: 1fr; gap: 1rem; } }

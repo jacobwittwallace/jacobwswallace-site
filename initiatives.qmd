@@ -1,0 +1,11 @@
+---
+title: "Policy Initiatives"
+---
+
+```{r}
+#| echo: false
+#| output: asis
+source("R/html.R")
+source("R/initiatives.R")
+cat(initiatives_page_html(yaml::read_yaml("data/initiatives.yml")))
+```

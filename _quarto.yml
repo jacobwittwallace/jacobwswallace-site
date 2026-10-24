@@ -2,6 +2,8 @@ project:
   type: website
   resources:
     - assets/Jacob_Wallace_CV.pdf
+    - assets/img/initiatives/*
+    - assets/docs/snap/*.pdf
   output-dir: _site
   execute-dir: project
   render:
