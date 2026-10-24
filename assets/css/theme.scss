@@ -129,3 +129,10 @@ h3.year, .year { font-size: 1.05rem; color: $sub-gray; font-family: $font-family
 .feature-finding { font-size: .95rem; color: $body-gray; line-height: 1.5; }
 .feature-more { margin-top: .6rem; font-weight: 600; }
 @media (max-width: 900px) { .featured { grid-template-columns: 1fr; } }
+
+// Press page: one long undated list.
+.press-key { color: $sub-gray; font-size: .95rem; }
+.press-list { list-style: none; padding: 0; }
+.press-list li { padding: .45rem 0; border-bottom: 1px solid $hairline; line-height: 1.45; }
+.press-list a { text-decoration: underline; text-underline-offset: 2px; }
+.press-mark { color: $yale-blue; font-weight: 700; margin-left: .15rem; }

@@ -18,6 +18,10 @@ website:
     right:
       - text: "Research"
         href: research.qmd
+      - text: "Policy Initiatives"
+        href: initiatives.qmd
+      - text: "Press"
+        href: press.qmd
       - text: "Writing"
         href: writing.qmd
       - text: "CV"

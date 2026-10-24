@@ -1,0 +1,11 @@
+---
+title: "Press"
+---
+
+```{r}
+#| echo: false
+#| output: asis
+source("R/html.R")
+source("R/press.R")
+cat(press_page_html(yaml::read_yaml("data/press.yml")))
+```
