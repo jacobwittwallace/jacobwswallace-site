@@ -14,3 +14,7 @@
 
 **/*.quarto_ipynb
 .superpowers/
+
+# Quarto preview leftovers
+/site_libs/
+/*_files/
