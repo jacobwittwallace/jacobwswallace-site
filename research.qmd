@@ -1,5 +1,9 @@
 ---
 title: "Research"
+open-graph:
+  description: "Research on Medicaid, managed care, and public insurance by Jacob Wallace, Yale School of Public Health."
+twitter-card:
+  description: "Research on Medicaid, managed care, and public insurance by Jacob Wallace, Yale School of Public Health."
 aliases:
   - publications.html
 include-after-body:

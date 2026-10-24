@@ -12,6 +12,6 @@
   url: "https://doi.org/10.1257/jep.20251475"
 - label: "American Economic Review · 2026"
   title: "Private Provision of Public Services: Evidence from Random Assignment in Medicaid"
-  finding: "Private Medicaid plans cut costs 5.6%, mostly by denying prescriptions and steering enrollees to cheaper drugs, but with quality and satisfaction tradeoffs."
+  finding: "Private Medicaid plans cut costs 5.6%, mostly by steering enrollees to cheaper drugs without lowering observed quality; on the medical side, savings were small and quality and satisfaction fell."
   image: "assets/img/featured/aer-denials-by-drug-class.png"
   url: "https://doi.org/10.1257/aer.20230541"

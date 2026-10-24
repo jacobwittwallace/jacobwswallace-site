@@ -11,8 +11,16 @@ project:
 
 website:
   title: "Jacob Wallace"
-  description: "Health economist studying health insurance markets and managed care in public programs."
+  description: "Health economist at the Yale School of Public Health studying the economics of public insurance, particularly Medicaid."
   site-url: "https://www.jacobwswallace.com"
+  favicon: assets/img/favicon.png
+  # Link previews (LinkedIn, X, Slack, etc.)
+  image: assets/img/share-card.png
+  open-graph:
+    image-width: 1200
+    image-height: 630
+  twitter-card:
+    card-style: summary_large_image
   search: false
   navbar:
     logo: ""

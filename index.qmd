@@ -1,6 +1,7 @@
 ---
 title: ""
 pagetitle: "Jacob Wallace"
+image: assets/img/share-card.png
 ---
 
 ::: {.landing}
@@ -8,21 +9,20 @@ pagetitle: "Jacob Wallace"
 ![](assets/img/jacob-portrait-ink.webp){fig-alt="Jacob Wallace"}
 
 ::: {.landing-links}
-[CV](assets/Jacob_Wallace_CV.pdf){target="_blank"} | [Google Scholar](https://scholar.google.com/citations?user=fEv_2Z0AAAAJ) | [Yale](https://ysph.yale.edu/profile/jacob-wallace/)
+[CV](assets/Jacob_Wallace_CV.pdf){target="_blank"} | [Google Scholar](https://scholar.google.com/citations?user=fEv_2Z0AAAAJ) | [Yale](https://ysph.yale.edu/profile/jacob-wallace/) | [Email](mailto:jacob.wallace@yale.edu)
 :::
 :::
 
 ::: {.landing-bio}
-I'm a health economist and Associate Professor at the Yale School of Public Health. I'm also a Faculty Research Fellow at the National Bureau of Economic Research and an Affiliated Professor at J-PAL.
+I'm a health economist and Associate Professor at the Yale School of Public Health, where I study the economics of public insurance.
 
-I study the economics of public insurance, particularly Medicaid. Much of my research grows out of close partnerships with state agencies and the questions they face about how to make the safety net more effective.
+My research grows out of close partnerships with state agencies and the questions they face about how to make the safety net more effective. I currently have projects focused on Medicaid managed care and public procurement, administrative burdens in the safety net, and the economics of long term services and supports.
 
-My work has appeared in leading economics and clinical journals including the *American Economic Review* and the *New England Journal of Medicine*, and received the Willard G. Manning Award for the Best Research in Health Econometrics and the American Statistical Association's Outstanding Statistical 
-Application Award. It has also been covered by the media, including the *New York Times*, *Washington Post*, and *NPR*.
+My work has appeared in leading economics and clinical journals including the *American Economic Review* and the *New England Journal of Medicine*, and received the Willard G. Manning Award for the Best Research in Health Econometrics and the American Statistical Association's Outstanding Statistical Application Award. It has also been covered by the media, including the *New York Times*, *Washington Post*, and *NPR*.
 
 Before academia, I served as a Medicaid policy analyst for New York State, worked as a data scientist in Silicon Valley, and co-founded Young Invincibles, an advocacy organization for young adults. I earned my undergraduate degree at Swarthmore College and my PhD at Harvard University.
 
-I live in New Haven with my wife, our two kids, and our dog. When I'm not working, you can usually find me on a tennis court or, more recently, learning to surf. I'm currently reading *Barbarian Days: A Surfing Life* by William Finnegan. 
+I live in New Haven with my wife, our two kids, and our dog. When I'm not working, you can usually find me on a tennis court or, more recently, learning to surf. I'm reading *Barbarian Days: A Surfing Life* by William Finnegan. 
 
 :::
 :::

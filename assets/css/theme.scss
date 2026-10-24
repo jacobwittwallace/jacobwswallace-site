@@ -69,7 +69,7 @@ a:hover { text-decoration: underline; }
 .landing-links a { color: $yale-blue; font-weight: 700; }
 @media (max-width: 760px) {
   .landing { grid-template-columns: 1fr; gap: 1.5rem; margin-top: 1.5rem; }
-  .landing-photo img { max-width: 360px; }
+  .landing-photo img { max-width: 260px; }
   .navbar .navbar-title::after { display: block; margin-left: 0; font-size: .75rem; }
 }
 
