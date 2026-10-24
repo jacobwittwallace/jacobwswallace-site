@@ -50,6 +50,22 @@ test_that("press_page_html has the key once and never shows a year", {
   expect_false(grepl("20[0-9]{2}", h))
 })
 
+press_data <- yaml::read_yaml(file.path(root, "data/press.yml"))
+host_of <- function(u) sub("^(www|news)\\.", "", tolower(sub("^https?://([^/]+).*$", "\\1", u)))
+
+test_that("pieces read on a syndication or third-party site say where (via ...)", {
+  copy_hosts <- c("yahoo.com", "msn.com", "orthoatlanta.com")
+  copies <- Filter(function(i) host_of(i$url) %in% copy_hosts && !grepl("^(Yahoo|MSN)", i$outlet), press_data)
+  expect_gt(length(copies), 0)
+  for (i in copies) expect_true(nzchar(i$via), info = i$outlet)
+})
+
+test_that("outlet labels match the paper actually linked (Sentinel columns)", {
+  sun <- Filter(function(i) host_of(i$url) == "sun-sentinel.com", press_data)
+  expect_gt(length(sun), 0)
+  for (i in sun) expect_equal(i$outlet, "South Florida Sun-Sentinel")
+})
+
 test_that("data/press.yml satisfies the spec", {
   p <- yaml::read_yaml(file.path(root, "data/press.yml"))
   expect_equal(length(p), 178)

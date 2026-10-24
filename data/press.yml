@@ -706,7 +706,7 @@
   tier: 3
   topic: "COVID excess deaths by party (JAMA IM 2023)"
   year: 2023
-- outlet: "Orlando Sentinel"
+- outlet: "South Florida Sun-Sentinel"
   headline: "Anti-vaccine hysteria makes MAGA ideology a death trap"
   url: "https://www.sun-sentinel.com/2023/11/17/vaccine-hysteria-turns-maga-ideology-into-death-trap-fred-grimm/"
   mark: ""
@@ -1230,7 +1230,7 @@
   headline: "Lowering Medicare Age Could Help Close Racial Gaps in Health Care: Study"
   url: "https://orthoatlanta.com/health-news/lowering-medicare-age-could-help-close-racial-gaps-in-health-care-study"
   mark: "quoted"
-  via: ""
+  via: "OrthoAtlanta"
   tier: 4
   topic: "Medicare (age-65 eligibility, financial strain, payment)"
   year: 2021
