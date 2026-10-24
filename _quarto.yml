@@ -27,8 +27,6 @@ website:
       - text: "CV"
         href: assets/Jacob_Wallace_CV.pdf
         target: _blank
-      - text: "Contact"
-        href: contact.qmd
   page-footer:
     left: "© 2026 Jacob Wallace"
     right:
