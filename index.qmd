@@ -15,15 +15,14 @@ pagetitle: "Jacob Wallace"
 ::: {.landing-bio}
 I'm a health economist and Associate Professor at the Yale School of Public Health. I'm also a Faculty Research Fellow at the National Bureau of Economic Research and an Affiliated Professor at J-PAL.
 
-I discovered my interest in Medicaid before I knew anything about health economics. After college, I spent three years working on Medicaid policy for New York State. During my time there we were continually implementing new policies and programs, but rarely had time to look in the rearview mirror to see whether they were working. That experience ultimately led me to economics and left me with many of the questions I still wrestle with in my research.
+I study the economics of public insurance, particularly Medicaid. Much of my research grows out of close partnerships with state agencies and the questions they face about how to make the safety net more effective.
 
-Today, I study the economics of public insurance programs. Much of my work focuses on Medicaid: what difference a health plan makes, how insurers’ decisions shape the care people receive, and how states can make better use of limited resources. I use randomized and quasi-experimental designs, often in close partnership with state agencies. Many of my research questions come from conversations with the people running social insurance programs.
+My work has appeared in leading economics and clinical journals including the *American Economic Review* and the *New England Journal of Medicine*, and received the Willard G. Manning Award for the Best Research in Health Econometrics and the American Statistical Association's Outstanding Statistical 
+Application Award. It has also been covered by the media, including the *New York Times*, *Washington Post*, and *NPR*.
 
-My research has appeared in leading economics and clinical journals including the *American Economic Review* and the *New England Journal of Medicine*, and received the 
-Willard G. Manning Award for the Best Research in Health Econometrics and the American Statistical Association's Outstanding Statistical 
-Application Award. It has also been widely covered by the media, including the *New York Times*, *Washington Post*, and *NPR*.
+Before academia, I served as a Medicaid policy analyst for New York State, worked as a data scientist in Silicon Valley, and co-founded Young Invincibles, an advocacy organization for young adults. I earned my undergraduate degree at Swarthmore College and my PhD at Harvard University.
 
-Before academia, I also worked as a data scientist in Silicon Valley and co-founded Young Invincibles, an advocacy organization for young adults. I earned my undergraduate degree at Swarthmore College and my PhD at Harvard University.
+I live in New Haven with my wife, our two kids, and our dog. When I'm not working, you can usually find me on a tennis court or, more recently, learning to surf. I'm currently reading *Barbarian Days: A Surfing Life* by William Finnegan. 
 
 :::
 :::
