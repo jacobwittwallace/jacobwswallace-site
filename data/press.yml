@@ -1,0 +1,1428 @@
+# Press coverage for the Press page. Shown undated; year kept for reference.
+# mark: quoted (quotes or interviews Jacob) | authored (written by Jacob) | "" (covers his research).
+# tier: 1 national papers, 2 broadcast/audio, 3 national magazines & digital, 4 health/policy trade, 5 regional & international, 6 institutional.
+# via: set when the only working link is a syndicated copy (e.g. Yahoo News).
+- outlet: "CBS, The Late Show with Stephen Colbert"
+  headline: "DeSantis Goes Full Vaccine Conspiracy Mode | Musk No Longer On Top | Rubio's Push To Ban TikTok"
+  url: "https://www.youtube.com/watch?v=OBzD14v1g8U"
+  mark: ""
+  via: ""
+  tier: 2
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "MSNBC, Alex Wagner Tonight"
+  headline: "Alex Wagner Tonight, 12/13/22"
+  url: "https://www.nbc.com/alex-wagner-tonight/video/alex-wagner-121322/9000284856"
+  mark: ""
+  via: ""
+  tier: 2
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "Yale Insights"
+  headline: "Once COVID Vaccines Were Introduced, More Republicans Died Than Democrats"
+  url: "https://insights.som.yale.edu/insights/once-covid-vaccines-were-introduced-more-republicans-died-than-democrats"
+  mark: ""
+  via: ""
+  tier: 6
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "Yale School of Public Health"
+  headline: "Study Finds Large Gap in Excess Deaths Along Partisan Lines After COVID-19 Vaccines Introduced"
+  url: "https://ysph.yale.edu/news-article/study-finds-large-gap-in-excess-deaths-along-partisan-lines-after-covid-19-vaccines-introduced/"
+  mark: "quoted"
+  via: ""
+  tier: 6
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "theGrio"
+  headline: "Studies show Republicans had higher COVID-19 excess death rates than Democrats"
+  url: "https://thegrio.com/2022/10/11/studies-show-republicans-had-higher-covid-19-excess-death-rates-than-democrats/"
+  mark: "quoted"
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "Vox"
+  headline: "A wave of anti-vaccine legislation is sweeping the United States"
+  url: "https://www.vox.com/policy-and-politics/2022/10/6/23389145/covid-19-anti-vaccine-legislation"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "The Guardian"
+  headline: "The Breach review: ex-January 6 staffer on how Republicans lurched into madness"
+  url: "https://www.theguardian.com/books/2022/oct/08/the-breach-book-review-denver-riggleman-republicans-trump"
+  mark: ""
+  via: ""
+  tier: 1
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "CIDRAP"
+  headline: "COVID-19 Scan for Oct 04, 2022 (Ohio and Florida data show more Republican excess COVID-19 deaths)"
+  url: "https://www.cidrap.umn.edu/covid-19-scan-oct-04-2022"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "Red Bluff Daily News"
+  headline: "Letter: Lies of COVID killed more Republicans than Democrats"
+  url: "https://www.redbluffdailynews.com/2022/10/12/letter-lies-of-covid-killed-more-republicans-than-democrats/"
+  mark: ""
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "Baltimore Sun"
+  headline: "Tom Zirpoli: What would Mark Twain say about today's liars?"
+  url: "https://www.baltimoresun.com/maryland/carroll/opinion/cc-op-zirpoli-alex-jones-20221019-uiflq3hwjzfrlb27kflzv7a4vi-story.html"
+  mark: ""
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "American Council on Science and Health"
+  headline: "Politics, Persuasion, and Vaccine Mandates: Part II"
+  url: "https://www.acsh.org/news/2022/10/28/politics-persuasion-and-vaccine-mandates-part-ii-16623"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "Truth or Fiction"
+  headline: "Study: 'Registered Republicans Had Far Higher Excess Death Rates Than Registered Democrats' in Ohio and Florida"
+  url: "https://www.truthorfiction.com/study-registered-republicans-had-far-higher-excess-death-rates-than-registered-democrats-in-ohio-and-florida/"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "Can We Still Govern? (Don Moynihan)"
+  headline: "Republican elites killed their own followers"
+  url: "https://donmoynihan.substack.com/p/republicans-elites-killed-their-own"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "ACA Signups"
+  headline: "New NBER study confirms pretty much everything I (& others) have been saying for the past year & a half"
+  url: "https://acasignups.net/node/7987"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "Futurity"
+  headline: "More Republicans died than Democrats after COVID vaccines came out"
+  url: "https://www.futurity.org/covid-vaccines-politics-republicans-democrats-2834902/"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "La Prensa San Diego"
+  headline: "Yale Study: More Republicans Died of COVID After Vaccines"
+  url: "https://laprensa.org/yalecovidstudy"
+  mark: ""
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "Yale Daily News"
+  headline: "Yale study identifies partisan disparity in excess COVID-19 death rates"
+  url: "https://yaledailynews.com/blog/2022/12/02/yale-study-identifies-partisan-disparity-in-excess-covid-19-death-rates/"
+  mark: "quoted"
+  via: ""
+  tier: 6
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "Medical Economics"
+  headline: "More Republicans than Democrats died after COVID-19 vaccines were available"
+  url: "https://www.medicaleconomics.com/view/more-republicans-than-democrats-died-after-covid-19-vaccines-were-available"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "Volksverpetzer"
+  headline: "Yale-Paper: Rechte Republikaner sterben öfter an Covid"
+  url: "https://www.volksverpetzer.de/analyse/yale-paper-rechte-republikaner-sterben-oefter-an-covid/"
+  mark: ""
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "Science Feedback"
+  headline: "Evidence suggests that political partisanship is associated with higher COVID-19 mortality rates among Republicans compared to Democrats"
+  url: "https://science.feedback.org/review/evidence-suggests-political-partisanship-associated-with-higher-covid-19-mortality-rates-among-republicans-compared-to-democrats/"
+  mark: "quoted"
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "Health & Veritas (Yale SOM)"
+  headline: "Alan Friedman: To Err Is Human"
+  url: "https://insights.som.yale.edu/podcasts/health-veritas/alan-friedman-to-err-is-human"
+  mark: ""
+  via: ""
+  tier: 6
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "The Washington Post"
+  headline: "After vaccines became available, a partisan gap in deaths emerged"
+  url: "https://www.washingtonpost.com/politics/2022/10/03/pandemic-biden-trump-deaths/"
+  mark: ""
+  via: ""
+  tier: 1
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "Washington Examiner"
+  headline: "Republicans had higher death rate than Democrats during pandemic: Study"
+  url: "https://www.washingtonexaminer.com/news/1724837/republicans-had-higher-death-rate-than-democrats-during-pandemic-study/"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "MarketWatch"
+  headline: "Study confirms Republican-leaning counties suffered more COVID deaths than Democrat-leaning ones"
+  url: "https://www.marketwatch.com/story/cdc-scraps-travel-health-notices-as-countries-slow-testing-and-study-confirms-republican-leaning-counties-suffered-more-covid-deaths-than-democrat-leaning-ones-11664894588"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "NBC News"
+  headline: "Covid death rates are higher among Republicans than Democrats, mounting evidence shows"
+  url: "https://www.nbcnews.com/health/health-news/covid-death-rates-higher-republicans-democrats-why-rcna50883"
+  mark: "quoted"
+  via: ""
+  tier: 2
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "Slate"
+  headline: "A Study Finally Shows Just How Much Deadlier COVID Has Been for Republicans"
+  url: "https://slate.com/news-and-politics/2022/10/covid-deadlier-republicans-study.html"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "The Intercept"
+  headline: "The Right's Anti-Vaxxers Are Killing Republicans"
+  url: "https://theintercept.com/2022/10/10/covid-republican-democrat-deaths/"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "Financial Times"
+  headline: "Tragic fallout from the politicisation of science in the US"
+  url: "https://www.ft.com/content/d387d40a-4e8c-4502-8ae9-62d7f1426b93"
+  mark: ""
+  via: ""
+  tier: 1
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "Ohio Capital Journal"
+  headline: "Study: More Republicans than Democrats likely died of COVID"
+  url: "https://ohiocapitaljournal.com/2022/10/04/study-more-republicans-than-democrats-likely-died-of-covid/"
+  mark: ""
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "NBC Miami"
+  headline: "Gap Between Democrat, Republican Deaths After COVID-19 Vaccine Release Highlighted in Study"
+  url: "https://www.nbcmiami.com/news/national-international/study-highlights-gap-between-democrat-republican-deaths-after-covid-19-vaccine-released/2876319/"
+  mark: ""
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "Deseret News"
+  headline: "Are Republicans more likely to die from COVID-19 than Democrats? Here's what researchers found"
+  url: "https://www.deseret.com/utah/2022/10/7/23392778/republicans-more-likely-die-covid-than-democrats-ohio-florida-study-yale/"
+  mark: ""
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "The Star Press"
+  headline: "Partisan effect of disinformation on COVID deaths"
+  url: "https://www.thestarpress.com/story/news/2022/10/16/hicks-partisan-effect-of-disinformation-on-covid-deaths/69561451007/"
+  mark: ""
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "Dayton Daily News"
+  headline: "Ideology is killing people"
+  url: "https://www.daytondailynews.com/local/opinion/marcano-ideology-is-killing-people/article_8cdc32da-2008-5cc4-b3a3-3563d6752490.html"
+  mark: ""
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "Florida Bulldog"
+  headline: "Yale COVID study finds much higher death rates among Republicans"
+  url: "https://www.floridabulldog.org/2022/10/covid-study-finds-higher-death-rates-among-republicans-compared-democrats/"
+  mark: ""
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "The New York Times"
+  headline: "The Power of Paxlovid"
+  url: "https://www.nytimes.com/2022/10/07/briefing/covid-treatment-paxlovid.html"
+  mark: ""
+  via: ""
+  tier: 1
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "The Washington Post"
+  headline: "How much of right-wing opposition to vaccination was Fox News's fault?"
+  url: "https://www.washingtonpost.com/politics/2022/10/10/vaccines-coronavirus-fox-news/"
+  mark: ""
+  via: ""
+  tier: 1
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "The Washington Post"
+  headline: "Experts slam Florida surgeon general's warning on coronavirus vaccines"
+  url: "https://www.washingtonpost.com/health/2022/10/11/florida-surgeon-general-ladapo-covid-vaccines/"
+  mark: ""
+  via: ""
+  tier: 1
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "The New York Times"
+  headline: "The Inadequacy of the Stories We Told About the Pandemic"
+  url: "https://www.nytimes.com/2022/10/12/opinion/health/covid-pandemic-data.html"
+  mark: ""
+  via: ""
+  tier: 1
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "Miami Herald"
+  headline: "Florida surgeon general's COVID vaccine 'study' is politics dressed up as science"
+  url: "https://www.miamiherald.com/opinion/editorials/article267160086.html"
+  mark: ""
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "Governing"
+  headline: "Vaccine Skepticism Spreads from COVID to Other Diseases"
+  url: "https://www.governing.com/now/vaccine-skepticism-spreads-from-covid-to-other-diseases"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "The Washington Post"
+  headline: "Biden officials worry pandemic exhaustion could lead to bad covid winter"
+  url: "https://www.washingtonpost.com/health/2022/10/26/covid-winter-2022-deaths-booster/"
+  mark: ""
+  via: ""
+  tier: 1
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2022
+- outlet: "Radio-Canada"
+  headline: "COVID-19 : la surmortalité plus élevée chez les républicains en Floride et en Ohio"
+  url: "https://ici.radio-canada.ca/nouvelle/2000872/covid-morts-floride-ohio-republicains-democrates"
+  mark: ""
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Mediaite"
+  headline: "Higher Covid Death Rates Among Trump Voters Revealed In New Study 'Could Impact Turnout In 2024,' Chuck Todd Predicts"
+  url: "https://www.mediaite.com/trump/higher-covid-death-rates-among-trump-voters-revealed-in-new-study-could-impact-turnout-in-2024-chuck-todd-predicts/"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "NBC News, Meet the Press"
+  headline: "The Uneven Toll of the Coronavirus Pandemic"
+  url: "https://www.nbcnews.com/meet-the-press/video/the-uneven-toll-of-the-coronavirus-pandemic-189575749955"
+  mark: ""
+  via: ""
+  tier: 2
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Gizmodo"
+  headline: "Excess Deaths Among Republicans Skyrocketed After Covid Vaccine Became Available, Study Finds"
+  url: "https://gizmodo.com/excess-deaths-among-gop-covid-vaccine-study-1850678150"
+  mark: "quoted"
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "NPR"
+  headline: "Republicans' excess death rate spiked after COVID-19 vaccines arrived, a study says"
+  url: "https://www.npr.org/2023/07/25/1189939229/covid-deaths-democrats-republicans-gap-study"
+  mark: ""
+  via: ""
+  tier: 2
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "The New Republic"
+  headline: "Vaccine Politics Linked to Excess Republican Deaths During Covid, Study Finds"
+  url: "https://newrepublic.com/post/174574/covid-19-vaccine-politics-linked-excess-republican-deaths-study"
+  mark: "quoted"
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Ars Technica"
+  headline: "Pandemic deaths in Ohio and Florida show partisan divide after vaccine rollout"
+  url: "https://arstechnica.com/health/2023/07/gop-voters-had-higher-excess-deaths-rates-after-covid-vaccine-rollout/"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "The Washington Post"
+  headline: "Vaccine politics may be to blame for GOP excess deaths, study finds"
+  url: "https://www.washingtonpost.com/health/2023/07/24/covid-vaccines-republicans-deaths/"
+  mark: "quoted"
+  via: ""
+  tier: 1
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "New York Magazine"
+  headline: "Democrats Learned From Their COVID Mistakes. Republicans Didn't."
+  url: "https://nymag.com/intelligencer/2023/07/democrats-corrected-their-covid-errors-republicans-didnt.html"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "The Hill"
+  headline: "COVID-19 vaccine politics could be linked to excess GOP deaths in Ohio, Florida: study"
+  url: "https://thehill.com/policy/healthcare/4116913-covid-19-vaccine-politics-could-be-linked-to-excess-gop-deaths-in-ohio-florida-study/"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Axios"
+  headline: "Study: Republican deaths in Florida, Ohio linked to COVID vaccine politics"
+  url: "https://www.axios.com/2023/07/25/covid-vaccine-death-rates-republicans-democrats-study"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Esquire"
+  headline: "Conservative Political Rhetoric Now Has an Official Body Count"
+  url: "https://www.esquire.com/news-politics/politics/a44704968/jama-study-republican-covid-deaths/"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "American Journal of Public Health"
+  headline: "Republicans Die More From COVID-19: Why We Care"
+  url: "https://ajph.aphapublications.org/doi/10.2105/AJPH.2023.307237"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "MSNBC, All In with Chris Hayes"
+  headline: "All In with Chris Hayes, 1/25/23"
+  url: "https://www.nbc.com/all-in-with-chris-hayes/video/all-in-12523/9000312831"
+  mark: ""
+  via: ""
+  tier: 2
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "The Nation"
+  headline: "Why Are So Many People Dying? Reaping the Anti-Vaxx Whirlwind"
+  url: "https://www.thenation.com/article/society/gop-covid-anti-vax/"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Spectrum News 1"
+  headline: "Study: Higher death rates in Republican-leaning counties post-COVID vaccine"
+  url: "https://spectrumnews1.com/oh/cleveland/politics/2023/07/31/yale-study-finds-increased-deaths-in-republican-majority-counties-after-covid-vaccine-released"
+  mark: "quoted"
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "KFF Health News"
+  headline: "How Lawmakers in Texas and Florida Undermine Covid Vaccination Efforts"
+  url: "https://kffhealthnews.org/news/article/lawmakers-florida-texas-covid-vaccine-promotion-ban/"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Freakonomics Radio"
+  headline: "Nate Silver Says We're Bad at Making Predictions"
+  url: "https://freakonomics.com/podcast/nate-silver-says-were-bad-at-making-predictions/"
+  mark: ""
+  via: ""
+  tier: 2
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "The Washington Post"
+  headline: "The partisan gap on vaccines isn't limited to covid"
+  url: "https://www.washingtonpost.com/politics/2023/09/27/covid-vaccine-skepticism-republicans/"
+  mark: ""
+  via: ""
+  tier: 1
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Yahoo News"
+  headline: "New poll finds over a third of Americans think COVID and the flu are 'about the same'"
+  url: "https://www.yahoo.com/lifestyle/poll-americans-think-covid-flu-are-the-same-173548684.html"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Yahoo News"
+  headline: "New poll finds only 7% of Americans are 'very worried' about getting COVID"
+  url: "https://www.yahoo.com/lifestyle/just-7-percent-of-americans-worried-about-covid-203609527.html"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "South Florida Sun-Sentinel"
+  headline: "Most Floridians see COVID vaccines as safe. But many also believe conspiracy theories"
+  url: "https://www.sun-sentinel.com/2023/09/15/most-floridians-see-covid-vaccines-as-safe-but-many-also-believe-conspiracy-theories-including-microchips/"
+  mark: ""
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "The Washington Post"
+  headline: "GOP presidential hopefuls take renewed aim at efforts to combat covid"
+  url: "https://www.washingtonpost.com/politics/2023/09/10/republican-presidential-candidates-covid/"
+  mark: ""
+  via: ""
+  tier: 1
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Tampa Bay Times"
+  headline: "COVID misinformation is still killing us"
+  url: "https://www.tampabay.com/opinion/2023/09/11/covid-misinformation-is-still-killing-us-column/"
+  mark: ""
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "The Washington Post"
+  headline: "Why do Republicans disproportionately believe health misinformation?"
+  url: "https://www.washingtonpost.com/politics/2023/08/22/republicans-vaccines-polls/"
+  mark: ""
+  via: ""
+  tier: 1
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "The New York Times"
+  headline: "Climate Is Now a Culture War Issue"
+  url: "https://www.nytimes.com/2023/08/07/opinion/climate-is-now-a-culture-war-issue.html"
+  mark: ""
+  via: ""
+  tier: 1
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "The New York Times Magazine"
+  headline: "Dr. Fauci Looks Back: 'Clearly Something Went Wrong'"
+  url: "https://www.nytimes.com/interactive/2023/04/24/magazine/dr-fauci-pandemic.html"
+  mark: ""
+  via: ""
+  tier: 1
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Doonesbury"
+  headline: "Doonesbury Sunday strip, 11/26/23"
+  url: "https://www.gocomics.com/doonesbury/2023/11/26"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "CIDRAP"
+  headline: "Political party affiliation linked to excess COVID deaths"
+  url: "https://www.cidrap.umn.edu/covid-19/political-party-affiliation-linked-excess-covid-deaths"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "American Council on Science and Health"
+  headline: "Every Picture Tells a Story: COVID Comes for Republicans"
+  url: "https://www.acsh.org/news/2023/07/24/every-picture-tells-story-covid-comes-republicans-17211"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Scimex"
+  headline: "Republicans were more likely to die from COVID-19 than Democrats once vaccines became available"
+  url: "https://www.scimex.org/newsfeed/republicans-were-more-likely-to-die-from-covid-19-than-democrats-once-vaccines-became-available"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "KFF Health News"
+  headline: "Lower Covid Vaccine Uptake Linked To Excess Republican Deaths In Florida, Ohio: Study"
+  url: "https://kffhealthnews.org/morning-breakout/lower-covid-vaccine-uptake-linked-to-excess-republican-deaths-in-florida-ohio-study/"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "MedPage Today"
+  headline: "Republican vs Democrat Excess Deaths; New MERS Case; Watch Out for Rocks in Cookies"
+  url: "https://www.medpagetoday.com/infectiousdisease/generalinfectiousdisease/105633"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "PennLive"
+  headline: "Anti-COVID-19 vaccine talk may have been deadly for Republicans, study finds"
+  url: "https://www.pennlive.com/health/2023/07/anti-covid-19-vaccine-talk-may-have-been-deadly-for-republicans-study-finds.html"
+  mark: ""
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Political Wire"
+  headline: "Republican Counties Had Higher Covid Death Rates"
+  url: "https://politicalwire.com/2023/07/25/republican-counties-had-higher-covid-death-rates/"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Il Foglio"
+  headline: "La tradizione culturale determina la sopravvivenza degli individui"
+  url: "https://www.ilfoglio.it/scienza/2023/07/27/news/la-tradizione-culturale-determina-la-sopravvivenza-degli-individui-5540426"
+  mark: ""
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Northwest Progressive Institute"
+  headline: "Pandemic deaths in Ohio and Florida show partisan divide after vaccine rollout"
+  url: "https://www.nwprogressive.org/microblog/2023/07/pandemic-deaths-in-ohio-and-florida-show-partisan-divide-after-vaccine-rollout/"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "WhoWhatWhy"
+  headline: "Study Indicates COVID-19 Vaccine Hesitancy Killed Republicans"
+  url: "https://whowhatwhy.org/science/health-medicine/study-indicates-covid-19-vaccine-hesitancy-killed-republicans/"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Alternet"
+  headline: "'Clearly defined body count': Florida and Ohio Republicans experienced 43 percent more COVID deaths than Dems"
+  url: "https://www.alternet.org/vaccination-attitudes-florida-ohio/"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Zero Hedge"
+  headline: "Faulty COVID Study Claims Republicans Had 43% Higher Death Rate Due To \"Vaccine Hesitancy\""
+  url: "https://www.zerohedge.com/covid-19/faulty-covid-study-claims-republicans-had-43-higher-death-rate-due-vaccine-hesitancy"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Cleveland 19 News"
+  headline: "Study says Ohio's COVID-19 death rates were higher for Republicans than Democrats"
+  url: "https://www.cleveland19.com/2023/08/03/study-says-ohios-covid-19-death-rates-were-higher-republicans-than-democrats/"
+  mark: ""
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Yahoo Actualités"
+  headline: "Aux Etats-Unis, le Covid-19 a tué beaucoup plus d'électeurs républicains que de démocrates"
+  url: "https://fr.news.yahoo.com/etats-unis-covid-19-mortel-140205570.html"
+  mark: ""
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Edzard Ernst"
+  headline: "Political party affiliation is associated with excess deaths during the COVID pandemic"
+  url: "https://edzardernst.com/2023/08/political-party-affiliation-is-associated-with-excess-deaths-during-the-covid-pandemic/"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "WAMC Northeast Public Radio"
+  headline: "Climate change and the \"culture wars\""
+  url: "https://www.wamc.org/commentary-opinion/2023-08-18/climate-change-and-the-culture-wars"
+  mark: ""
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Medscape"
+  headline: "Left-Digit Bias and Other Random Acts of Medicine"
+  url: "https://www.medscape.com/viewarticle/995918"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "El País"
+  headline: "Negar las alarmas, dudar de los datos y los expertos: por qué la derecha recela de la ciencia"
+  url: "https://elpais.com/ciencia/2023-09-12/negar-las-alarmas-dudar-de-los-datos-y-los-expertos-por-que-la-derecha-recela-de-la-ciencia.html"
+  mark: ""
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Salon"
+  headline: "There are more of us than there are of them"
+  url: "https://www.salon.com/2023/09/30/there-are-more-of-us-than-there-are-of-them/"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Orlando Sentinel"
+  headline: "Anti-vaccine hysteria makes MAGA ideology a death trap"
+  url: "https://www.sun-sentinel.com/2023/11/17/vaccine-hysteria-turns-maga-ideology-into-death-trap-fred-grimm/"
+  mark: ""
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Sarasota Herald-Tribune"
+  headline: "Floridians, please don't take COVID advice from DeSantis or Ladapo"
+  url: "https://www.heraldtribune.com/story/opinion/letters/2023/11/16/taking-covid-advice-from-desantis-ladapo-could-be-deadly/71558344007/"
+  mark: ""
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Salon"
+  headline: "\"The stock price is down\": The biggest Fox News fails of 2023"
+  url: "https://www.salon.com/2023/12/23/the-stock-price-is-down-the-biggest-fox-news-fails-of-2023/"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "JAMA Network"
+  headline: "2023 Most Discussed Articles"
+  url: "https://jamanetwork.com/pages/2023-most-discussed-articles"
+  mark: ""
+  via: ""
+  tier: 6
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2023
+- outlet: "Scientific American"
+  headline: "Disinformation Is the Real Threat to Democracy and Public Health"
+  url: "https://www.scientificamerican.com/article/disinformation-is-the-real-threat-to-democracy-and-public-health/"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2024
+- outlet: "PBS NewsHour"
+  headline: "As COVID cases rise, doctors worry about the consequences of misinformation"
+  url: "https://www.pbs.org/newshour/health/as-covid-cases-rise-doctors-worry-about-the-consequences-of-misinformation"
+  mark: ""
+  via: ""
+  tier: 2
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2024
+- outlet: "The Washington Post"
+  headline: "Florida surgeon general calls for halt on mRNA covid vaccines, citing debunked claim"
+  url: "https://www.washingtonpost.com/health/2024/01/03/florida-surgeon-general-ladapo-covid-vaccine/"
+  mark: ""
+  via: ""
+  tier: 1
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2024
+- outlet: "The New York Times"
+  headline: "The Fourth Anniversary of the Covid Pandemic"
+  url: "https://www.nytimes.com/2024/03/11/briefing/covid-pandemic-anniversary.html"
+  mark: ""
+  via: ""
+  tier: 1
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2024
+- outlet: "USA Today"
+  headline: "Four years after COVID, misinformation still endangers some Americans' health. Here's why."
+  url: "https://www.usatoday.com/story/news/factcheck/2024/03/15/covid-misinformation-spreads-4-years-after-pandemic/72896725007/"
+  mark: ""
+  via: ""
+  tier: 1
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2024
+- outlet: "The Atlantic"
+  headline: "Why Didn't Facing a Common Enemy Bring Us Together?"
+  url: "https://www.theatlantic.com/ideas/archive/2024/09/covid-political-polarization-public-trust-vaccine/679806/"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2024
+- outlet: "The Nation"
+  headline: "RFK Jr. Is Giving Infectious Diseases a Promotional Tour"
+  url: "https://www.thenation.com/article/society/rfk-jr-is-giving-polio/"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2024
+- outlet: "Vox"
+  headline: "America is incredibly polarized. It's bad for our health."
+  url: "https://www.vox.com/even-better/388130/polarization-political-partisan-health-rfk-jr"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2024
+- outlet: "MedPage Today"
+  headline: "COVID Takes Center Stage at Trump Town Hall"
+  url: "https://www.medpagetoday.com/washington-watch/electioncoverage/108232"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2024
+- outlet: "Salon"
+  headline: "Ron DeSantis ends the most humiliating presidential run in history with one final disgrace"
+  url: "https://www.salon.com/2024/01/22/ron-desantis-ends-the-most-humiliating-presidential-runs-in-history-with-one-final-disgrace/"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2024
+- outlet: "The Conversation"
+  headline: "Robert F. Kennedy Jr.'s nomination signals a new era of anti-intellectualism in American politics"
+  url: "https://theconversation.com/robert-f-kennedy-jr-s-nomination-signals-a-new-era-of-anti-intellectualism-in-american-politics-246016"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2025
+- outlet: "U.S. News & World Report"
+  headline: "RFK Jr. Is Not What the Doctor Ordered"
+  url: "https://www.usnews.com/opinion/articles/2025-01-29/rfk-jr-is-not-what-the-doctor-ordered"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2025
+- outlet: "Washington Monthly"
+  headline: "Make America Sick Again"
+  url: "https://washingtonmonthly.com/2025/02/28/make-america-sick-again/"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2025
+- outlet: "The State"
+  headline: "Behind South Carolina's role in Robert F. Kennedy Jr.'s health secretary confirmation"
+  url: "https://www.thestate.com/opinion/article300288594.html"
+  mark: ""
+  via: ""
+  tier: 5
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2025
+- outlet: "Vox"
+  headline: "How everything became left or right \"coded\""
+  url: "https://www.vox.com/politics/463890/identity-politics-polarization-history"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2025
+- outlet: "Salon"
+  headline: "Trump's America is governed by necropolitics"
+  url: "https://www.salon.com/2025/11/04/trumps-america-is-governed-by-necropolitics/"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2025
+- outlet: "The Guardian"
+  headline: "Republican mistrust in healthcare widens US health gap, study finds"
+  url: "https://www.yahoo.com/news/politics/articles/republican-mistrust-healthcare-widens-us-130051100.html"
+  mark: ""
+  via: "Yahoo News"
+  tier: 1
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2026
+- outlet: "Salon"
+  headline: "Trump's weird war against the states"
+  url: "https://www.salon.com/2026/09/07/trumps-weird-war-against-the-states/"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "COVID excess deaths by party (JAMA IM 2023)"
+  year: 2026
+- outlet: "The Washington Post"
+  headline: "Federal program didn't make a dent in physician shortages overall"
+  url: "https://www.washingtonpost.com/health/2023/11/12/doctor-shortages-patient-mortality/"
+  mark: ""
+  via: ""
+  tier: 1
+  topic: "Health Professional Shortage Areas (Health Affairs 2023)"
+  year: 2023
+- outlet: "Yale News"
+  headline: "Efforts to attract physicians to underserved areas aren't working"
+  url: "https://news.yale.edu/2023/11/09/efforts-attract-physicians-underserved-areas-arent-working"
+  mark: ""
+  via: ""
+  tier: 6
+  topic: "Health Professional Shortage Areas (Health Affairs 2023)"
+  year: 2023
+- outlet: "Yale Daily News"
+  headline: "Federal program to reduce health disparities is ineffective, YSPH researchers find"
+  url: "https://yaledailynews.com/?p=186067"
+  mark: ""
+  via: ""
+  tier: 6
+  topic: "Health Professional Shortage Areas (Health Affairs 2023)"
+  year: 2023
+- outlet: "Journal of Blacks in Higher Education"
+  headline: "Government Programs to Attract Physicians to Underserved Areas Have Not Worked"
+  url: "https://jbhe.com/2023/11/government-programs-to-attract-physicians-to-underserved-areas-have-not-worked/"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Health Professional Shortage Areas (Health Affairs 2023)"
+  year: 2023
+- outlet: "RevCycleIntelligence"
+  headline: "HPSA Program Did Not Affect Physician Shortages or Health Outcomes"
+  url: "https://techtarget.com/revcyclemanagement/news/366600275/HPSA-Program-Did-Not-Affect-Physician-Shortages-or-Health-Outcomes"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Health Professional Shortage Areas (Health Affairs 2023)"
+  year: 2023
+- outlet: "Becker's Physician Leadership"
+  headline: "Health professional shortage area designation not effective, study finds"
+  url: "https://www.beckersphysicianleadership.com/physician-workforce/health-professional-shortage-area-designation-not-effective-study-finds.html"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Health Professional Shortage Areas (Health Affairs 2023)"
+  year: 2023
+- outlet: "KFF Health News"
+  headline: "Where Are the Nation's Primary Care Providers? It's Not an Easy Answer"
+  url: "https://kffhealthnews.org/news/article/primary-care-health-professional-shortage-areas/"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Health Professional Shortage Areas (Health Affairs 2023)"
+  year: 2024
+- outlet: "Employer Coverage (Jeff Levin-Scherz)"
+  headline: "Subscription model for Hepatitis C medications lowered medical costs in Louisiana"
+  url: "https://employercoverage.substack.com/p/subscription-model-for-hepatitis"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Hepatitis C subscription model (NBER 2026)"
+  year: 2026
+- outlet: "Pink Sheet"
+  headline: "Hep C 'Subscription' Pays Off For Louisiana And Gilead"
+  url: "https://insights.citeline.com/pink-sheet/market-access/pricing-debate/hep-c-subscription-pays-off-for-louisiana-and-gilead-GSRF26TXGVBW3LGWTKTSDYRGTY/"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Hepatitis C subscription model (NBER 2026)"
+  year: 2026
+- outlet: "The HEAL Network"
+  headline: "Health Economics in the Highlands: Key Takeaways from the 5th Annual Highland Health Economics Symposium"
+  url: "https://thehealnetwork.org/health-economics-in-the-highlands-key-takeaways-from-the-5th-annual-highland-health-economics-symposium/"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Hepatitis C subscription model (NBER 2026)"
+  year: 2026
+- outlet: "Lown Institute"
+  headline: "Hospitals that advertise aren't necessarily better"
+  url: "https://lowninstitute.org/hospitals-that-advertise-arent-necessarily-better/"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Hospital advertising"
+  year: 2021
+- outlet: "Public Health Post"
+  headline: "Quality Over Quantity"
+  url: "https://www.publichealthpost.org/databyte/hospital-advertising/"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Hospital advertising"
+  year: 2021
+- outlet: "KFF Health News"
+  headline: "Needy Patients 'Caught In The Middle' As Insurance Titan Drops Doctors"
+  url: "https://kffhealthnews.org/health-industry/needy-patients-caught-in-the-middle-as-insurance-titan-drops-doctors/"
+  mark: "quoted"
+  via: ""
+  tier: 4
+  topic: "Medicaid managed care & privatization"
+  year: 2020
+- outlet: "Healthcare Dive"
+  headline: "Medicaid managed care plans' cost-controlling efforts are blunt, research suggests"
+  url: "https://www.healthcaredive.com/news/medicaid-managed-care-non-cost-sharing-spending-research/584495/"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Medicaid managed care & privatization"
+  year: 2020
+- outlet: "PNHP"
+  headline: "Medicaid managed care plans reduce spending by providing less of everything"
+  url: "https://pnhp.org/news/are-all-managed-care-plans-created-equal-evidence-from-random-plan-assignment-in-medicaid/"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Medicaid managed care & privatization"
+  year: 2020
+- outlet: "Health Affairs Forefront"
+  headline: "Paying Their Fair Share: States Should Require Increased Medicaid Health Plan Payments To Support Safety-Net Providers In The Age Of COVID-19"
+  url: "https://www.healthaffairs.org/content/forefront/paying-their-fair-share-states-should-require-increased-medicaid-health-plan-payments"
+  mark: "authored"
+  via: ""
+  tier: 4
+  topic: "Medicaid managed care & privatization"
+  year: 2020
+- outlet: "1% Steps for Health Care Reform"
+  headline: "Improving Auto-Assignment in Medicaid Managed Care"
+  url: "https://onepercentsteps.com/policy-briefs/improving-auto-assignment-in-medicaid-managed-care"
+  mark: "authored"
+  via: ""
+  tier: 4
+  topic: "Medicaid managed care & privatization"
+  year: 2021
+- outlet: "Fierce Healthcare"
+  headline: "Study: Only small amount of docs in some Medicaid managed care networks offer care to Medicaid patients"
+  url: "https://www.fiercehealthcare.com/payers/study-only-small-amount-docs-some-medicaid-managed-care-networks-offer-care-medicaid"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Medicaid managed care & privatization"
+  year: 2022
+- outlet: "The New York Times"
+  headline: "Health Insurers Are Denying More Drug Claims, Data Shows"
+  url: "https://www.nytimes.com/2025/07/18/health/health-insurance-prescription-claim-denials.html"
+  mark: "quoted"
+  via: ""
+  tier: 1
+  topic: "Medicaid managed care & privatization"
+  year: 2025
+- outlet: "Medicaid Insights Colloquium (OHSU)"
+  headline: "Medicaid Insights Colloquium with Dr. Jacob Wallace"
+  url: "https://www.youtube.com/watch?v=sDVVdmEO95c"
+  mark: "quoted"
+  via: ""
+  tier: 6
+  topic: "Medicaid managed care & privatization"
+  year: 2025
+- outlet: "Conversable Economist"
+  headline: "How Medicare and Medicaid Rely on Private Health Insurance"
+  url: "https://conversableeconomist.com/2026/05/26/how-medicare-and-medicaid-rely-on-private-health-insurance/"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Medicaid managed care & privatization"
+  year: 2026
+- outlet: "Yale School of Public Health"
+  headline: "New Study Finds Medicaid Managed Care Lowers Some Costs, But Tradeoffs Remain"
+  url: "https://ysph.yale.edu/news-article/new-study-finds-medicaid-managed-care-lowers-some-costs-but-tradeoffs-remain/"
+  mark: "quoted"
+  via: ""
+  tier: 6
+  topic: "Medicaid managed care & privatization"
+  year: 2026
+- outlet: "Tobin Center for Economic Policy"
+  headline: "Privatizing Medicaid saved money—almost entirely on prescription drugs, not medical care"
+  url: "https://tobin.yale.edu/research/privatizing-medicaid-saved-money-almost-entirely-prescription-drugs-not-medical-care"
+  mark: ""
+  via: ""
+  tier: 6
+  topic: "Medicaid managed care & privatization"
+  year: 2026
+- outlet: "American Economic Association"
+  headline: "Privatizing Medicaid"
+  url: "https://www.aeaweb.org/research/chart/private-provision-public-services"
+  mark: ""
+  via: ""
+  tier: 6
+  topic: "Medicaid managed care & privatization"
+  year: 2026
+- outlet: "Health Affairs Forefront"
+  headline: "Promoting Equitable Access to COVID-19 Vaccines—The Role of Medicaid"
+  url: "https://www.healthaffairs.org/content/forefront/promoting-equitable-access-covid-19-vaccines-role-medicaid"
+  mark: "authored"
+  via: ""
+  tier: 4
+  topic: "Medicaid policy & evidence (disparities, unwinding, RCTs, CT partnership)"
+  year: 2020
+- outlet: "2 Minute Medicine"
+  headline: "Medicaid is a long-term source of insurance coverage for low-income families"
+  url: "https://www.2minutemedicine.com/medicaid-is-a-long-term-source-of-insurance-coverage-for-low-income-families"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Medicaid policy & evidence (disparities, unwinding, RCTs, CT partnership)"
+  year: 2022
+- outlet: "Commonwealth Fund"
+  headline: "Reducing Disparities Among Medicaid Enrollees: What Can States Do?"
+  url: "https://www.commonwealthfund.org/blog/2022/reducing-disparities-among-medicaid-enrollees-what-can-states-do"
+  mark: "authored"
+  via: ""
+  tier: 4
+  topic: "Medicaid policy & evidence (disparities, unwinding, RCTs, CT partnership)"
+  year: 2022
+- outlet: "Health Affairs Forefront"
+  headline: "As Medicaid Continuous Coverage Requirement Ends, Randomized Controlled Trials Can Minimize Churn"
+  url: "https://www.healthaffairs.org/content/forefront/medicaid-continuous-coverage-requirement-ends-randomized-controlled-trials-can-minimize"
+  mark: "authored"
+  via: ""
+  tier: 4
+  topic: "Medicaid policy & evidence (disparities, unwinding, RCTs, CT partnership)"
+  year: 2022
+- outlet: "New England Journal of Medicine"
+  headline: "Supporting Innovation in Medicaid Policy - Interventions to Increase Adoption of RCTs"
+  url: "https://www.nejm.org/doi/full/10.1056/NEJMp2119726"
+  mark: "authored"
+  via: ""
+  tier: 3
+  topic: "Medicaid policy & evidence (disparities, unwinding, RCTs, CT partnership)"
+  year: 2022
+- outlet: "Annals of Internal Medicine"
+  headline: "A Fresh Look at Medicaid"
+  url: "https://freshlook.annals.org/2023/03/a-fresh-look-at-medicaid.html"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Medicaid policy & evidence (disparities, unwinding, RCTs, CT partnership)"
+  year: 2023
+- outlet: "Yale School of Public Health"
+  headline: "Alumni Day highlights data-driven leadership"
+  url: "https://ysph.yale.edu/news-article/alumni-day-highlights-data-driven-leadership/"
+  mark: ""
+  via: ""
+  tier: 6
+  topic: "Medicaid policy & evidence (disparities, unwinding, RCTs, CT partnership)"
+  year: 2023
+- outlet: "Yale School of Public Health"
+  headline: "3 Essential Questions: The End of Medicaid Continuous Enrollment"
+  url: "https://ysph.yale.edu/news-article/3-essential-questions-the-end-of-medicaid-continuous-enrollment/"
+  mark: ""
+  via: ""
+  tier: 6
+  topic: "Medicaid policy & evidence (disparities, unwinding, RCTs, CT partnership)"
+  year: 2023
+- outlet: "Yale News"
+  headline: "Yale unites scholars, policymakers to improve Medicaid"
+  url: "https://news.yale.edu/2024/12/20/yale-unites-scholars-policymakers-improve-medicaid"
+  mark: "quoted"
+  via: ""
+  tier: 6
+  topic: "Medicaid policy & evidence (disparities, unwinding, RCTs, CT partnership)"
+  year: 2024
+- outlet: "Yale News"
+  headline: "From research to impact: Yale's Tobin Center drives work that shapes policy and improves lives"
+  url: "https://news.yale.edu/2026/09/24/research-impact-yales-tobin-center-drives-work-shapes-policy-and-improves-lives"
+  mark: ""
+  via: ""
+  tier: 6
+  topic: "Medicaid policy & evidence (disparities, unwinding, RCTs, CT partnership)"
+  year: 2026
+- outlet: "J-PAL"
+  headline: "Affiliate Spotlight: Jacob Wallace on strengthening Medicaid through evidence use and generation"
+  url: "https://www.povertyactionlab.org/blog/2-19-26/affiliate-spotlight-jacob-wallace-strengthening-medicaid-through-evidence-use-and"
+  mark: "quoted"
+  via: ""
+  tier: 6
+  topic: "Medicaid policy & evidence (disparities, unwinding, RCTs, CT partnership)"
+  year: 2026
+- outlet: "MDedge"
+  headline: "Medicare Spending Increased When Consult Pay Was Eliminated"
+  url: "https://mdedge.com/content/medicare-spending-increased-when-consult-pay-was-eliminated"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Medicare (age-65 eligibility, financial strain, payment)"
+  year: 2013
+- outlet: "Cardiovascular Business"
+  headline: "Coverage of 'Medicare Fee Cuts and Cardiologist-Hospital Integration' (Song, Wallace et al., JAMA IM 2015)"
+  url: "https://cardiovascularbusiness.com/node/70025"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Medicare (age-65 eligibility, financial strain, payment)"
+  year: 2015
+- outlet: "PBS NewsHour"
+  headline: "Are there hidden costs if Medicare eligibility age goes up?"
+  url: "https://www.pbs.org/newshour/health/are-there-hidden-costs-if-medicare-eligibility-age-goes-up"
+  mark: "quoted"
+  via: ""
+  tier: 2
+  topic: "Medicare (age-65 eligibility, financial strain, payment)"
+  year: 2016
+- outlet: "Liberty Street Economics (Federal Reserve Bank of New York)"
+  headline: "Medicare and Financial Health across the United States"
+  url: "https://libertystreeteconomics.newyorkfed.org/2020/07/medicare-and-financial-health-across-the-united-states/"
+  mark: "authored"
+  via: ""
+  tier: 6
+  topic: "Medicare (age-65 eligibility, financial strain, payment)"
+  year: 2020
+- outlet: "Yale News"
+  headline: "Expanding Medicare would reduce racial and ethnic health disparities"
+  url: "https://news.yale.edu/2021/07/26/expanding-medicare-would-reduce-racial-and-ethnic-health-disparities"
+  mark: "quoted"
+  via: ""
+  tier: 6
+  topic: "Medicare (age-65 eligibility, financial strain, payment)"
+  year: 2021
+- outlet: "Axios"
+  headline: "Study: Expanding Medicare eligibility may shrink racial disparities"
+  url: "https://www.axios.com/2021/07/27/expand-medicare-eligibility-reduce-health-disparities"
+  mark: ""
+  via: ""
+  tier: 3
+  topic: "Medicare (age-65 eligibility, financial strain, payment)"
+  year: 2021
+- outlet: "AARP"
+  headline: "Expanding Medicare Eligibility Could Help Reduce Minority Health Disparities"
+  url: "https://www.aarp.org/health/medicare-insurance/info-2021/medicare-eligibility-racial-disparities.html"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Medicare (age-65 eligibility, financial strain, payment)"
+  year: 2021
+- outlet: "Healthcare Dive"
+  headline: "Medicare eligibility erases many healthcare disparities in US"
+  url: "https://www.healthcaredive.com/news/medicare-eligibility-erases-many-healthcare-disparities-in-us/603876/"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Medicare (age-65 eligibility, financial strain, payment)"
+  year: 2021
+- outlet: "HealthDay"
+  headline: "Lowering Medicare Age Could Help Close Racial Gaps in Health Care: Study"
+  url: "https://orthoatlanta.com/health-news/lowering-medicare-age-could-help-close-racial-gaps-in-health-care-study"
+  mark: "quoted"
+  via: ""
+  tier: 4
+  topic: "Medicare (age-65 eligibility, financial strain, payment)"
+  year: 2021
+- outlet: "Healio"
+  headline: "Expanding Medicare eligibility may reduce health care disparities"
+  url: "https://www.healio.com/news/primary-care/20210802/expanding-medicare-eligibility-may-reduce-health-care-disparities"
+  mark: "quoted"
+  via: ""
+  tier: 4
+  topic: "Medicare (age-65 eligibility, financial strain, payment)"
+  year: 2021
+- outlet: "Contemporary OB/GYN"
+  headline: "Medicare closes gaps in racial and ethnic health care disparities"
+  url: "https://www.contemporaryobgyn.net/view/medicare-closes-gaps-in-racial-and-ethnic-health-care-disparities"
+  mark: "quoted"
+  via: ""
+  tier: 4
+  topic: "Medicare (age-65 eligibility, financial strain, payment)"
+  year: 2021
+- outlet: "Fierce Healthcare"
+  headline: "Study: Medicare access narrows racial gaps in coverage, healthcare costs"
+  url: "https://www.fiercehealthcare.com/payer/study-medicare-access-narrows-racial-gaps-coverage-healthcare-costs"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Medicare (age-65 eligibility, financial strain, payment)"
+  year: 2021
+- outlet: "AHA News"
+  headline: "Study finds Medicare eligibility corresponds to decreases in health disparities along racial, ethnic lines"
+  url: "https://www.aha.org/news/headline/2021-07-28-study-finds-medicare-eligibility-corresponds-decreases-health-disparities"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Medicare (age-65 eligibility, financial strain, payment)"
+  year: 2021
+- outlet: "HealthPayerIntelligence"
+  headline: "How Medicare Eligibility Impacts Racial Coverage Disparities"
+  url: "https://www.techtarget.com/healthcarepayers/news/366604394/How-Medicare-Eligibility-Impacts-Racial-Coverage-Disparities"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Medicare (age-65 eligibility, financial strain, payment)"
+  year: 2021
+- outlet: "Medicare Rights Center"
+  headline: "New Study Connects Medicare with Reductions in Racial and Ethnic Disparities in Insurance Coverage"
+  url: "https://www.medicarerights.org/medicare-watch/2021/08/05/new-study-connects-medicare-with-reductions-in-racial-and-ethnic-disparities-in-insurance-coverage"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Medicare (age-65 eligibility, financial strain, payment)"
+  year: 2021
+- outlet: "Medical Xpress"
+  headline: "Expanding Medicare would reduce racial and ethnic health disparities"
+  url: "https://medicalxpress.com/news/2021-07-medicare-racial-ethnic-health-disparities.html"
+  mark: "quoted"
+  via: ""
+  tier: 4
+  topic: "Medicare (age-65 eligibility, financial strain, payment)"
+  year: 2021
+- outlet: "PNHP"
+  headline: "Medicare Reduces Racial and Ethnic Disparities"
+  url: "https://pnhp.org/news/medicare-reduces-racial-and-ethnic-disparities/"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Medicare (age-65 eligibility, financial strain, payment)"
+  year: 2021
+- outlet: "KFF Health News"
+  headline: "Lowering Medicare Age Requirements Could Help Reduce Racial, Ethnic Disparities, Study Finds"
+  url: "https://kffhealthnews.org/morning-breakout/dr00058135"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Medicare (age-65 eligibility, financial strain, payment)"
+  year: 2021
+- outlet: "Yale Insights"
+  headline: "Medicare Helps Close Racial Gaps in Access to Healthcare"
+  url: "https://insights.som.yale.edu/insights/medicare-helps-close-racial-gaps-in-access-to-healthcare"
+  mark: ""
+  via: ""
+  tier: 6
+  topic: "Medicare (age-65 eligibility, financial strain, payment)"
+  year: 2022
+- outlet: "Yale Daily News"
+  headline: "Medicare could help close racial gaps in healthcare, Yale study finds"
+  url: "https://yaledailynews.com/blog/2022/02/02/medicare-could-help-close-racial-gaps-in-healthcare-yale-study-finds/"
+  mark: ""
+  via: ""
+  tier: 6
+  topic: "Medicare (age-65 eligibility, financial strain, payment)"
+  year: 2022
+- outlet: "NBER Digest"
+  headline: "Medicare and the Incidence of Household Financial Distress"
+  url: "https://www.nber.org/digest/20237/medicare-and-incidence-household-financial-distress"
+  mark: ""
+  via: ""
+  tier: 6
+  topic: "Medicare (age-65 eligibility, financial strain, payment)"
+  year: 2023
+- outlet: "Harvard Medical School News"
+  headline: "Out-of-Network Care"
+  url: "https://hms.harvard.edu/news/out-network-care"
+  mark: ""
+  via: ""
+  tier: 6
+  topic: "Out-of-network spending / prices"
+  year: 2020
+- outlet: "Health Care Cost Institute"
+  headline: "Health Affairs: Out-Of-Network Spending Mostly Declined In Privately Insured Populations..."
+  url: "https://healthcostinstitute.org/all-hcci-reports/health-affairs-1-4/"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Out-of-network spending / prices"
+  year: 2020
+- outlet: "Health Affairs Forefront"
+  headline: "Out-of-Network Spending: Why Growing Attention Is Focused On A Small Share Of Medical Spending"
+  url: "https://www.healthaffairs.org/content/forefront/out-of-network-spending-why-growing-attention-focused-small-share-medical-spending"
+  mark: "authored"
+  via: ""
+  tier: 4
+  topic: "Out-of-network spending / prices"
+  year: 2020
+- outlet: "Discoveries in Health Policy"
+  headline: "Brief Blog: Two JAMA Articles On Out-of-Network Laboratories"
+  url: "https://www.discoveriesinhealthpolicy.com/2021/05/brief-blog-two-jama-articles-on-out-of.html"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "Out-of-network spending / prices"
+  year: 2021
+- outlet: "Tobin Center for Economic Policy"
+  headline: "SNAP Work Requirements one-pager (JAMA IM study)"
+  url: "https://tobin.yale.edu/sites/default/files/publication-documents/2024-11/SNAP_WR_1PAGE_V2.pdf"
+  mark: ""
+  via: ""
+  tier: 6
+  topic: "SNAP (work requirements; payment accuracy)"
+  year: 2024
+- outlet: "NPR, Planet Money"
+  headline: "The paperwork trap: A sneaky way to cut Medicaid in the 'One Big Beautiful Bill'?"
+  url: "https://www.npr.org/sections/planet-money/2025/06/26/g-s1-74544/the-paperwork-trap-a-sneaky-way-to-cut-medicaid-in-the-one-big-beautiful-bill"
+  mark: ""
+  via: ""
+  tier: 2
+  topic: "SNAP (work requirements; payment accuracy)"
+  year: 2025
+- outlet: "Yale School of Public Health"
+  headline: "New Work Requirements for SNAP Benefits Could Hurt Families"
+  url: "https://ysph.yale.edu/news-article/new-work-requirements-for-snap-benefits-could-hurt-families/"
+  mark: ""
+  via: ""
+  tier: 6
+  topic: "SNAP (work requirements; payment accuracy)"
+  year: 2025
+- outlet: "Tobin Center for Economic Policy"
+  headline: "SNAP work requirements have biggest effect on those least able to work"
+  url: "https://tobin.yale.edu/research/snap-work-requirements-have-biggest-effect-those-least-able-work"
+  mark: ""
+  via: ""
+  tier: 6
+  topic: "SNAP (work requirements; payment accuracy)"
+  year: 2025
+- outlet: "Center for Civic Futures"
+  headline: "Center for Civic Futures Awards $11 Million to Tackle the Toughest Barriers in Safety Net Delivery with AI"
+  url: "https://www.centerforcivicfutures.org/resources/center-for-civic-futures-awards-11-million-to-tackle-the-toughest-barriers-in-safety-net-delivery-with-ai"
+  mark: ""
+  via: ""
+  tier: 6
+  topic: "SNAP (work requirements; payment accuracy)"
+  year: 2026
+- outlet: "StateScoop"
+  headline: "$11M in AI grants aim to help states modernize public benefits"
+  url: "https://statescoop.com/11m-in-ai-grants-aim-to-help-states-modernize-public-benefits/"
+  mark: ""
+  via: ""
+  tier: 4
+  topic: "SNAP (work requirements; payment accuracy)"
+  year: 2026
+- outlet: "Safety Net Response Network"
+  headline: "Is This Working? Data-Driven Strategies to Reduce SNAP Payment Error Rates"
+  url: "https://safetynetresponse.org/blog/is-this-working-data-driven-strategies-to-reduce-snap-payment-error-rates/"
+  mark: ""
+  via: ""
+  tier: 6
+  topic: "SNAP (work requirements; payment accuracy)"
+  year: 2026
+- outlet: "Safety Net Response Network"
+  headline: "Promising Practices in SNAP PER Reduction: Data-Driven Preauthorization Reviews"
+  url: "https://safetynetresponse.org/blog/promising-practices-in-snap-per-reduction-data-driven-preauthorization-reviews/"
+  mark: ""
+  via: ""
+  tier: 6
+  topic: "SNAP (work requirements; payment accuracy)"
+  year: 2026
