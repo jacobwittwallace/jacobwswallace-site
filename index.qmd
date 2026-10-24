@@ -16,7 +16,7 @@ image: assets/img/share-card.png
 ::: {.landing-bio}
 I'm a health economist and Associate Professor at the Yale School of Public Health, where I study the economics of public insurance.
 
-My research grows out of close partnerships with state agencies and the questions they face about how to make the safety net more effective. I currently have projects focused on Medicaid managed care and public procurement, administrative burdens in the safety net, and the economics of long-term services and supports.
+My research grows out of close partnerships with state agencies and the questions they face about how to make the safety net more effective. I currently have projects focused on Medicaid managed care and public procurement, administrative burdens in the safety net, the economics of long-term services and supports, and using randomization to improve the Medicaid and SNAP programs.
 
 My work has appeared in leading economics and clinical journals including the *American Economic Review* and the *New England Journal of Medicine*, and received the Willard G. Manning Award for the Best Research in Health Econometrics and the American Statistical Association's Outstanding Statistical Application Award. It has also been covered by the media, including the *New York Times*, *Washington Post*, and *NPR*.
 
