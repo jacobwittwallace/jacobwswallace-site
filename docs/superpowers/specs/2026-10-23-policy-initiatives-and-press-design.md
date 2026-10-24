@@ -188,3 +188,18 @@ Jacob found the link lists too long. The changes below replace the earlier link 
 - **Images.**
   - The image column is 520px, double the earlier width. Images are re-exported at about 1,400px so they stay sharp.
   - Rows stack below 1,000px, because two 520px-plus columns no longer fit there.
+
+## Revision, 2026-10-24: Press page (after Jacob's review)
+
+These changes replace the earlier Press rules ("Undated", ordering by prominence tier, rules between items).
+
+- **Cut:**
+  - critical or hostile coverage;
+  - fringe, partisan and very small outlets (Red Bluff Daily News, Truth or Fiction, Political Wire, WhoWhatWhy, Northwest Progressive Institute, Alternet, Florida Bulldog, Edzard Ernst, Washington Examiner, Mediaite, Volksverpetzer, American Council on Science and Health);
+  - one item whose headline was a placeholder (Cardiovascular Business).
+- **Kept** (Jacob decided):
+  - TV links that open a whole episode;
+  - pieces that cover the work without naming him;
+  - Yale and partner items.
+- **Dated, newest first.** Pieces sit under plain year headings, each with a narrow gray date column ("Jul 24", or the month alone when the day is unknown). Dates come from the research notes and, where those had none, from the live pages.
+- **Look:** no horizontal rules, only spacing. Same outlet-and-headline line, with the † / ‡ marks.

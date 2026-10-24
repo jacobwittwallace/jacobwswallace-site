@@ -24,8 +24,6 @@ website:
         href: initiatives.qmd
       - text: "Press"
         href: press.qmd
-      - text: "Writing"
-        href: writing.qmd
       - text: "CV"
         href: assets/Jacob_Wallace_CV.pdf
         target: _blank
