@@ -48,7 +48,7 @@ jacobwswallace.com shows Jacob's papers well but says little about the other hal
 
 - **File and name.** `initiatives.qmd`, title and nav label **"Policy Initiatives"**.
 - **Navbar order.** Research · Policy Initiatives · Press · Writing · CV · Contact.
-- **Intro.** One or two sentences at the top. Draft: "Much of my work is done alongside the state agencies that run Medicaid and SNAP, testing changes while decisions are still open. These are the initiatives I lead or co-lead."
+- **Intro.** One or two sentences at the top. (Superseded; see the Revision section.)
 - **Initiatives**, in this exact order:
   1. **The SCALE Lab**
   2. **Connecticut Medicaid Partnership**
@@ -172,8 +172,13 @@ Everything under `.superpowers/` is gitignored and lives only in Jacob's Dropbox
 Jacob found the link lists too long. The changes below replace the earlier link rules wherever they conflict.
 
 - **Fewer links up front.**
-  - Each initiative shows two featured links under its paragraph.
-  - A "+ More" dropdown (a native `<details>` element) lists every group, and its summary names the groups.
+  - Featured links sit above the dropdown, set per initiative by Jacob:
+    - The SCALE Lab: the YSPH feature and "SCALE Lab website (coming soon)".
+    - Connecticut: none.
+    - Learning Lab: only "Letter from the Scientific Advisor, Jacob Wallace".
+    - SNAP: only the Center for Civic Futures announcement.
+  - A "+" dropdown (a native `<details>` element) lists every group. Its summary is just the group names, e.g. "+ About · News & features · Website", with no "More".
+- **Intro**, verbatim: "Much of my work is done alongside or within state agencies. These are the initiatives I currently lead or co-lead." 
 - **Groups per initiative**, in this order:
   - **The SCALE Lab:** About · News & features · Website. Website reads "SCALE Lab website (coming soon)", unlinked. No research papers, because SCALE is the umbrella for most of Jacob's work.
   - **Connecticut Medicaid Partnership:** Trials & registrations · News & features · In the state's words. Each "In the state's words" item shows its most relevant quote, verified word for word against the source, before the link.

@@ -47,7 +47,7 @@ test_that("initiative_html shows featured links, then a + dropdown naming every 
                 li(group = "Website", items = list(li(title = "Site", note = "coming soon", featured = TRUE))))
   h <- initiative_html(li(id = "s", title = "T", meta = "", body = "", image = "x.jpg", alt = "A", links = links))
   expect_match(h, '<ul class="init-featured"><li><a href="https://a.org">F1</a></li><li>Site <span class="init-note">(coming soon)</span></li></ul>', fixed = TRUE)
-  expect_match(h, '<details class="init-more"><summary>More: About \u00b7 Website</summary><div class="init-links">', fixed = TRUE)
+  expect_match(h, '<details class="init-more"><summary>About \u00b7 Website</summary><div class="init-links">', fixed = TRUE)
   expect_match(h, '</div></details></div></section>', fixed = TRUE)
 })
 
@@ -81,11 +81,21 @@ test_that("each initiative has exactly the groups Jacob asked for, in order", {
   expect_equal(groups_of("SNAP Payment Accuracy"), c("News & features", "Resources"))
 })
 
-test_that("each initiative features exactly two links", {
-  for (i in d$initiatives) {
-    n <- sum(vapply(unlist(lapply(i$links, `[[`, "items"), recursive = FALSE), function(x) isTRUE(x$featured), TRUE))
-    expect_equal(n, 2L, info = i$title)
-  }
+featured_titles <- function(t) {
+  its <- unlist(lapply(by_title[[t]]$links, `[[`, "items"), recursive = FALSE)
+  vapply(Filter(function(x) isTRUE(x$featured), its), `[[`, "", "title")
+}
+
+test_that("above the fold: SCALE two links, Connecticut none, Learning Lab only the letter, SNAP only the CCF announcement", {
+  expect_equal(length(featured_titles("The SCALE Lab")), 2L)
+  expect_equal(length(featured_titles("Connecticut Medicaid Partnership")), 0L)
+  expect_equal(featured_titles("Medicaid Learning Lab"), "Letter from the Scientific Advisor, Jacob Wallace")
+  expect_equal(length(featured_titles("SNAP Payment Accuracy")), 1L)
+  expect_match(featured_titles("SNAP Payment Accuracy"), "Center for Civic Futures", fixed = TRUE)
+})
+
+test_that("the page intro reads as Jacob wrote it", {
+  expect_equal(d$intro, "Much of my work is done alongside or within state agencies. These are the initiatives I currently lead or co-lead.")
 })
 
 test_that("every 'In the state's words' item carries its most relevant quote", {
@@ -96,7 +106,7 @@ test_that("every 'In the state's words' item carries its most relevant quote", {
 
 test_that("the Learning Lab's About section opens with the Scientific Advisor's letter", {
   first <- items_in("Medicaid Learning Lab", "About")[[1]]
-  expect_equal(first$title, "Letter from the Scientific Advisor")
+  expect_equal(first$title, "Letter from the Scientific Advisor, Jacob Wallace")
   expect_match(first$url, "Launching%20the%20Medicaid%20Learning%20Lab", fixed = TRUE)
 })
 

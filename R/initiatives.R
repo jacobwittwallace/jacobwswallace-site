@@ -26,7 +26,7 @@ link_groups_html <- function(groups) {
   paste0('<div class="init-links">', paste(parts, collapse = ""), "</div>")
 }
 
-# Two featured links stay visible; a "More" dropdown holds every group.
+# Featured links (if any) stay visible; a "+" dropdown holds every group.
 featured_html <- function(links) {
   items <- Filter(function(i) isTRUE(i$featured), unlist(lapply(links, `[[`, "items"), recursive = FALSE))
   if (!length(items)) return("")
@@ -36,7 +36,7 @@ featured_html <- function(links) {
 more_html <- function(links) {
   groups <- Filter(function(g) length(g$items) > 0, links)
   if (!length(groups)) return("")
-  sprintf('<details class="init-more"><summary>More: %s</summary>%s</details>',
+  sprintf('<details class="init-more"><summary>%s</summary>%s</details>',
           paste(vapply(groups, function(g) html_escape(g$group), ""), collapse = " \u00b7 "), link_groups_html(groups))
 }
 
