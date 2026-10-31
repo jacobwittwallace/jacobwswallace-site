@@ -75,7 +75,7 @@ test_that("outlet labels match the paper actually linked (Sentinel columns)", {
 
 test_that("data/press.yml satisfies the spec", {
   p <- yaml::read_yaml(file.path(root, "data/press.yml"))
-  expect_equal(length(p), 163)
+  expect_equal(length(p), 164)
   expect_true(all(vapply(p, function(i) nzchar(i$outlet) && nzchar(i$headline) && grepl("^https?://", i$url), TRUE)))
   expect_true(all(vapply(p, function(i) i$mark %in% c("", "quoted", "authored"), TRUE)))
   expect_true(all(grepl("^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$", vapply(p, function(i) as.character(i$date), ""))))

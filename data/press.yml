@@ -2,6 +2,13 @@
 # mark: quoted (quotes or interviews Jacob) | authored (written by Jacob) | "" (covers his research).
 # date: "YYYY-MM-DD", or "YYYY-MM" / "YYYY" when only that much is known (shown as "Jul 24", "Dec", or blank).
 # via: set when the only working link is a syndicated copy (e.g. Yahoo News).
+- outlet: "The Guardian"
+  headline: "Some conservative states aren't using Medicaid hardship exemption – for political reasons"
+  url: "https://www.theguardian.com/us-news/2026/oct/18/medicaid-hardship-exemptions-conservative-states"
+  mark: "quoted"
+  via: ""
+  date: "2026-10-18"
+  topic: "Medicaid work requirements"
 - outlet: "CBS, The Late Show with Stephen Colbert"
   headline: "DeSantis Goes Full Vaccine Conspiracy Mode | Musk No Longer On Top | Rubio's Push To Ban TikTok"
   url: "https://www.youtube.com/watch?v=OBzD14v1g8U"
